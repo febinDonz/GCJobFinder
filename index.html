@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#a72c38">
-    <meta name="description" content="Explore public service career opportunities from Government of Canada departments and agencies.">
-    <title>GC Careers — Find your place in public service</title>
+    <meta name="theme-color" content="#0a66c2">
+    <meta name="description" content="Find federal, provincial, and territorial government career opportunities across Canada in one place.">
+    <title>Government Careers Canada — One place for public service jobs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,23 +16,23 @@
     <div class="topline">
       <div class="topline-inner">
         <span class="flag" aria-hidden="true">🍁</span>
-        <span>An independent guide to careers in Canada’s public service</span>
-        <a href="https://www.canada.ca/en.html">Government of Canada <span aria-hidden="true">↗</span></a>
+        <span>Federal, provincial and territorial public-service careers</span>
+        <a href="https://www.canada.ca/en.html">Canada.ca <span aria-hidden="true">↗</span></a>
       </div>
     </div>
 
     <header class="site-header">
       <a class="brand" href="#" aria-label="GC Careers home">
         <span class="brand-mark" aria-hidden="true">GC</span>
-        <span class="brand-name">careers<span>.</span></span>
+        <span class="brand-name">government careers<span>.</span></span>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation">
         <span></span><span></span>
       </button>
       <nav class="main-nav" id="mainNav" aria-label="Main navigation">
         <a class="nav-link active" href="#opportunities">Find a job</a>
-        <a class="nav-link" href="#departments">Departments</a>
-        <a class="nav-link" href="#about">About public service</a>
+        <a class="nav-link" href="#departments">Browse by region</a>
+        <a class="nav-link" href="#about">About this site</a>
         <button class="saved-nav" id="savedNav" type="button">
           <span aria-hidden="true">♡</span> Saved <span class="saved-count" id="savedCount">0</span>
         </button>
@@ -43,14 +43,14 @@
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-grain" aria-hidden="true"></div>
         <div class="hero-content">
-          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> A career that makes a difference</div>
-          <h1 id="heroTitle">Your next chapter.<br><span>Canada’s public service.</span></h1>
-          <p>Find meaningful work, serve your community, and help build a better Canada.</p>
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> One place for all govt jobs inside Canada</div>
+          <h1 id="heroTitle">One place for all<br><span>government jobs in Canada.</span></h1>
+          <p>Explore career opportunities from federal, provincial, and territorial governments across Canada.</p>
           <form class="search-bar" id="searchForm" role="search">
             <label class="search-field">
               <span class="field-icon" aria-hidden="true">⌕</span>
               <span class="visually-hidden">Job title, skill, or department</span>
-              <input id="keywordInput" type="search" placeholder="Job title, skill, or department" autocomplete="off">
+              <input id="keywordInput" type="search" placeholder="Job title, skill, department, or government" autocomplete="off">
             </label>
             <span class="search-divider" aria-hidden="true"></span>
             <label class="search-field location-field">
@@ -79,11 +79,11 @@
           <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
         </div>
         <div class="hero-bottom">
-          <div class="hero-stat"><span class="stat-number">100+</span><span>departments & agencies</span></div>
+          <div class="hero-stat"><span class="stat-number">3 levels</span><span>federal, provincial & territorial</span></div>
+          <span class="stat-separator"></span>
+          <div class="hero-stat"><span class="stat-number">13 regions</span><span>all provinces & territories</span></div>
           <span class="stat-separator"></span>
           <div class="hero-stat"><span class="stat-number">Everywhere</span><span>across Canada</span></div>
-          <span class="stat-separator"></span>
-          <div class="hero-stat"><span class="stat-number">For everyone</span><span>at every career stage</span></div>
           <a class="hero-scroll" href="#opportunities">Explore opportunities <span aria-hidden="true">↓</span></a>
         </div>
       </section>
@@ -102,9 +102,20 @@
               <h3>Filters</h3>
               <button type="button" id="clearFilters" class="text-button">Clear all</button>
             </div>
-            <label class="filter-label" for="agencyFilter">Department or agency</label>
+            <label class="filter-label" for="agencyFilter">Government or employer</label>
             <select id="agencyFilter">
-              <option value="">All departments</option>
+              <option value="">All departments & employers</option>
+            </select>
+            <label class="filter-label" for="governmentFilter">Government level</label>
+            <select id="governmentFilter">
+              <option value="">All levels of government</option>
+              <option value="Federal">Federal</option>
+              <option value="Provincial">Provincial</option>
+              <option value="Territorial">Territorial</option>
+            </select>
+            <label class="filter-label" for="regionFilter">Province or territory</label>
+            <select id="regionFilter">
+              <option value="">All provinces & territories</option>
             </select>
             <label class="filter-label" for="typeFilter">Employment type</label>
             <select id="typeFilter">
@@ -115,7 +126,7 @@
             <label class="check-option"><input type="checkbox" id="studentFilter"><span class="custom-check"></span> Student opportunities</label>
             <div class="filter-note">
               <span class="filter-note-icon" aria-hidden="true">✳</span>
-              <p><strong>A note about these listings</strong><br>Examples to help you explore. Always confirm current openings on the official GC Jobs site.</p>
+              <p><strong>Examples, not live vacancies</strong><br>Check each government’s official careers portal for current openings.</p>
             </div>
           </aside>
 
@@ -126,7 +137,7 @@
                 <select id="sortFilter" aria-label="Sort job listings">
                   <option value="recent">Most recent</option>
                   <option value="title">Job title A–Z</option>
-                  <option value="department">Department</option>
+                  <option value="department">Employer</option>
                 </select>
               </label>
             </div>
@@ -138,8 +149,8 @@
               <button type="button" id="emptyClear" class="outline-button">Clear search & filters</button>
             </div>
             <div class="results-footer">
-              <span><span class="live-dot"></span> Showing example opportunities</span>
-              <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" rel="noreferrer">Browse official GC Jobs <span aria-hidden="true">↗</span></a>
+              <span><span class="live-dot"></span> Representative examples; verify current openings</span>
+              <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" rel="noreferrer">Federal jobs: GC Jobs <span aria-hidden="true">↗</span></a>
             </div>
           </div>
         </div>
@@ -148,44 +159,42 @@
       <section class="departments section-wrap" id="departments" aria-labelledby="departmentsTitle">
         <div class="department-heading">
           <div>
-            <div class="eyebrow"><span class="eyebrow-line"></span> Find your people</div>
-            <h2 id="departmentsTitle">A place for <span>every kind of talent.</span></h2>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Federal, provincial & territorial</div>
+            <h2 id="departmentsTitle">Explore jobs <span>by region.</span></h2>
           </div>
-          <a href="#opportunities" class="department-link">Explore all opportunities <span aria-hidden="true">→</span></a>
+          <a href="#opportunities" class="department-link">Search all regions <span aria-hidden="true">→</span></a>
         </div>
         <div class="department-grid">
-          <button class="department-card" data-agency="Environment and Climate Change Canada" type="button">
-            <span class="department-icon green-icon">✳</span><span class="department-name">Environment &<br>Climate Change</span><span class="department-arrow">↗</span>
-          </button>
-          <button class="department-card" data-agency="Parks Canada" type="button">
-            <span class="department-icon orange-icon">⌁</span><span class="department-name">Parks<br>Canada</span><span class="department-arrow">↗</span>
-          </button>
-          <button class="department-card" data-agency="Canada Revenue Agency" type="button">
-            <span class="department-icon blue-icon">◈</span><span class="department-name">Canada Revenue<br>Agency</span><span class="department-arrow">↗</span>
-          </button>
-          <button class="department-card" data-agency="Employment and Social Development Canada" type="button">
-            <span class="department-icon purple-icon">✦</span><span class="department-name">Employment &<br>Social Development</span><span class="department-arrow">↗</span>
-          </button>
-          <button class="department-card" data-agency="Public Safety Canada" type="button">
-            <span class="department-icon red-icon">⬡</span><span class="department-name">Public Safety<br>Canada</span><span class="department-arrow">↗</span>
-          </button>
+          <button class="department-card" data-region="British Columbia" type="button"><span class="department-icon blue-icon">BC</span><span class="department-name">British Columbia</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Alberta" type="button"><span class="department-icon blue-icon">AB</span><span class="department-name">Alberta</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Saskatchewan" type="button"><span class="department-icon blue-icon">SK</span><span class="department-name">Saskatchewan</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Manitoba" type="button"><span class="department-icon blue-icon">MB</span><span class="department-name">Manitoba</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Ontario" type="button"><span class="department-icon blue-icon">ON</span><span class="department-name">Ontario</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Quebec" type="button"><span class="department-icon blue-icon">QC</span><span class="department-name">Quebec</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="New Brunswick" type="button"><span class="department-icon blue-icon">NB</span><span class="department-name">New Brunswick</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Nova Scotia" type="button"><span class="department-icon blue-icon">NS</span><span class="department-name">Nova Scotia</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Prince Edward Island" type="button"><span class="department-icon blue-icon">PE</span><span class="department-name">Prince Edward Island</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Newfoundland and Labrador" type="button"><span class="department-icon blue-icon">NL</span><span class="department-name">Newfoundland & Labrador</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Yukon" type="button"><span class="department-icon blue-icon">YT</span><span class="department-name">Yukon</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Northwest Territories" type="button"><span class="department-icon blue-icon">NT</span><span class="department-name">Northwest Territories</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="Nunavut" type="button"><span class="department-icon blue-icon">NU</span><span class="department-name">Nunavut</span><span class="department-arrow">↗</span></button>
         </div>
       </section>
 
       <section class="mission-banner" id="about">
         <div class="mission-mark" aria-hidden="true">✳</div>
         <div class="mission-copy">
-          <div class="eyebrow">More than a job</div>
-          <h2>Bring your whole self.<br><span>Make a difference.</span></h2>
-          <p>A public service career means good work, good people, and the chance to make a real impact in every community.</p>
+          <div class="eyebrow">One search, every level</div>
+          <h2>Federal, provincial,<br><span>and territorial careers.</span></h2>
+          <p>Explore representative roles from governments across Canada, then follow each listing to the official careers portal to confirm current opportunities.</p>
         </div>
-        <a href="https://www.canada.ca/en/government/publicservice.html" target="_blank" rel="noreferrer" class="mission-link">Discover the public service <span aria-hidden="true">↗</span></a>
+        <a href="#opportunities" class="mission-link">Find your next role <span aria-hidden="true">→</span></a>
       </section>
     </main>
 
     <footer class="site-footer">
-      <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">GC</span><span class="brand-name">careers<span>.</span></span></a>
-      <p>An independent guide to opportunities in Canada’s public service.</p>
+      <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">GC</span><span class="brand-name">government careers<span>.</span></span></a>
+      <p>One place for federal, provincial, and territorial government job examples.</p>
       <a href="https://www.canada.ca/en.html">Canada.ca <span aria-hidden="true">↗</span></a>
       <span class="footer-copyright">© 2026 GC Careers</span>
     </footer>

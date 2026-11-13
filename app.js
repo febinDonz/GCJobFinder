@@ -134,14 +134,313 @@ const jobs = [
     arrangement: "Remote",
     student: false,
     description: "Design accessible, human-centred digital experiences for services used by people across Canada."
+  },
+  {
+    id: "bc-program-analyst",
+    title: "Program Analyst, Public Services",
+    agency: "BC Public Service",
+    mark: "BC",
+    color: "blue",
+    government: "Provincial",
+    region: "British Columbia",
+    location: "Victoria, BC",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-12",
+    postedText: "Representative example",
+    arrangement: "On-site",
+    student: false,
+    sourceLabel: "BC Public Service",
+    sourceUrl: "https://bcpublicservice.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    description: "Support programs and services that strengthen communities throughout British Columbia."
+  },
+  {
+    id: "alberta-data-analyst",
+    title: "Data Analyst, Public Programs",
+    agency: "Alberta Public Service",
+    mark: "AB",
+    color: "blue",
+    government: "Provincial",
+    region: "Alberta",
+    location: "Edmonton, AB",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-11",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Alberta Public Service",
+    sourceUrl: "https://jobpostings.alberta.ca/",
+    description: "Use research and data to help improve public programs and services for Albertans."
+  },
+  {
+    id: "saskatchewan-policy-officer",
+    title: "Policy Officer, Community Programs",
+    agency: "Government of Saskatchewan",
+    mark: "SK",
+    color: "blue",
+    government: "Provincial",
+    region: "Saskatchewan",
+    location: "Regina, SK",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-10",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Saskatchewan Public Service",
+    sourceUrl: "https://careers.saskatchewan.ca/",
+    description: "Help develop and deliver policies that support Saskatchewan communities and families."
+  },
+  {
+    id: "manitoba-program-officer",
+    title: "Program Officer, Public Services",
+    agency: "Manitoba Government",
+    mark: "MB",
+    color: "blue",
+    government: "Provincial",
+    region: "Manitoba",
+    location: "Winnipeg, MB",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-09",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Manitoba Government",
+    sourceUrl: "https://jobsearch.gov.mb.ca/",
+    description: "Coordinate public programs that help Manitobans access the services they need."
+  },
+  {
+    id: "ontario-policy-advisor",
+    title: "Policy Advisor, Community Services",
+    agency: "Ontario Public Service",
+    mark: "ON",
+    color: "blue",
+    government: "Provincial",
+    region: "Ontario",
+    location: "Toronto, ON",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-08",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Ontario Public Service",
+    sourceUrl: "https://www.gojobs.gov.on.ca/Jobs.aspx",
+    description: "Contribute policy research and advice to programs serving people across Ontario."
+  },
+  {
+    id: "quebec-policy-analyst",
+    title: "Policy Analyst, Public Programs",
+    agency: "Québec Public Service",
+    mark: "QC",
+    color: "blue",
+    government: "Provincial",
+    region: "Quebec",
+    location: "Montréal, QC",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-07",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Québec Government",
+    sourceUrl: "https://recrutement.carrieres.gouv.qc.ca/",
+    description: "Research public policy options and support programs that benefit people throughout Québec."
+  },
+  {
+    id: "new-brunswick-program-consultant",
+    title: "Program Consultant, Social Development",
+    agency: "Government of New Brunswick",
+    mark: "NB",
+    color: "blue",
+    government: "Provincial",
+    region: "New Brunswick",
+    location: "Fredericton, NB",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-06",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "New Brunswick Government",
+    sourceUrl: "https://www.ere.gnb.ca/competition.aspx?culture=en-CA",
+    description: "Help coordinate social programs and services for individuals and families in New Brunswick."
+  },
+  {
+    id: "nova-scotia-emergency-management",
+    title: "Emergency Management Officer",
+    agency: "Government of Nova Scotia",
+    mark: "NS",
+    color: "blue",
+    government: "Provincial",
+    region: "Nova Scotia",
+    location: "Halifax, NS",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-05",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Nova Scotia Government",
+    sourceUrl: "https://jobs.novascotia.ca/",
+    description: "Work with partners to prepare for emergencies and support resilient communities in Nova Scotia."
+  },
+  {
+    id: "pei-policy-analyst",
+    title: "Policy Analyst, Public Programs",
+    agency: "Government of Prince Edward Island",
+    mark: "PE",
+    color: "blue",
+    government: "Provincial",
+    region: "Prince Edward Island",
+    location: "Charlottetown, PE",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-04",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Prince Edward Island Government",
+    sourceUrl: "https://www.princeedwardisland.ca/en/topic/employment-opportunities",
+    description: "Support the development of public policies and programs for Prince Edward Island residents."
+  },
+  {
+    id: "newfoundland-program-analyst",
+    title: "Program Analyst, Public Services",
+    agency: "Government of Newfoundland and Labrador",
+    mark: "NL",
+    color: "blue",
+    government: "Provincial",
+    region: "Newfoundland and Labrador",
+    location: "St. John's, NL",
+    type: "Full-time",
+    level: "Public service",
+    salaryText: "See official posting",
+    posted: "2026-11-03",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Newfoundland and Labrador Government",
+    sourceUrl: "https://www.hiring.gov.nl.ca/",
+    description: "Contribute to public programs and services for people in Newfoundland and Labrador."
+  },
+  {
+    id: "yukon-conservation-officer",
+    title: "Conservation Program Officer",
+    agency: "Government of Yukon",
+    mark: "YT",
+    color: "blue",
+    government: "Territorial",
+    region: "Yukon",
+    location: "Whitehorse, YT",
+    type: "Full-time",
+    level: "Territorial public service",
+    salaryText: "See official posting",
+    posted: "2026-11-02",
+    postedText: "Representative example",
+    arrangement: "On-site",
+    student: false,
+    sourceLabel: "Government of Yukon",
+    sourceUrl: "https://yukon.ca/en/employment",
+    description: "Support conservation and community programs across Yukon’s diverse landscapes."
+  },
+  {
+    id: "nwt-community-program-officer",
+    title: "Community Program Officer",
+    agency: "Government of the Northwest Territories",
+    mark: "NT",
+    color: "blue",
+    government: "Territorial",
+    region: "Northwest Territories",
+    location: "Yellowknife, NT",
+    type: "Full-time",
+    level: "Territorial public service",
+    salaryText: "See official posting",
+    posted: "2026-11-01",
+    postedText: "Representative example",
+    arrangement: "Hybrid",
+    student: false,
+    sourceLabel: "Government of the Northwest Territories",
+    sourceUrl: "https://www.gov.nt.ca/careers/",
+    description: "Work with community partners to deliver programs for residents across the Northwest Territories."
+  },
+  {
+    id: "nunavut-health-program-officer",
+    title: "Health Program Officer",
+    agency: "Government of Nunavut",
+    mark: "NU",
+    color: "blue",
+    government: "Territorial",
+    region: "Nunavut",
+    location: "Iqaluit, NU",
+    type: "Full-time",
+    level: "Territorial public service",
+    salaryText: "See official posting",
+    posted: "2026-10-31",
+    postedText: "Representative example",
+    arrangement: "On-site",
+    student: false,
+    sourceLabel: "Government of Nunavut",
+    sourceUrl: "https://gov.nu.ca/en/careers",
+    description: "Support health programs and services for communities across Nunavut."
   }
 ];
 
 const officialJobsUrl = "https://www.canada.ca/en/services/jobs/opportunities/government.html";
+const regions = [
+  "Alberta",
+  "British Columbia",
+  "Manitoba",
+  "New Brunswick",
+  "Newfoundland and Labrador",
+  "Northwest Territories",
+  "Nova Scotia",
+  "Nunavut",
+  "Ontario",
+  "Prince Edward Island",
+  "Quebec",
+  "Saskatchewan",
+  "Yukon"
+];
+const regionByCode = {
+  AB: "Alberta",
+  BC: "British Columbia",
+  MB: "Manitoba",
+  NB: "New Brunswick",
+  NL: "Newfoundland and Labrador",
+  NT: "Northwest Territories",
+  NS: "Nova Scotia",
+  NU: "Nunavut",
+  ON: "Ontario",
+  PE: "Prince Edward Island",
+  QC: "Quebec",
+  SK: "Saskatchewan",
+  YT: "Yukon"
+};
+for (const job of jobs) {
+  job.government ||= "Federal";
+  job.sourceLabel ||= "GC Jobs";
+  job.sourceUrl ||= officialJobsUrl;
+  const provinceCode = job.location.match(/\b(AB|BC|MB|NB|NL|NT|NS|NU|ON|PE|QC|SK|YT)\b/)?.[0];
+  job.region ||= provinceCode ? regionByCode[provinceCode] : "";
+}
 const elements = {
   keyword: document.querySelector("#keywordInput"),
   location: document.querySelector("#locationInput"),
   agency: document.querySelector("#agencyFilter"),
+  government: document.querySelector("#governmentFilter"),
+  region: document.querySelector("#regionFilter"),
   type: document.querySelector("#typeFilter"),
   remote: document.querySelector("#remoteFilter"),
   student: document.querySelector("#studentFilter"),
@@ -185,11 +484,14 @@ function populateFilters() {
   for (const type of types) {
     elements.type.add(new Option(type, type));
   }
+  for (const region of regions) {
+    elements.region.add(new Option(region, region));
+  }
 }
 
 function matchesSearch(job, query) {
   if (!query) return true;
-  const searchable = [job.title, job.agency, job.level, job.description, job.type, job.arrangement].join(" ").toLowerCase();
+  const searchable = [job.title, job.agency, job.government, job.region, job.level, job.description, job.type, job.arrangement].join(" ").toLowerCase();
   return searchable.includes(query);
 }
 
@@ -198,10 +500,13 @@ function getVisibleJobs() {
   const locationQuery = elements.location.value.trim().toLowerCase();
   const filtered = jobs.filter((job) => {
     const matchesLocation = !locationQuery || job.location.toLowerCase().includes(locationQuery) ||
+      job.region.toLowerCase().includes(locationQuery) ||
       (locationQuery === "remote" && job.arrangement === "Remote");
     return matchesSearch(job, query) &&
       matchesLocation &&
       (!elements.agency.value || job.agency === elements.agency.value) &&
+      (!elements.government.value || job.government === elements.government.value) &&
+      (!elements.region.value || job.region === elements.region.value) &&
       (!elements.type.value || job.type === elements.type.value) &&
       (!elements.remote.checked || job.arrangement === "Remote" || job.arrangement === "Hybrid") &&
       (!elements.student.checked || job.student) &&
@@ -220,6 +525,7 @@ function renderJobs() {
     const isSaved = savedJobs.has(job.id);
     const tags = [
       `<span class="job-tag">${job.type}</span>`,
+      `<span class="job-tag government-tag">${job.government} government</span>`,
       `<span class="job-tag">${job.level}</span>`,
       `<span class="job-tag">${job.arrangement}</span>`,
       job.student ? '<span class="job-tag new">Student</span>' : ""
@@ -242,7 +548,7 @@ function renderJobs() {
         <div class="job-tags">${tags}</div>
         <div class="job-card-bottom">
           <span class="posted-date">${job.postedText}</span>
-          <a class="view-job" href="${officialJobsUrl}" target="_blank" rel="noreferrer">View on GC Jobs <span aria-hidden="true">↗</span></a>
+          <a class="view-job" href="${job.sourceUrl}" target="_blank" rel="noreferrer">View at ${job.sourceLabel} <span aria-hidden="true">↗</span></a>
         </div>
       </article>`;
   }).join("");
@@ -267,6 +573,8 @@ function clearFilters() {
   elements.keyword.value = "";
   elements.location.value = "";
   elements.agency.value = "";
+  elements.government.value = "";
+  elements.region.value = "";
   elements.type.value = "";
   elements.remote.checked = false;
   elements.student.checked = false;
@@ -287,7 +595,7 @@ for (const control of [elements.keyword, elements.location]) {
     renderJobs();
   });
 }
-for (const control of [elements.agency, elements.type, elements.remote, elements.student, elements.sort]) {
+for (const control of [elements.agency, elements.government, elements.region, elements.type, elements.remote, elements.student, elements.sort]) {
   control.addEventListener("change", renderJobs);
 }
 
@@ -335,7 +643,7 @@ document.querySelectorAll("[data-search]").forEach((button) => {
 
 document.querySelectorAll(".department-card").forEach((card) => {
   card.addEventListener("click", () => {
-    elements.agency.value = card.dataset.agency;
+    elements.region.value = card.dataset.region;
     savedOnly = false;
     renderJobs();
     document.querySelector("#opportunities").scrollIntoView({ behavior: "smooth", block: "start" });
