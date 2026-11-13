@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#a72c38">
+    <meta name="description" content="Explore public service career opportunities from Government of Canada departments and agencies.">
+    <title>GC Careers — Find your place in public service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="topline">
+      <div class="topline-inner">
+        <span class="flag" aria-hidden="true">🍁</span>
+        <span>An independent guide to careers in Canada’s public service</span>
+        <a href="https://www.canada.ca/en.html">Government of Canada <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="GC Careers home">
+        <span class="brand-mark" aria-hidden="true">GC</span>
+        <span class="brand-name">careers<span>.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#opportunities">Find a job</a>
+        <a class="nav-link" href="#departments">Departments</a>
+        <a class="nav-link" href="#about">About public service</a>
+        <button class="saved-nav" id="savedNav" type="button">
+          <span aria-hidden="true">♡</span> Saved <span class="saved-count" id="savedCount">0</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> A career that makes a difference</div>
+          <h1 id="heroTitle">Your next chapter.<br><span>Canada’s public service.</span></h1>
+          <p>Find meaningful work, serve your community, and help build a better Canada.</p>
+          <form class="search-bar" id="searchForm" role="search">
+            <label class="search-field">
+              <span class="field-icon" aria-hidden="true">⌕</span>
+              <span class="visually-hidden">Job title, skill, or department</span>
+              <input id="keywordInput" type="search" placeholder="Job title, skill, or department" autocomplete="off">
+            </label>
+            <span class="search-divider" aria-hidden="true"></span>
+            <label class="search-field location-field">
+              <span class="field-icon pin-icon" aria-hidden="true">⌖</span>
+              <span class="visually-hidden">Location</span>
+              <input id="locationInput" type="search" placeholder="City, province, or remote">
+            </label>
+            <button class="search-button" type="submit">Search jobs <span aria-hidden="true">→</span></button>
+          </form>
+          <div class="popular-searches">
+            <span>Popular:</span>
+            <button type="button" data-search="policy">Policy analyst</button>
+            <button type="button" data-search="remote">Remote</button>
+            <button type="button" data-search="student">Student jobs</button>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-stamp"><span>FOR<br>ALL OF<br>CANADA</span><span class="stamp-leaf">✳</span></div>
+          <div class="hero-card">
+            <span class="hero-card-icon">✳</span>
+            <span class="hero-card-label">Make an impact</span>
+            <span class="hero-card-copy">Work that matters.<br>For everyone.</span>
+          </div>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-stat"><span class="stat-number">100+</span><span>departments & agencies</span></div>
+          <span class="stat-separator"></span>
+          <div class="hero-stat"><span class="stat-number">Everywhere</span><span>across Canada</span></div>
+          <span class="stat-separator"></span>
+          <div class="hero-stat"><span class="stat-number">For everyone</span><span>at every career stage</span></div>
+          <a class="hero-scroll" href="#opportunities">Explore opportunities <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="opportunities section-wrap" id="opportunities" aria-labelledby="opportunitiesTitle">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Find your fit</div>
+            <h2 id="opportunitiesTitle">Opportunities <span>with purpose.</span></h2>
+          </div>
+          <p class="section-intro">Bring your talents to work that helps make life better for people across Canada.</p>
+        </div>
+        <div class="content-layout">
+          <aside class="filters" aria-label="Filter job listings">
+            <div class="filter-top">
+              <h3>Filters</h3>
+              <button type="button" id="clearFilters" class="text-button">Clear all</button>
+            </div>
+            <label class="filter-label" for="agencyFilter">Department or agency</label>
+            <select id="agencyFilter">
+              <option value="">All departments</option>
+            </select>
+            <label class="filter-label" for="typeFilter">Employment type</label>
+            <select id="typeFilter">
+              <option value="">All types</option>
+            </select>
+            <div class="filter-label location-label">Work arrangement</div>
+            <label class="check-option"><input type="checkbox" id="remoteFilter"><span class="custom-check"></span> Remote or hybrid</label>
+            <label class="check-option"><input type="checkbox" id="studentFilter"><span class="custom-check"></span> Student opportunities</label>
+            <div class="filter-note">
+              <span class="filter-note-icon" aria-hidden="true">✳</span>
+              <p><strong>A note about these listings</strong><br>Examples to help you explore. Always confirm current openings on the official GC Jobs site.</p>
+            </div>
+          </aside>
+
+          <div class="job-results">
+            <div class="results-toolbar">
+              <p id="resultsSummary" aria-live="polite"><strong>0 opportunities</strong> across Canada</p>
+              <label class="sort-control"><span>Sort by</span>
+                <select id="sortFilter" aria-label="Sort job listings">
+                  <option value="recent">Most recent</option>
+                  <option value="title">Job title A–Z</option>
+                  <option value="department">Department</option>
+                </select>
+              </label>
+            </div>
+            <div class="job-list" id="jobList"></div>
+            <div class="empty-state" id="emptyState" hidden>
+              <span class="empty-icon" aria-hidden="true">⌕</span>
+              <h3>No opportunities found</h3>
+              <p>Try changing your search or clearing a filter to see more roles.</p>
+              <button type="button" id="emptyClear" class="outline-button">Clear search & filters</button>
+            </div>
+            <div class="results-footer">
+              <span><span class="live-dot"></span> Showing example opportunities</span>
+              <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" rel="noreferrer">Browse official GC Jobs <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="departments section-wrap" id="departments" aria-labelledby="departmentsTitle">
+        <div class="department-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Find your people</div>
+            <h2 id="departmentsTitle">A place for <span>every kind of talent.</span></h2>
+          </div>
+          <a href="#opportunities" class="department-link">Explore all opportunities <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="department-grid">
+          <button class="department-card" data-agency="Environment and Climate Change Canada" type="button">
+            <span class="department-icon green-icon">✳</span><span class="department-name">Environment &<br>Climate Change</span><span class="department-arrow">↗</span>
+          </button>
+          <button class="department-card" data-agency="Parks Canada" type="button">
+            <span class="department-icon orange-icon">⌁</span><span class="department-name">Parks<br>Canada</span><span class="department-arrow">↗</span>
+          </button>
+          <button class="department-card" data-agency="Canada Revenue Agency" type="button">
+            <span class="department-icon blue-icon">◈</span><span class="department-name">Canada Revenue<br>Agency</span><span class="department-arrow">↗</span>
+          </button>
+          <button class="department-card" data-agency="Employment and Social Development Canada" type="button">
+            <span class="department-icon purple-icon">✦</span><span class="department-name">Employment &<br>Social Development</span><span class="department-arrow">↗</span>
+          </button>
+          <button class="department-card" data-agency="Public Safety Canada" type="button">
+            <span class="department-icon red-icon">⬡</span><span class="department-name">Public Safety<br>Canada</span><span class="department-arrow">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="mission-banner" id="about">
+        <div class="mission-mark" aria-hidden="true">✳</div>
+        <div class="mission-copy">
+          <div class="eyebrow">More than a job</div>
+          <h2>Bring your whole self.<br><span>Make a difference.</span></h2>
+          <p>A public service career means good work, good people, and the chance to make a real impact in every community.</p>
+        </div>
+        <a href="https://www.canada.ca/en/government/publicservice.html" target="_blank" rel="noreferrer" class="mission-link">Discover the public service <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">GC</span><span class="brand-name">careers<span>.</span></span></a>
+      <p>An independent guide to opportunities in Canada’s public service.</p>
+      <a href="https://www.canada.ca/en.html">Canada.ca <span aria-hidden="true">↗</span></a>
+      <span class="footer-copyright">© 2026 GC Careers</span>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
