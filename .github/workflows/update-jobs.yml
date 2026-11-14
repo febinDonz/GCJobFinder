@@ -12,19 +12,14 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: job-feed
   cancel-in-progress: false
 
 jobs:
-  refresh-and-deploy:
+  refresh:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -41,15 +36,3 @@ jobs:
             git commit -m "Refresh daily government job feed" -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
             git push
           fi
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "."
-
-      - name: Deploy updated site
-        id: deployment
-        uses: actions/deploy-pages@v4
