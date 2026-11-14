@@ -15,7 +15,7 @@
   <body>
     <div class="topline">
       <div class="topline-inner">
-        <span class="flag" aria-hidden="true">🍁</span>
+        <img class="topline-flag" src="assets/flags/canada.svg" alt="">
         <span>Federal, provincial and territorial public-service careers</span>
         <a href="https://www.canada.ca/en.html">Canada.ca <span aria-hidden="true">↗</span></a>
       </div>
@@ -23,8 +23,8 @@
 
     <header class="site-header">
       <a class="brand" href="#" aria-label="GC Careers home">
-        <span class="brand-mark" aria-hidden="true">GC</span>
-        <span class="brand-name">government careers<span>.</span></span>
+        <img class="brand-flag" src="assets/flags/canada.svg" alt="">
+        <span class="brand-name">Government Careers <span>Canada</span></span>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation">
         <span></span><span></span>
@@ -43,18 +43,24 @@
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-grain" aria-hidden="true"></div>
         <div class="hero-content">
-          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> One place for all govt jobs inside Canada</div>
-          <h1 id="heroTitle">One place for all<br><span>government jobs in Canada.</span></h1>
-          <p>Explore career opportunities from federal, provincial, and territorial governments across Canada.</p>
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> Public service opportunities</div>
+          <h1 id="heroTitle">Government careers<br><span>across Canada.</span></h1>
+          <p>Search federal, provincial, and territorial public-service postings in one place.</p>
           <form class="search-bar" id="searchForm" role="search">
             <label class="search-field">
-              <span class="field-icon" aria-hidden="true">⌕</span>
+              <svg class="field-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8"></circle>
+                <path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+              </svg>
               <span class="visually-hidden">Job title, skill, or department</span>
               <input id="keywordInput" type="search" placeholder="Job title, skill, department, or government" autocomplete="off">
             </label>
             <span class="search-divider" aria-hidden="true"></span>
             <label class="search-field location-field">
-              <span class="field-icon pin-icon" aria-hidden="true">⌖</span>
+              <svg class="field-icon pin-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                <path d="M19 10.1c0 5-7 11-7 11s-7-6-7-11a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+                <circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.8"></circle>
+              </svg>
               <span class="visually-hidden">Location</span>
               <input id="locationInput" type="search" placeholder="City, province, or remote">
             </label>
@@ -69,7 +75,7 @@
         </div>
         <aside class="government-portals" aria-labelledby="governmentPortalsTitle">
           <div class="portals-heading">
-            <h2 id="governmentPortalsTitle">Government job portals</h2>
+            <h2 id="governmentPortalsTitle">Official career portals</h2>
             <span>Federal, provincial &amp; territorial</span>
           </div>
           <nav class="portal-grid" aria-label="Official government career portals">
@@ -130,7 +136,7 @@
               <span><span class="portal-full">Nunavut</span><span class="portal-short">NU</span></span>
             </a>
           </nav>
-          <p class="portal-note">Flags identify each jurisdiction; links open its official career portal.</p>
+          <p class="portal-note">Official career sites, organized by jurisdiction.</p>
         </aside>
         <div class="hero-bottom">
           <div class="hero-stat"><span class="stat-number">3 levels</span><span>federal, provincial & territorial</span></div>
@@ -220,24 +226,24 @@
           <a href="#opportunities" class="department-link">Search all regions <span aria-hidden="true">→</span></a>
         </div>
         <div class="department-grid">
-          <button class="department-card" data-region="British Columbia" type="button"><span class="department-icon blue-icon">BC</span><span class="department-name">British Columbia</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Alberta" type="button"><span class="department-icon blue-icon">AB</span><span class="department-name">Alberta</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Saskatchewan" type="button"><span class="department-icon blue-icon">SK</span><span class="department-name">Saskatchewan</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Manitoba" type="button"><span class="department-icon blue-icon">MB</span><span class="department-name">Manitoba</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Ontario" type="button"><span class="department-icon blue-icon">ON</span><span class="department-name">Ontario</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Quebec" type="button"><span class="department-icon blue-icon">QC</span><span class="department-name">Quebec</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="New Brunswick" type="button"><span class="department-icon blue-icon">NB</span><span class="department-name">New Brunswick</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Nova Scotia" type="button"><span class="department-icon blue-icon">NS</span><span class="department-name">Nova Scotia</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Prince Edward Island" type="button"><span class="department-icon blue-icon">PE</span><span class="department-name">Prince Edward Island</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Newfoundland and Labrador" type="button"><span class="department-icon blue-icon">NL</span><span class="department-name">Newfoundland & Labrador</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Yukon" type="button"><span class="department-icon blue-icon">YT</span><span class="department-name">Yukon</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Northwest Territories" type="button"><span class="department-icon blue-icon">NT</span><span class="department-name">Northwest Territories</span><span class="department-arrow">↗</span></button>
-          <button class="department-card" data-region="Nunavut" type="button"><span class="department-icon blue-icon">NU</span><span class="department-name">Nunavut</span><span class="department-arrow">↗</span></button>
+          <button class="department-card" data-region="British Columbia" type="button"><img class="department-icon" src="assets/flags/british-columbia.svg" alt=""><span class="department-name">British Columbia</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Alberta" type="button"><img class="department-icon" src="assets/flags/alberta.svg" alt=""><span class="department-name">Alberta</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Saskatchewan" type="button"><img class="department-icon" src="assets/flags/saskatchewan.svg" alt=""><span class="department-name">Saskatchewan</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Manitoba" type="button"><img class="department-icon" src="assets/flags/manitoba.svg" alt=""><span class="department-name">Manitoba</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Ontario" type="button"><img class="department-icon" src="assets/flags/ontario.svg" alt=""><span class="department-name">Ontario</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Quebec" type="button"><img class="department-icon" src="assets/flags/quebec.svg" alt=""><span class="department-name">Quebec</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="New Brunswick" type="button"><img class="department-icon" src="assets/flags/new-brunswick.svg" alt=""><span class="department-name">New Brunswick</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Nova Scotia" type="button"><img class="department-icon" src="assets/flags/nova-scotia.svg" alt=""><span class="department-name">Nova Scotia</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Prince Edward Island" type="button"><img class="department-icon" src="assets/flags/prince-edward-island.svg" alt=""><span class="department-name">Prince Edward Island</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Newfoundland and Labrador" type="button"><img class="department-icon" src="assets/flags/newfoundland-and-labrador.svg" alt=""><span class="department-name">Newfoundland &amp; Labrador</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Yukon" type="button"><img class="department-icon" src="assets/flags/yukon.svg" alt=""><span class="department-name">Yukon</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Northwest Territories" type="button"><img class="department-icon" src="assets/flags/northwest-territories.svg" alt=""><span class="department-name">Northwest Territories</span><span class="department-arrow" aria-hidden="true">↗</span></button>
+          <button class="department-card" data-region="Nunavut" type="button"><img class="department-icon" src="assets/flags/nunavut.svg" alt=""><span class="department-name">Nunavut</span><span class="department-arrow" aria-hidden="true">↗</span></button>
         </div>
       </section>
 
       <section class="mission-banner" id="about">
-        <div class="mission-mark" aria-hidden="true">✳</div>
+        <div class="mission-mark" aria-hidden="true"><img src="assets/flags/canada.svg" alt=""></div>
         <div class="mission-copy">
           <div class="eyebrow">One search, every level</div>
           <h2>Federal, provincial,<br><span>and territorial careers.</span></h2>
@@ -248,7 +254,7 @@
     </main>
 
     <footer class="site-footer">
-      <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">GC</span><span class="brand-name">government careers<span>.</span></span></a>
+      <a class="brand footer-brand" href="#"><img class="brand-flag" src="assets/flags/canada.svg" alt=""><span class="brand-name">Government Careers <span>Canada</span></span></a>
       <p>Public-service opportunities from across Canada.</p>
       <a href="https://www.canada.ca/en.html">Canada.ca <span aria-hidden="true">↗</span></a>
       <span class="footer-copyright">© 2026 GC Careers</span>

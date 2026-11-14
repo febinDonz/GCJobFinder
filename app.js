@@ -617,8 +617,8 @@ function renderJobs() {
           <button class="save-button${isSaved ? " is-saved" : ""}" type="button" data-save="${escapeHtml(job.id)}" aria-label="${isSaved ? "Remove saved job" : "Save job"}: ${title}" aria-pressed="${isSaved}">${isSaved ? "♥" : "♡"}</button>
         </div>
         <div class="job-meta">
-          <span><span class="meta-icon" aria-hidden="true">⌖</span>${escapeHtml(job.location)}</span>
-          <span><span class="meta-icon" aria-hidden="true">＄</span>${escapeHtml(job.salaryText)}</span>
+          <span><svg class="meta-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M19 10.1c0 5-7 11-7 11s-7-6-7-11a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.8"></circle></svg>${escapeHtml(job.location)}</span>
+          <span><span class="meta-icon salary-icon" aria-hidden="true">$</span>${escapeHtml(job.salaryText)}</span>
         </div>
         <div class="job-tags">${tags}</div>
         <div class="job-card-bottom">
