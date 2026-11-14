@@ -397,6 +397,8 @@ const jobs = [
   }
 ];
 
+let feedSources = [];
+
 async function loadLiveGovernmentJobs() {
   try {
     const response = await fetch(new URL("jobs.json", document.baseURI), { cache: "no-store" });
@@ -416,19 +418,21 @@ async function loadLiveGovernmentJobs() {
     populateFilters();
     renderJobs();
 
-    const unavailableSourceCount = Array.isArray(feed.sources)
-      ? feed.sources.filter((source) => source.status !== "ok").length
-      : 0;
-    document.querySelector("#listingNoticeTitle").textContent = "Live government postings";
-    document.querySelector("#listingNoticeBody").textContent = unavailableSourceCount
-      ? "Some portals did not provide accessible listings today. Confirm details and deadlines on the official posting."
+    feedSources = Array.isArray(feed.sources) ? feed.sources : [];
+    const unavailableSources = feedSources.filter((source) => source.status !== "ok");
+    const availableSourceCount = feedSources.length - unavailableSources.length;
+    document.querySelector("#listingNoticeTitle").textContent = unavailableSources.length
+      ? `${availableSourceCount} of ${feedSources.length} sources reporting`
+      : "Live government postings";
+    document.querySelector("#listingNoticeBody").textContent = unavailableSources.length
+      ? `${unavailableSources.length} portal feeds could not be collected today. Missing feed data does not mean no openings; use the portal links above.`
       : "Listings refresh daily. Confirm details and deadlines on the official posting.";
     const updated = document.querySelector("#feedUpdated");
     if (updated && feed.generatedAt) {
       const generatedAt = new Date(feed.generatedAt);
       if (!Number.isNaN(generatedAt.getTime())) {
-        const sourceNote = unavailableSourceCount
-          ? ` ${unavailableSourceCount} portals had no accessible listings.`
+        const sourceNote = unavailableSources.length
+          ? ` ${unavailableSources.length} portal feeds were unavailable.`
           : "";
         updated.textContent = `Live postings refreshed ${generatedAt.toLocaleString(undefined, { timeZone: "UTC" })} UTC.${sourceNote} Verify details on the official posting.`;
       }
@@ -627,6 +631,24 @@ function renderJobs() {
   const count = visibleJobs.length;
   const countLabel = `${count} ${count === 1 ? "opportunity" : "opportunities"}`;
   elements.summary.innerHTML = `<strong>${countLabel}</strong> ${savedOnly ? "saved" : "across Canada"}`;
+  const emptyTitle = elements.empty.querySelector("h3");
+  const emptyMessage = elements.empty.querySelector("p");
+  const emptySourceLink = elements.empty.querySelector("#emptySourceLink");
+  const selectedPortal = Array.from(document.querySelectorAll(".portal-link[data-portal-region]"))
+    .find((portal) => portal.dataset.portalRegion === elements.region.value);
+  const selectedPortalSource = feedSources.find((source) => source.key === selectedPortal?.dataset.sourceKey);
+  if (!count && selectedPortal && selectedPortalSource && selectedPortalSource.status !== "ok") {
+    emptyTitle.textContent = `No ${elements.region.value} postings in today's feed`;
+    emptyMessage.textContent = "The official portal may still have active openings; its listings were not available to today's feed.";
+    emptySourceLink.href = selectedPortal.href;
+    emptySourceLink.textContent = `Browse official ${elements.region.value} jobs ↗`;
+    emptySourceLink.hidden = false;
+  } else {
+    emptyTitle.textContent = "No opportunities found";
+    emptyMessage.textContent = "Try changing your search or clearing a filter to see more roles.";
+    emptySourceLink.hidden = true;
+    emptySourceLink.removeAttribute("href");
+  }
   elements.empty.hidden = count > 0;
   elements.list.hidden = count === 0;
   elements.savedCount.textContent = String(savedJobs.size);

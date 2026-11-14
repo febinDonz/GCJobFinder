@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0a66c2">
+    <meta name="theme-color" content="#c8102e">
     <meta name="description" content="Find federal, provincial, and territorial government career opportunities across Canada in one place.">
     <title>Government Careers Canada — One place for public service jobs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,17 +67,71 @@
             <button type="button" data-search="student">Student jobs</button>
           </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="hero-stamp"><span>FOR<br>ALL OF<br>CANADA</span><span class="stamp-leaf">✳</span></div>
-          <div class="hero-card">
-            <span class="hero-card-icon">✳</span>
-            <span class="hero-card-label">Make an impact</span>
-            <span class="hero-card-copy">Work that matters.<br>For everyone.</span>
+        <aside class="government-portals" aria-labelledby="governmentPortalsTitle">
+          <div class="portals-heading">
+            <h2 id="governmentPortalsTitle">Government job portals</h2>
+            <span>Federal, provincial &amp; territorial</span>
           </div>
-          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
-        </div>
+          <nav class="portal-grid" aria-label="Official government career portals">
+            <a class="portal-link" data-source-key="gc-jobs" data-portal-region="Canada" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true" target="_blank" rel="noopener noreferrer" aria-label="Federal government jobs, Canada" title="Federal government jobs">
+              <img src="assets/flags/canada.svg" alt="">
+              <span><span class="portal-full">Federal government</span><span class="portal-short">Federal</span></span>
+            </a>
+            <a class="portal-link" data-source-key="bc" data-portal-region="British Columbia" href="https://bcpublicservice.hua.hrsmart.com/hr/ats/JobSearch/viewAll" target="_blank" rel="noopener noreferrer" aria-label="British Columbia government jobs" title="British Columbia">
+              <img src="assets/flags/british-columbia.svg" alt="">
+              <span><span class="portal-full">British Columbia</span><span class="portal-short">BC</span></span>
+            </a>
+            <a class="portal-link" data-source-key="alberta" data-portal-region="Alberta" href="https://jobpostings.alberta.ca/search/?q=" target="_blank" rel="noopener noreferrer" aria-label="Alberta government jobs" title="Alberta">
+              <img src="assets/flags/alberta.svg" alt="">
+              <span><span class="portal-full">Alberta</span><span class="portal-short">AB</span></span>
+            </a>
+            <a class="portal-link" data-source-key="saskatchewan" data-portal-region="Saskatchewan" href="https://careers.saskatchewan.ca/" target="_blank" rel="noopener noreferrer" aria-label="Saskatchewan government jobs" title="Saskatchewan">
+              <img src="assets/flags/saskatchewan.svg" alt="">
+              <span><span class="portal-full">Saskatchewan</span><span class="portal-short">SK</span></span>
+            </a>
+            <a class="portal-link" data-source-key="manitoba" data-portal-region="Manitoba" href="https://jobsearch.gov.mb.ca/" target="_blank" rel="noopener noreferrer" aria-label="Manitoba government jobs" title="Manitoba">
+              <img src="assets/flags/manitoba.svg" alt="">
+              <span><span class="portal-full">Manitoba</span><span class="portal-short">MB</span></span>
+            </a>
+            <a class="portal-link" data-source-key="ontario" data-portal-region="Ontario" href="https://www.gojobs.gov.on.ca/Search.aspx" target="_blank" rel="noopener noreferrer" aria-label="Ontario Public Service jobs" title="Ontario Public Service">
+              <img src="assets/flags/ontario.svg" alt="">
+              <span><span class="portal-full">Ontario</span><span class="portal-short">ON</span></span>
+            </a>
+            <a class="portal-link" data-source-key="quebec" data-portal-region="Quebec" href="https://recrutement.carrieres.gouv.qc.ca/" target="_blank" rel="noopener noreferrer" aria-label="Québec government jobs" title="Québec">
+              <img src="assets/flags/quebec.svg" alt="">
+              <span><span class="portal-full">Québec</span><span class="portal-short">QC</span></span>
+            </a>
+            <a class="portal-link" data-source-key="new-brunswick" data-portal-region="New Brunswick" href="https://www.ere.gnb.ca/competition.aspx?culture=en-CA" target="_blank" rel="noopener noreferrer" aria-label="New Brunswick government jobs" title="New Brunswick">
+              <img src="assets/flags/new-brunswick.svg" alt="">
+              <span><span class="portal-full">New Brunswick</span><span class="portal-short">NB</span></span>
+            </a>
+            <a class="portal-link" data-source-key="nova-scotia" data-portal-region="Nova Scotia" href="https://jobs.novascotia.ca/" target="_blank" rel="noopener noreferrer" aria-label="Nova Scotia government jobs" title="Nova Scotia">
+              <img src="assets/flags/nova-scotia.svg" alt="">
+              <span><span class="portal-full">Nova Scotia</span><span class="portal-short">NS</span></span>
+            </a>
+            <a class="portal-link" data-source-key="pei" data-portal-region="Prince Edward Island" href="https://www.princeedwardisland.ca/en/topic/employment-opportunities" target="_blank" rel="noopener noreferrer" aria-label="Prince Edward Island government jobs" title="Prince Edward Island">
+              <img src="assets/flags/prince-edward-island.svg" alt="">
+              <span><span class="portal-full">Prince Edward Island</span><span class="portal-short">PE</span></span>
+            </a>
+            <a class="portal-link" data-source-key="newfoundland" data-portal-region="Newfoundland and Labrador" href="https://www.hiring.gov.nl.ca/Competitions/Public" target="_blank" rel="noopener noreferrer" aria-label="Newfoundland and Labrador government jobs" title="Newfoundland and Labrador">
+              <img src="assets/flags/newfoundland-and-labrador.svg" alt="">
+              <span><span class="portal-full">Newfoundland &amp; Labrador</span><span class="portal-short">NL</span></span>
+            </a>
+            <a class="portal-link" data-source-key="yukon" data-portal-region="Yukon" href="https://yukon.ca/en/employment" target="_blank" rel="noopener noreferrer" aria-label="Yukon government jobs" title="Yukon">
+              <img src="assets/flags/yukon.svg" alt="">
+              <span><span class="portal-full">Yukon</span><span class="portal-short">YT</span></span>
+            </a>
+            <a class="portal-link" data-source-key="nwt" data-portal-region="Northwest Territories" href="https://www.gov.nt.ca/careers/en/search/job" target="_blank" rel="noopener noreferrer" aria-label="Northwest Territories government jobs" title="Northwest Territories">
+              <img src="assets/flags/northwest-territories.svg" alt="">
+              <span><span class="portal-full">Northwest Territories</span><span class="portal-short">NT</span></span>
+            </a>
+            <a class="portal-link" data-source-key="nunavut" data-portal-region="Nunavut" href="https://gov.nu.ca/en/careers" target="_blank" rel="noopener noreferrer" aria-label="Nunavut government jobs" title="Nunavut">
+              <img src="assets/flags/nunavut.svg" alt="">
+              <span><span class="portal-full">Nunavut</span><span class="portal-short">NU</span></span>
+            </a>
+          </nav>
+          <p class="portal-note">Flags identify each jurisdiction; links open its official career portal.</p>
+        </aside>
         <div class="hero-bottom">
           <div class="hero-stat"><span class="stat-number">3 levels</span><span>federal, provincial & territorial</span></div>
           <span class="stat-separator"></span>
@@ -146,6 +200,7 @@
               <span class="empty-icon" aria-hidden="true">⌕</span>
               <h3>No opportunities found</h3>
               <p>Try changing your search or clearing a filter to see more roles.</p>
+              <a class="empty-source-link" id="emptySourceLink" hidden target="_blank" rel="noopener noreferrer"></a>
               <button type="button" id="emptyClear" class="outline-button">Clear search & filters</button>
             </div>
             <div class="results-footer">

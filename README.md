@@ -23,6 +23,14 @@ Where a portal exposes a stable posting URL, job cards open that specific
 posting. If a portal only exposes a search/listing page or blocks automated
 access, its status is reported and the card links to the official listings page
 instead. The site uses the existing examples only if no live feed is available.
+The home-page portal panel links directly to the official federal, provincial,
+and territorial career sites. It uses public-domain jurisdiction flag artwork
+from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_and_territories_of_Canada)
+for identification; these are flags, not government wordmark logos. An empty
+regional feed is not evidence that the official portal has no vacancies.
+The Ontario search page currently returns a form rather than job-result records
+to the updater, so Ontario openings are not included in the feed; selecting an
+unavailable region offers a direct link to its official careers portal.
 
 Search, government-level and region filters, sorting, region shortcuts, and
 saved jobs work in the browser. Saved jobs use browser local storage.
