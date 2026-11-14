@@ -7,7 +7,9 @@ on:
       - "index.html"
       - "styles.css"
       - "app.js"
+      - "jobs.json"
       - "README.md"
+      - "scripts/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 

@@ -397,7 +397,53 @@ const jobs = [
   }
 ];
 
-const officialJobsUrl = "https://www.canada.ca/en/services/jobs/opportunities/government.html";
+async function loadLiveGovernmentJobs() {
+  try {
+    const response = await fetch(new URL("jobs.json", document.baseURI), { cache: "no-store" });
+    if (!response.ok) throw new Error(`Job feed request failed with status ${response.status}`);
+    const feed = await response.json();
+    if (!Array.isArray(feed.jobs)) throw new Error("Job feed has no jobs array");
+
+    const liveJobs = feed.jobs.filter((job) =>
+      job && typeof job.id === "string" &&
+      typeof job.title === "string" &&
+      typeof job.sourceUrl === "string" &&
+      /^https?:\/\//i.test(job.sourceUrl)
+    );
+    if (!liveJobs.length) return;
+
+    jobs.splice(0, jobs.length, ...liveJobs);
+    populateFilters();
+    renderJobs();
+
+    const unavailableSourceCount = Array.isArray(feed.sources)
+      ? feed.sources.filter((source) => source.status !== "ok").length
+      : 0;
+    document.querySelector("#listingNoticeTitle").textContent = "Live government postings";
+    document.querySelector("#listingNoticeBody").textContent = unavailableSourceCount
+      ? "Some portals did not provide accessible listings today. Confirm details and deadlines on the official posting."
+      : "Listings refresh daily. Confirm details and deadlines on the official posting.";
+    const updated = document.querySelector("#feedUpdated");
+    if (updated && feed.generatedAt) {
+      const generatedAt = new Date(feed.generatedAt);
+      if (!Number.isNaN(generatedAt.getTime())) {
+        const sourceNote = unavailableSourceCount
+          ? ` ${unavailableSourceCount} portals had no accessible listings.`
+          : "";
+        updated.textContent = `Live postings refreshed ${generatedAt.toLocaleString(undefined, { timeZone: "UTC" })} UTC.${sourceNote} Verify details on the official posting.`;
+      }
+    }
+    showToast("Live government postings loaded.");
+  } catch (error) {
+    console.warn("Live job feed could not be loaded; showing the example listings.", error);
+    document.querySelector("#listingNoticeTitle").textContent = "Example listings";
+    document.querySelector("#listingNoticeBody").textContent = "The live feed is unavailable. Check official listings for current vacancies.";
+    const updated = document.querySelector("#feedUpdated");
+    if (updated) updated.textContent = "Live feed unavailable; showing examples. Check official listings for current vacancies.";
+  }
+}
+
+const officialJobsUrl = "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true";
 const regions = [
   "Alberta",
   "British Columbia",
@@ -432,6 +478,7 @@ for (const job of jobs) {
   job.government ||= "Federal";
   job.sourceLabel ||= "GC Jobs";
   job.sourceUrl ||= officialJobsUrl;
+  job.directPosting ??= false;
   const provinceCode = job.location.match(/\b(AB|BC|MB|NB|NL|NT|NS|NU|ON|PE|QC|SK|YT)\b/)?.[0];
   job.region ||= provinceCode ? regionByCode[provinceCode] : "";
 }
@@ -478,6 +525,11 @@ function saveSavedJobs() {
 function populateFilters() {
   const agencies = [...new Set(jobs.map((job) => job.agency))].sort();
   const types = [...new Set(jobs.map((job) => job.type))].sort();
+
+  elements.agency.innerHTML = '<option value="">All departments & employers</option>';
+  elements.type.innerHTML = '<option value="">All types</option>';
+  elements.region.innerHTML = '<option value="">All provinces & territories</option>';
+
   for (const agency of agencies) {
     elements.agency.add(new Option(agency, agency));
   }
@@ -519,36 +571,55 @@ function getVisibleJobs() {
   return filtered;
 }
 
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[character]);
+}
+
 function renderJobs() {
   const visibleJobs = getVisibleJobs();
   elements.list.innerHTML = visibleJobs.map((job) => {
     const isSaved = savedJobs.has(job.id);
+    const title = escapeHtml(job.title);
+    const agency = escapeHtml(job.agency);
+    const mark = escapeHtml(job.mark || job.agency.slice(0, 2).toUpperCase());
+    const color = escapeHtml(job.color || "blue");
+    const sourceLabel = escapeHtml(job.sourceLabel || "official careers portal");
+    const sourceUrl = escapeHtml(/^https?:\/\//i.test(job.sourceUrl) ? job.sourceUrl : officialJobsUrl);
+    const postingLinkLabel = job.directPosting === false
+      ? `Find listings at ${sourceLabel}`
+      : `View posting at ${sourceLabel}`;
     const tags = [
-      `<span class="job-tag">${job.type}</span>`,
-      `<span class="job-tag government-tag">${job.government} government</span>`,
-      `<span class="job-tag">${job.level}</span>`,
-      `<span class="job-tag">${job.arrangement}</span>`,
+      `<span class="job-tag">${escapeHtml(job.type)}</span>`,
+      `<span class="job-tag government-tag">${escapeHtml(job.government)} government</span>`,
+      `<span class="job-tag">${escapeHtml(job.level)}</span>`,
+      `<span class="job-tag">${escapeHtml(job.arrangement)}</span>`,
       job.student ? '<span class="job-tag new">Student</span>' : ""
     ].join("");
     return `
       <article class="job-card">
         <div class="job-card-top">
-          <span class="agency-mark ${job.color}" aria-hidden="true">${job.mark}</span>
+          <span class="agency-mark ${color}" aria-hidden="true">${mark}</span>
           <div class="job-main">
-            <h3 class="job-title">${job.title}</h3>
-            <p class="agency-name">${job.agency}</p>
-            <p class="job-description">${job.description}</p>
+            <h3 class="job-title">${title}</h3>
+            <p class="agency-name">${agency}</p>
+            <p class="job-description">${escapeHtml(job.description)}</p>
           </div>
-          <button class="save-button${isSaved ? " is-saved" : ""}" type="button" data-save="${job.id}" aria-label="${isSaved ? "Remove saved job" : "Save job"}: ${job.title}" aria-pressed="${isSaved}">${isSaved ? "♥" : "♡"}</button>
+          <button class="save-button${isSaved ? " is-saved" : ""}" type="button" data-save="${escapeHtml(job.id)}" aria-label="${isSaved ? "Remove saved job" : "Save job"}: ${title}" aria-pressed="${isSaved}">${isSaved ? "♥" : "♡"}</button>
         </div>
         <div class="job-meta">
-          <span><span class="meta-icon" aria-hidden="true">⌖</span>${job.location}</span>
-          <span><span class="meta-icon" aria-hidden="true">＄</span>${job.salaryText}</span>
+          <span><span class="meta-icon" aria-hidden="true">⌖</span>${escapeHtml(job.location)}</span>
+          <span><span class="meta-icon" aria-hidden="true">＄</span>${escapeHtml(job.salaryText)}</span>
         </div>
         <div class="job-tags">${tags}</div>
         <div class="job-card-bottom">
-          <span class="posted-date">${job.postedText}</span>
-          <a class="view-job" href="${job.sourceUrl}" target="_blank" rel="noreferrer">View at ${job.sourceLabel} <span aria-hidden="true">↗</span></a>
+          <span class="posted-date">${escapeHtml(job.postedText)}</span>
+          <a class="view-job" href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${postingLinkLabel} <span aria-hidden="true">↗</span></a>
         </div>
       </article>`;
   }).join("");
@@ -668,3 +739,4 @@ mainNav.addEventListener("click", (event) => {
 
 populateFilters();
 renderJobs();
+loadLiveGovernmentJobs();
