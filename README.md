@@ -12,8 +12,9 @@ Open `index.html` in a browser, or serve this directory with any static file ser
 
 https://febindonz.github.io/GCJobFinder/
 
-GitHub Actions refreshes the public job feed daily at 07:00 UTC and deploys the
-updated site. The updater checks the configured federal, provincial, and
+GitHub Actions refreshes the public job feed daily at 07:00 UTC, and also runs
+when the feed updater changes. Each successful refresh deploys the updated site.
+The updater checks the configured federal, provincial, and
 territorial career portals, and records the source status in its workflow log.
 Recent successful runs have collected listings from GC Jobs, BC, Alberta,
 Saskatchewan, Manitoba, Québec, New Brunswick, Nova Scotia, and the Northwest

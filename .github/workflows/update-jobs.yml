@@ -1,6 +1,11 @@
 name: Refresh government job postings
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_jobs.py"
+      - ".github/workflows/update-jobs.yml"
   schedule:
     - cron: "0 7 * * *"
   workflow_dispatch:
