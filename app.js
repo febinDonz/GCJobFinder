@@ -638,8 +638,8 @@ function renderJobs() {
     .find((portal) => portal.dataset.portalRegion === elements.region.value);
   const selectedPortalSource = feedSources.find((source) => source.key === selectedPortal?.dataset.sourceKey);
   if (!count && selectedPortal && selectedPortalSource && selectedPortalSource.status !== "ok") {
-    emptyTitle.textContent = `No ${elements.region.value} postings in today's feed`;
-    emptyMessage.textContent = "The official portal may still have active openings; its listings were not available to today's feed.";
+    emptyTitle.textContent = `${elements.region.value} listings unavailable in today's feed`;
+    emptyMessage.textContent = "The official portal may have active openings. Check its current listings directly.";
     emptySourceLink.href = selectedPortal.href;
     emptySourceLink.textContent = `Browse official ${elements.region.value} jobs ↗`;
     emptySourceLink.hidden = false;

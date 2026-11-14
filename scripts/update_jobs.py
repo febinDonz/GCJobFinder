@@ -6,6 +6,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import html
+import http.cookiejar
 import json
 import re
 import sys
@@ -312,6 +313,171 @@ class TableParser(HTMLParser):
             self.row = None
 
 
+class OntarioSearchFormParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.form_attrs = None
+        self.in_form = False
+        self.seen_form = False
+        self.controls = []
+        self.select = None
+        self.option = None
+        self.button = None
+        self.search_button = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "form" and not self.seen_form:
+            self.form_attrs = attrs
+            self.in_form = True
+            self.seen_form = True
+        elif not self.in_form:
+            return
+        elif tag == "input":
+            self.controls.append(("input", attrs))
+            if attrs.get("type", "").lower() == "submit" and re.search(
+                r"search", attrs.get("value", ""), re.I
+            ):
+                self.search_button = attrs
+        elif tag == "select":
+            self.select = {"attrs": attrs, "options": []}
+        elif tag == "option" and self.select is not None:
+            self.option = {"attrs": attrs, "text": ""}
+        elif tag == "button":
+            self.button = {"attrs": attrs, "text": ""}
+
+    def handle_data(self, data):
+        if self.option is not None:
+            self.option["text"] += data
+        if self.button is not None:
+            self.button["text"] += data
+
+    def handle_endtag(self, tag):
+        if tag == "option" and self.option is not None:
+            self.select["options"].append(self.option)
+            self.option = None
+        elif tag == "select" and self.select is not None:
+            attrs = self.select["attrs"]
+            selected = next(
+                (option for option in self.select["options"] if "selected" in option["attrs"]),
+                self.select["options"][0] if self.select["options"] else None,
+            )
+            if attrs.get("name") and selected is not None:
+                value = selected["attrs"].get("value", clean(selected["text"]))
+                self.controls.append(("value", (attrs["name"], value)))
+            self.select = None
+        elif tag == "button" and self.button is not None:
+            attrs = self.button["attrs"]
+            if attrs.get("type", "submit").lower() == "submit" and re.search(
+                r"search", clean(self.button["text"]) or attrs.get("value", ""), re.I
+            ):
+                self.search_button = attrs
+            self.button = None
+        elif tag == "form":
+            self.in_form = False
+
+    def post_data(self):
+        fields = []
+        for kind, control in self.controls:
+            if kind == "value":
+                fields.append(control)
+                continue
+            name = control.get("name")
+            input_type = control.get("type", "text").lower()
+            if not name or input_type in ("submit", "button", "reset", "file"):
+                continue
+            if input_type in ("checkbox", "radio") and "checked" not in control:
+                continue
+            fields.append((name, control.get("value", "")))
+
+        if self.search_button is None:
+            raise ValueError("Ontario search form has no usable Search button")
+        name = self.search_button.get("name")
+        if name:
+            fields.append((name, self.search_button.get("value", "")))
+        onclick = self.search_button.get("onclick", "")
+        postback = re.search(
+            r"__doPostBack\(['\"]([^'\"]*)['\"]\s*,\s*['\"]([^'\"]*)['\"]\)",
+            onclick,
+        )
+        if postback:
+            fields.extend((
+                ("__EVENTTARGET", postback.group(1)),
+                ("__EVENTARGUMENT", postback.group(2)),
+            ))
+        return fields
+
+
+def has_access_challenge(text):
+    return bool(re.search(
+        r"captcha|security verification|request cannot be processed|access denied|"
+        r"validate\.perfdrive\.com|captcha\.perfdrive\.com",
+        text,
+        re.I,
+    ))
+
+
+def fetch_ontario_search(url):
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar())
+    )
+    headers = {
+        "User-Agent": "GCJobFinder/1.0 (public government job listings)",
+        "Accept": "text/html,application/xhtml+xml",
+    }
+    with opener.open(urllib.request.Request(url, headers=headers), timeout=TIMEOUT_SECONDS) as response:
+        page = response.read().decode("utf-8", errors="replace")
+        page_url = response.geturl()
+    if has_access_challenge(page):
+        raise PermissionError("Ontario careers portal returned an access challenge")
+
+    form = OntarioSearchFormParser()
+    form.feed(page)
+    if form.form_attrs is None or form.form_attrs.get("method", "get").lower() != "post":
+        raise ValueError("Ontario careers page did not expose its expected search form")
+    post_url = urllib.parse.urljoin(page_url, form.form_attrs.get("action") or page_url)
+    request = urllib.request.Request(
+        post_url,
+        data=urllib.parse.urlencode(form.post_data()).encode("utf-8"),
+        headers={
+            **headers,
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Referer": page_url,
+        },
+        method="POST",
+    )
+    with opener.open(request, timeout=TIMEOUT_SECONDS) as response:
+        result = response.read().decode("utf-8", errors="replace")
+    if has_access_challenge(result):
+        raise PermissionError("Ontario careers portal returned an access challenge")
+    return result
+
+
+def parse_ontario(source, text):
+    parser = TableParser()
+    parser.feed(text)
+    jobs = []
+    for row in parser.rows:
+        row_text = clean(" ".join(cell["text"] for cell in row))
+        for cell in row:
+            posting_url = cell["url"]
+            if not posting_url or not re.search(
+                r"(?:jobdetails|jobdetail|jobposting|jobid=|job_id=)",
+                posting_url,
+                re.I,
+            ):
+                continue
+            title = clean(cell["text"])
+            if not title or re.search(r"^(?:job title|title|details)$", title, re.I):
+                continue
+            detail_url = urllib.parse.urljoin(source[4], posting_url)
+            jobs.append(make_job(
+                source, title, source[1], "Ontario", detail_url,
+                description=row_text,
+            ))
+    return [job for job in jobs if job]
+
+
 def parse_nwt(source, html_text):
     parser = TableParser()
     parser.feed(html_text)
@@ -440,7 +606,7 @@ PARSERS = {
     "alberta": parse_alberta,
     "saskatchewan": parse_saskatchewan,
     "manitoba": parse_manitoba,
-    "ontario": parse_generic,
+    "ontario": parse_ontario,
     "quebec": parse_quebec,
     "new-brunswick": parse_nb,
     "nova-scotia": parse_nova_scotia,
@@ -452,14 +618,18 @@ PARSERS = {
 def collect(source):
     key, label, _, _, url, parser_name = source
     try:
-        body = fetch(url, proxy=parser_name not in ("manitoba", "nwt"))
+        body = fetch_ontario_search(url) if parser_name == "ontario" else fetch(
+            url, proxy=parser_name not in ("manitoba", "nwt")
+        )
         parser = PARSERS[parser_name]
         jobs = parser(source, body) if parser else []
         if jobs:
             return jobs, {"key": key, "label": label, "status": "ok", "count": len(jobs)}
-        if re.search(r"captcha|security verification|request cannot be processed|access denied", body, re.I):
+        if has_access_challenge(body):
             return [], {"key": key, "label": label, "status": "blocked_or_challenge", "count": 0}
         return [], {"key": key, "label": label, "status": "no_listings_parsed", "count": 0}
+    except PermissionError as error:
+        return [], {"key": key, "label": label, "status": "blocked_or_challenge", "error": str(error), "count": 0}
     except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as error:
         return [], {"key": key, "label": label, "status": "unavailable", "error": str(error)[:240], "count": 0}
     except Exception as error:  # Keep one broken source from blocking other public feeds.

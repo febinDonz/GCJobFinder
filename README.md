@@ -28,11 +28,11 @@ and territorial career sites. It uses public-domain jurisdiction flag artwork
 from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_and_territories_of_Canada)
 for identification; these are flags, not government wordmark logos. An empty
 regional feed is not evidence that the official portal has no vacancies.
-The Ontario search page currently returns a Radware CAPTCHA to automated
-requests from the updater environment, so Ontario openings are not included in
-the feed. The updater does not bypass this access control; selecting Ontario
-offers a direct link to its official careers portal. Missing feed data does not
-mean the official portal has no vacancies.
+The updater submits the Ontario careers search form to collect its current
+results. If the portal returns a Radware CAPTCHA to the updater environment,
+Ontario listings cannot be refreshed; the updater does not bypass that access
+control. Selecting Ontario offers a direct link to its official careers
+portal, and missing feed data does not mean the portal has no vacancies.
 
 Search, government-level and region filters, sorting, region shortcuts, and
 saved jobs work in the browser. Saved jobs use browser local storage.
