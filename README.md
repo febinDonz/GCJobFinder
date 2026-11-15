@@ -27,11 +27,19 @@ Refresh data locally: `python3 -m scripts.govjobs.run`. Tests: `python3 -m unitt
 
 ### Ontario
 
-GOjobs (`gojobs.gov.on.ca`) returns a Radware CAPTCHA to automated clients,
-including GitHub Actions runners. This project does not bypass that. Instead it
-reads the Ontario Public Service postings listed on Job Bank. Those are the
-ones Ontario cross-posts there, which can be fewer than GOjobs lists, so the
-site links to GOjobs for the full list.
+GOjobs (`gojobs.gov.on.ca`) lists nothing until its Search button is pressed,
+and its filters need JavaScript. `scripts/govjobs/gojobs.py` drives a headless
+browser (Playwright, installed by the workflow): open Search.aspx, tick every
+option in the required filters, press Search, read the results, page through them.
+It follows GOjobs' `robots.txt` (only `/alljobs.aspx` and `/ReadPDF.aspx` are
+disallowed). If a CAPTCHA appears it stops and reports `blocked_or_challenge`;
+it never tries to bypass one. Job Bank's Ontario Public Service postings are
+collected too, and duplicates are merged with GOjobs preferred.
+
+This was written without seeing the live page. Each run uploads a screenshot
+and HTML of the form and results as the **gojobs-debug** artifact (Actions run
+page, Artifacts). If the Ontario GOjobs row is not "Working", open it and fix
+the selectors at the top of `gojobs.py`.
 
 ### Not used yet
 

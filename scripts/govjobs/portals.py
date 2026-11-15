@@ -315,8 +315,6 @@ SOURCES = [
      "https://careers.saskatchewan.ca/", "saskatchewan"),
     ("manitoba", "Manitoba Government", "Provincial", "Manitoba",
      "https://jobsearch.gov.mb.ca/rss/newJobPostingsFeed.rss", "manitoba"),
-    ("ontario-gojobs", "Ontario Public Service (GOjobs)", "Provincial", "Ontario",
-     "https://www.gojobs.gov.on.ca/", "link_only"),
     ("quebec", "Quebec Public Service", "Provincial", "Quebec",
      "https://recrutement.carrieres.gouv.qc.ca/", "quebec"),
     ("new-brunswick", "Government of New Brunswick", "Provincial", "New Brunswick",

@@ -38,10 +38,28 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -t . -v
 
+      - name: Install browser for GOjobs
+        # Only the GOjobs source needs it. If this step fails, that source reports "unavailable".
+        continue-on-error: true
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
       - name: Refresh postings
         # A failed refresh keeps the last good data/jobs.json, so the site still deploys.
         continue-on-error: true
+        env:
+          GOJOBS_DEBUG_DIR: gojobs-debug
         run: python -m scripts.govjobs.run
+
+      - name: Save GOjobs debug files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gojobs-debug
+          path: gojobs-debug
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Commit refreshed data
         run: |

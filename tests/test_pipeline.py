@@ -7,7 +7,7 @@ sources table on the site reports what each source actually returned.
 """
 import unittest
 
-from scripts.govjobs import jobbank
+from scripts.govjobs import gojobs, jobbank
 from scripts.govjobs.common import make_job, parse_date
 from scripts.govjobs.run import dedupe, merge
 
@@ -63,6 +63,43 @@ class ParseTests(unittest.TestCase):
         card = '<a href="/jobsearch/jobposting/50500003"><span>Jobs.gc.ca</span></a>'
         jobs, _ = jobbank.parse_results(card, GROUP, "Ontario Public Service", SOURCE)
         self.assertEqual(jobs, [])
+
+
+class GojobsTests(unittest.TestCase):
+    def test_rows_become_jobs(self):
+        items = [
+            {"href": "https://www.gojobs.gov.on.ca/Apply.aspx?JobID=212345&Language=English",
+             "title": "Policy Analyst",
+             "row": "Policy Analyst\nMinistry of Health\nToronto (ON)\nPosted 2026-11-10\nClosing date: 2026-11-24\n$78,000 - $98,000 per year"},
+            {"href": "https://www.gojobs.gov.on.ca/Apply.aspx?JobID=212345&Language=English", "title": "Policy Analyst", "row": ""},
+            {"href": "https://www.gojobs.gov.on.ca/Apply.aspx?JobID=212346", "title": "Apply", "row": ""},
+        ]
+        jobs = gojobs.parse_rows(items)
+        self.assertEqual(len(jobs), 1)
+        job = jobs[0]
+        self.assertEqual(job["title"], "Policy Analyst")
+        self.assertEqual(job["employer"], "Ministry of Health")
+        self.assertEqual(job["location"], "Toronto (ON)")
+        self.assertEqual(job["closing"], "2026-11-24")
+        self.assertEqual(job["posted"], "2026-11-10")
+        self.assertEqual(job["region"], "Ontario")
+        self.assertIn("78,000", job["salary"])
+
+    def test_challenge_is_reported_not_bypassed(self):
+        from scripts.govjobs.common import has_access_challenge
+        self.assertTrue(has_access_challenge("<title>Radware Captcha Page</title> captcha.perfdrive.com"))
+
+    def test_missing_playwright_is_a_status_not_a_crash(self):
+        import sys
+        saved = sys.modules.get("playwright.sync_api")
+        sys.modules["playwright.sync_api"] = None  # makes the import fail
+        try:
+            jobs, status = gojobs.collect()
+        finally:
+            if saved is None: sys.modules.pop("playwright.sync_api", None)
+            else: sys.modules["playwright.sync_api"] = saved
+        self.assertEqual(jobs, [])
+        self.assertEqual(status["status"], "unavailable")
 
 
 class MergeTests(unittest.TestCase):

@@ -15,7 +15,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from . import jobbank, portals
+from . import gojobs, jobbank, portals
 from .common import TODAY
 
 OUTPUT = Path(__file__).resolve().parents[2] / "data" / "jobs.json"
@@ -81,10 +81,14 @@ def collect_all():
         portal_futures = [pool.submit(portals.collect_portal, s) for s in portals.SOURCES]
         # Job Bank groups run one after another to stay polite to a public service.
         bank_future = pool.submit(lambda: [jobbank.collect_group(g) for g in jobbank.GROUPS])
+        gojobs_future = pool.submit(gojobs.collect)
         for future in portal_futures:
             found, status = future.result()
             jobs.extend(found)
             statuses.append(status)
+        found, status = gojobs_future.result()
+        jobs.extend(found)
+        statuses.append(status)
         for found, status in bank_future.result():
             jobs.extend(found)
             statuses.append(status)
