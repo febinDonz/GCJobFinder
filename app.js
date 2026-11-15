@@ -32,21 +32,7 @@
     not_run: ["Waiting for the first refresh", ""],
   };
   const PORTALS = [
-    ["GC Jobs, federal public service", "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true"],
     ["Job Bank, Government of Canada", "https://www.jobbank.gc.ca/"],
-    ["Ontario Public Service (GOjobs)", "https://www.gojobs.gov.on.ca/"],
-    ["BC Public Service", "https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings"],
-    ["Alberta Public Service", "https://jobpostings.alberta.ca/"],
-    ["Government of Saskatchewan", "https://careers.saskatchewan.ca/"],
-    ["Manitoba Government", "https://jobsearch.gov.mb.ca/"],
-    ["Quebec Public Service", "https://recrutement.carrieres.gouv.qc.ca/"],
-    ["Government of New Brunswick", "https://www.ere.gnb.ca/competition.aspx?culture=en-CA"],
-    ["Government of Nova Scotia", "https://jobs.novascotia.ca/"],
-    ["Government of Prince Edward Island", "https://www.princeedwardisland.ca/en/topic/employment-opportunities"],
-    ["Government of Newfoundland and Labrador", "https://www.hiring.gov.nl.ca/Competitions/Public"],
-    ["Government of Yukon", "https://yukon.ca/en/employment"],
-    ["Government of the Northwest Territories", "https://www.gov.nt.ca/careers/en/search/job"],
-    ["Government of Nunavut", "https://gov.nu.ca/en/careers"],
     ["Job Bank open data, monthly postings (Open Government Licence)", "https://open.canada.ca/data/en/dataset/ea639e28-c0fc-48bf-b5dd-b8899bd43072"],
     ["GC Jobs open data, advertisements to the public service", "https://open.canada.ca/data/en/dataset/e61c8587-2cc9-4775-b34e-f1041ad00410"],
   ];
@@ -166,15 +152,12 @@
     const make = (code, label, flag, n, col, row, wide) => el("button", {
       type: "button", class: `tile${wide ? " wide" : ""}${n === 0 ? " zero" : ""}`, style: place(col, row),
       "aria-pressed": String(code === "" ? state.region === "" : state.region === code),
-      "aria-label": `${label}, ${plural(n, "posting")}`, title: label,
+      "aria-label": `${label}, ${plural(n, "posting")}`, title: `${label} (${n.toLocaleString()})`,
       onclick: () => (code === "" ? (state.region = "", shown = PAGE, render()) : toggle(code)),
     },
       wide
-        ? [el("img", { src: flagSrc(flag), alt: "", width: "30", height: "20" }),
-           el("span", { class: "tile-text" }, el("span", { class: "tile-code", text: label }), el("span", { class: "tile-n", text: `${n.toLocaleString()} jobs` }))]
-        : [el("span", { class: "tile-top" }, el("span", { class: "tile-code", text: code }), el("img", { src: flagSrc(flag), alt: "", width: "26", height: "17" })),
-           el("span", { class: "tile-n", text: n.toLocaleString() })],
-      code === "" || wide ? null : el("span", { class: "tile-bar", style: `width:${Math.round((n / max) * 100)}%` }));
+        ? [el("img", { src: flagSrc(flag), alt: "", width: "32", height: "21" }), el("span", { class: "tile-code", text: label })]
+        : el("img", { src: flagSrc(flag), alt: "", width: "44", height: "29" }));
     box.append(make("", "All Canada", "canada", total, 1, 3, true));
     box.lastChild.style.gridColumn = "1 / 3";
     box.append(make("CA", "Canada-wide", "canada", counts.CA || 0, 3, 3, true));
