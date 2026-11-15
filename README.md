@@ -1,39 +1,62 @@
-# GCJobFinder
+# Canada public sector jobs
 
-Government Careers Canada is a responsive, static job-discovery portal for exploring
-representative federal, provincial, and territorial government job opportunities
-across Canada.
+A static website listing federal, provincial and territorial government jobs in
+one searchable page. A scheduled GitHub Action collects postings twice a day
+into `data/jobs.json` and redeploys the site to GitHub Pages.
 
-## Run locally
+## Deploy
 
-Open `index.html` in a browser, or serve this directory with any static file server.
+1. Create a GitHub repository and push this folder to `main`.
+2. Settings, Pages, Source: **GitHub Actions**.
+3. Run the **Refresh jobs and deploy** workflow once (Actions tab, Run workflow).
+4. Open the **Where the postings come from** table on the live site. It shows
+   what each source actually returned on that run.
 
-## Live site
+Run locally: `python3 -m http.server` and open http://localhost:8000.
+Refresh data locally: `python3 -m scripts.govjobs.run`. Tests: `python3 -m unittest discover -s tests -t .`
 
-https://febindonz.github.io/GCJobFinder/
+## Sources
 
-GitHub Actions refreshes the public job feed daily at 07:00 UTC, and also runs
-when the feed updater changes. A changed feed triggers a Pages deployment.
-The updater checks the configured federal, provincial, and
-territorial career portals, and records the source status in its workflow log.
-Recent successful runs have collected listings from GC Jobs, BC, Alberta,
-Saskatchewan, Manitoba, Québec, New Brunswick, Nova Scotia, and the Northwest
-Territories. Other configured portals are still checked, but may block automated
-access or not expose a public listing feed; source availability can also vary.
-Where a portal exposes a stable posting URL, job cards open that specific
-posting. If a portal only exposes a search/listing page or blocks automated
-access, its status is reported and the card links to the official listings page
-instead. The site uses the existing examples only if no live feed is available.
-The home-page portal panel links directly to the official federal, provincial,
-and territorial career sites. It uses public-domain jurisdiction flag artwork
-from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_and_territories_of_Canada)
-for identification; these are flags, not government wordmark logos. An empty
-regional feed is not evidence that the official portal has no vacancies.
-The updater submits the Ontario careers search form to collect its current
-results. If the portal returns a Radware CAPTCHA to the updater environment,
-Ontario listings cannot be refreshed; the updater does not bypass that access
-control. Selecting Ontario offers a direct link to its official careers
-portal, and missing feed data does not mean the portal has no vacancies.
+| Level | Source | How |
+|---|---|---|
+| Federal | GC Jobs | Portal listing (links to the GC Jobs search, not each poster) |
+| Federal | Job Bank, by employer | Search results pages, one link per posting |
+| BC, AB, SK, MB, NS, NWT | Official provincial / territorial portals | Parsers carried over from GCJobFinder, now uncapped (500 per source) |
+| QC, NB, NL, PEI, YT, NU | Official portals | Best effort; several block or hide listings from bots |
+| **Ontario** | Job Bank, employer "Ontario Public Service" | See below |
 
-Search, government-level and region filters, sorting, region shortcuts, and
-saved jobs work in the browser. Saved jobs use browser local storage.
+### Ontario
+
+GOjobs (`gojobs.gov.on.ca`) returns a Radware CAPTCHA to automated clients,
+including GitHub Actions runners. This project does not bypass that. Instead it
+reads the Ontario Public Service postings listed on Job Bank. Those are the
+ones Ontario cross-posts there, which can be fewer than GOjobs lists, so the
+site links to GOjobs for the full list.
+
+### Not used yet
+
+- **Job Bank monthly open data CSV** (Open Government Licence, open.canada.ca):
+  complete and stable, but published monthly and only covers postings Job Bank
+  carries. Good for trend analysis, not a live board.
+- **GC Jobs "Advertisements to the Public Service" open data**: quarterly
+  updates, so it lags behind the live portal.
+
+## How failures are handled
+
+- Every source reports a status (`ok`, `blocked_or_challenge`, `unavailable`, ...).
+- A failing source keeps its previous postings for up to 7 days and is marked on
+  the page. If nothing at all is collected, `data/jobs.json` is left untouched.
+- Postings past their closing date are dropped. The same posting seen through
+  two sources is shown once, preferring the official portal.
+- Job Bank is read politely: `robots.txt` is honoured, one request per second.
+
+## Adding or fixing a source
+
+- Portal with its own listing: add a tuple to `SOURCES` and a `parse_*`
+  function in `scripts/govjobs/portals.py`.
+- Another employer on Job Bank: add a group in `scripts/govjobs/jobbank.py`.
+
+The Job Bank result parser was written from the structure of the result pages
+and tested against a synthetic card, not a captured page. If the Ontario row
+shows "Reached, but no postings could be read" after the first run, its
+selectors in `parse_results` are what to adjust.
