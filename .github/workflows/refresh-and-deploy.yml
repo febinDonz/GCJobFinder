@@ -77,6 +77,8 @@ jobs:
           mkdir _site
           cp index.html styles.css app.js _site/
           cp -r data assets _site/
+          # Version the CSS/JS links so browsers never mix new HTML with old cached files.
+          sed -i "s/__V__/${GITHUB_SHA}/g" _site/index.html
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
