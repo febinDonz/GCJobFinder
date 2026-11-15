@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T22:49:58+00:00",
+ "generatedAt": "2026-11-15T22:57:04+00:00",
  "jobs": [
   {
    "id": "gc-jobs-caa4769d9fb9",
@@ -5681,8 +5681,9 @@
    "government": "Provincial",
    "region": "Newfoundland and Labrador",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Newfoundland+and+Labrador&sort=D&page=1",
-   "status": "no_listings_parsed",
+   "status": "unavailable",
    "count": 0,
+   "error": "HTTP Error 503: Service Unavailable",
    "lastOk": ""
   },
   {
@@ -5691,9 +5692,11 @@
    "government": "Provincial",
    "region": "Nova Scotia",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Nova+Scotia&sort=D&page=1",
-   "status": "ok",
-   "count": 126,
-   "lastOk": "2026-11-15"
+   "status": "unavailable",
+   "count": 0,
+   "error": "HTTP Error 503: Service Unavailable",
+   "lastOk": "2026-11-15",
+   "carried": 79
   },
   {
    "key": "ontario-gojobs",
@@ -5701,7 +5704,7 @@
    "government": "Provincial",
    "region": "Ontario",
    "portalUrl": "https://www.gojobs.gov.on.ca/Search.aspx",
-   "status": "blocked_or_challenge",
+   "status": "no_listings_parsed",
    "count": 0,
    "lastOk": ""
   },
@@ -5721,8 +5724,9 @@
    "government": "Provincial",
    "region": "Prince Edward Island",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Prince+Edward+Island&sort=D&page=1",
-   "status": "no_listings_parsed",
+   "status": "unavailable",
    "count": 0,
+   "error": "HTTP Error 503: Service Unavailable",
    "lastOk": ""
   },
   {
@@ -5771,8 +5775,9 @@
    "government": "Territorial",
    "region": "Nunavut",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Nunavut&sort=D&page=1",
-   "status": "no_listings_parsed",
+   "status": "unavailable",
    "count": 0,
+   "error": "HTTP Error 503: Service Unavailable",
    "lastOk": ""
   },
   {
