@@ -48,6 +48,7 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Refresh postings
+        timeout-minutes: 45
         # A failed refresh keeps the last good data/jobs.json, so the site still deploys.
         continue-on-error: true
         env:

@@ -27,8 +27,10 @@ from .common import MAX_JOBS_PER_SOURCE, clean, has_access_challenge, make_job, 
 
 SEARCH_URL = "https://www.gojobs.gov.on.ca/Search.aspx"
 BASE = "https://www.gojobs.gov.on.ca/"
-MAX_PAGES = 25
-PAUSE_SECONDS = 1.5
+MAX_PAGES = 80
+PAUSE_SECONDS = 60          # one results page per minute, to stay polite
+TIME_BUDGET_SECONDS = 28 * 60
+RESULTS_WAIT_SECONDS = 120
 FILTER_IDS = ("ucRegion", "ucCity", "ucCategory", "ucCareers")
 
 SOURCE = ("ontario-gojobs", "Ontario Public Service (GOjobs)", "Provincial", "Ontario", SEARCH_URL, "gojobs")
@@ -182,6 +184,29 @@ def _signature(page) -> tuple:
     return tuple(job_id_from_url(urllib.parse.urljoin(BASE, i.get("href", ""))) or i.get("href", "") for i in items)
 
 
+def _wait_for_results(page) -> None:
+    """After Search the page shows 'Loading' for a while; wait until it is gone."""
+    deadline = time.time() + RESULTS_WAIT_SECONDS
+    while time.time() < deadline:
+        try:
+            page.wait_for_load_state("networkidle", timeout=8000)
+        except Exception:
+            pass
+        text = _visible_text(page)
+        if "Loading" not in text[:200] and _signature(page):
+            return
+        time.sleep(2)
+
+
+def _log_links(page) -> None:
+    """Diagnostics: which links exist, so the job-link pattern can be corrected."""
+    try:
+        links = page.evaluate("""() => [...document.querySelectorAll('a[href]')].map(a => (a.getAttribute('href')||'').slice(0,90) + ' | ' + (a.innerText||'').trim().slice(0,40))""")
+    except Exception:
+        return
+    print(f"[gojobs] {len(links)} links; sample: {links[:12]} ... {links[-12:]}", flush=True)
+
+
 def _next_page(page, current: int) -> bool:
     """Go to results page current+1 and wait for the listing to change.
 
@@ -229,6 +254,7 @@ def collect(playwright_factory=None):
         return [], {**base, "status": "unavailable", "count": 0,
                     "error": "playwright is not installed in this environment"}
     jobs = {}
+    started = time.time()
     try:
         with sync_playwright() as pw:
             browser = pw.chromium.launch()
@@ -246,8 +272,9 @@ def collect(playwright_factory=None):
                 if not _press_search(page):
                     return [], {**base, "status": "no_listings_parsed", "count": 0,
                                 "error": "could not find the Search button"}
-                page.wait_for_load_state("networkidle")
+                _wait_for_results(page)
                 _log(page, "after Search")
+                _log_links(page)
                 for number in range(1, MAX_PAGES + 1):
                     if _challenge(page):
                         _save_debug(page, "gojobs-challenge")
@@ -262,7 +289,8 @@ def collect(playwright_factory=None):
                     for job in fresh:
                         jobs[job["id"]] = job
                     print(f"[gojobs] page {number}: {len(fresh)} new, {len(jobs)} total", flush=True)
-                    if len(jobs) >= MAX_JOBS_PER_SOURCE or not _next_page(page, number):
+                    if (len(jobs) >= MAX_JOBS_PER_SOURCE or time.time() - started > TIME_BUDGET_SECONDS
+                            or not _next_page(page, number)):
                         break
                     time.sleep(PAUSE_SECONDS)
             finally:
