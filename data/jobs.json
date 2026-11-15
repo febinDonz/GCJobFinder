@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T22:37:03+00:00",
+ "generatedAt": "2026-11-15T22:49:58+00:00",
  "jobs": [
   {
    "id": "gc-jobs-caa4769d9fb9",
@@ -422,8 +422,8 @@
    "lastSeen": "2026-11-15"
   },
   {
-   "id": "nwt-b540081c6c53",
-   "title": "Programs Advisor $101k - $121k Norman Wells Closes: Nov 26, 2026 Posted 2 days ago",
+   "id": "nwt-f8b847a1bf91",
+   "title": "Programs Advisor $101k - $121k Norman Wells Closes: Nov 26, 2026 Posted 3 days ago",
    "employer": "Government of the Northwest Territories",
    "government": "Territorial",
    "region": "Northwest Territories",
@@ -437,7 +437,7 @@
    "sourceLabel": "Government of the Northwest Territories",
    "arrangement": "On-site",
    "student": false,
-   "description": "Programs Advisor $101k - $121k Norman Wells Closes: Nov 26, 2026 Posted 2 days ago",
+   "description": "Programs Advisor $101k - $121k Norman Wells Closes: Nov 26, 2026 Posted 3 days ago",
    "firstSeen": "2026-11-15",
    "lastSeen": "2026-11-15"
   },
@@ -5569,9 +5569,11 @@
    "government": "Federal",
    "region": "Canada",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Canada&sort=D&page=1",
-   "status": "ok",
-   "count": 46,
-   "lastOk": "2026-11-15"
+   "status": "unavailable",
+   "count": 0,
+   "error": "HTTP Error 503: Service Unavailable",
+   "lastOk": "2026-11-15",
+   "carried": 45
   },
   {
    "key": "gc-jobs",
