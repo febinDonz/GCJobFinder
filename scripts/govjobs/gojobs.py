@@ -145,16 +145,77 @@ def _press_search(page) -> bool:
     return False
 
 
+def _visible_text(page) -> str:
+    try:
+        return page.inner_text("body", timeout=5000)
+    except Exception:
+        return ""
+
+
+def _challenge(page) -> bool:
+    """True only when the text a person would see is a challenge page.
+
+    Looking at raw HTML gave false alarms: ordinary pages mention "captcha" or
+    "access denied" inside scripts. A real challenge page has little visible
+    text and says so in it.
+    """
+    text = _visible_text(page)
+    return len(text) < 1500 and has_access_challenge(text)
+
+
+def _log(page, tag: str):
+    """Print what the browser sees, so a failed run can be diagnosed from the log."""
+    text = re.sub(r"\s+", " ", _visible_text(page))[:500]
+    try:
+        title = page.title()
+    except Exception:
+        title = "?"
+    print(f"[gojobs] {tag}: url={page.url} title={title!r} text={text!r}", flush=True)
+
+
+def _signature(page) -> tuple:
+    """Job ids currently listed; used to tell when a page turn has finished."""
+    try:
+        items = page.evaluate(COLLECT_JS, JOB_LINK.pattern)
+    except Exception:
+        return ()
+    return tuple(job_id_from_url(urllib.parse.urljoin(BASE, i.get("href", ""))) or i.get("href", "") for i in items)
+
+
 def _next_page(page, current: int) -> bool:
-    """Click the next results page. WebForms pagers use numbered links or Next."""
-    for name in (str(current + 1), "Next", ">", "›", "»"):
-        link = page.get_by_role("link", name=re.compile(rf"^\s*{re.escape(name)}\s*$", re.I))
+    """Go to results page current+1 and wait for the listing to change.
+
+    WebForms pagers render numbered links (1 2 3 ... ), a "..." link to the next
+    block of numbers, and sometimes Next/Last. Each click is a postback, so the
+    page is "done" only when the list of job ids differs from before.
+    """
+    before = _signature(page)
+    wanted = str(current + 1)
+    candidates = [
+        page.locator("a", has_text=re.compile(rf"^\s*{wanted}\s*$")),      # numbered link
+        page.locator("a[href*='Page$" + wanted + "']"),                        # __doPostBack('...','Page$N')
+        page.get_by_role("link", name=re.compile(r"^\s*(next|>|›|»|next page)\s*$", re.I)),
+        page.locator("a", has_text=re.compile(r"^\s*\.\.\.\s*$")).last,      # next block of page numbers
+        page.locator("input[type=submit][value*='Next' i], input[type=image][alt*='Next' i]"),
+    ]
+    for link in candidates:
         try:
-            if link.count():
-                link.first.click()
-                return True
+            if not link.count():
+                continue
+            link.first.scroll_into_view_if_needed()
+            link.first.click()
         except Exception:
             continue
+        deadline = time.time() + 20
+        while time.time() < deadline:
+            try:
+                page.wait_for_load_state("networkidle", timeout=5000)
+            except Exception:
+                pass
+            if _signature(page) not in (before, ()):
+                return True
+            time.sleep(0.5)
+        # the click changed nothing; try the next kind of control
     return False
 
 
@@ -176,7 +237,8 @@ def collect(playwright_factory=None):
                                            locale="en-CA").new_page()
                 page.set_default_timeout(30000)
                 page.goto(SEARCH_URL, wait_until="networkidle")
-                if has_access_challenge(page.content()):
+                _log(page, "search page")
+                if _challenge(page):
                     _save_debug(page, "gojobs-challenge")
                     return [], {**base, "status": "blocked_or_challenge", "count": 0}
                 page.evaluate(SELECT_ALL_JS, list(FILTER_IDS))
@@ -185,8 +247,9 @@ def collect(playwright_factory=None):
                     return [], {**base, "status": "no_listings_parsed", "count": 0,
                                 "error": "could not find the Search button"}
                 page.wait_for_load_state("networkidle")
+                _log(page, "after Search")
                 for number in range(1, MAX_PAGES + 1):
-                    if has_access_challenge(page.content()):
+                    if _challenge(page):
                         _save_debug(page, "gojobs-challenge")
                         status = "blocked_or_challenge"
                         return list(jobs.values()), {**base, "status": status if not jobs else "ok", "count": len(jobs)}
@@ -198,9 +261,9 @@ def collect(playwright_factory=None):
                         break
                     for job in fresh:
                         jobs[job["id"]] = job
+                    print(f"[gojobs] page {number}: {len(fresh)} new, {len(jobs)} total", flush=True)
                     if len(jobs) >= MAX_JOBS_PER_SOURCE or not _next_page(page, number):
                         break
-                    page.wait_for_load_state("networkidle")
                     time.sleep(PAUSE_SECONDS)
             finally:
                 browser.close()
