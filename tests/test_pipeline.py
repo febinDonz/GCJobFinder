@@ -48,6 +48,22 @@ class ParseTests(unittest.TestCase):
         self.assertIn("27.88", first["salary"])
         self.assertNotIn("jsessionid", first["url"])
 
+    def test_source_labels_are_never_the_title(self):
+        card = """<a href="/jobsearch/jobposting/50500001">
+          <span>This job was posted directly by the employer on Job Bank.</span>
+          <h3>Librarian</h3><ul><li>October 20, 2026</li><li>Ontario Public Service</li>
+          <li>Maidstone (ON)</li></ul></a>
+          <a href="/jobsearch/jobposting/50500002"><span>Jobs.gc.ca</span>
+          <h3>Border services officer</h3><ul><li>October 20, 2026</li>
+          <li>Canada Border Services Agency</li><li>Ottawa (ON)</li></ul></a>"""
+        jobs, _ = jobbank.parse_results(card, GROUP, "Ontario Public Service", SOURCE)
+        self.assertEqual(sorted(j["title"] for j in jobs), ["Border services officer", "Librarian"])
+
+    def test_label_only_card_is_dropped(self):
+        card = '<a href="/jobsearch/jobposting/50500003"><span>Jobs.gc.ca</span></a>'
+        jobs, _ = jobbank.parse_results(card, GROUP, "Ontario Public Service", SOURCE)
+        self.assertEqual(jobs, [])
+
 
 class MergeTests(unittest.TestCase):
     def job(self, **over):

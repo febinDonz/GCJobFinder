@@ -61,6 +61,11 @@ NOISE = re.compile(
     r"^(new|on[- ]site|hybrid|remote|telework|posted on job bank|direct apply|"
     r"save to favou?rites?|temporary|permanent|full time|part time|\d+ days? ago)$", re.I)
 SOURCE_LINE = re.compile(r"^(?:job number|source|job bank|whoplusyou)\b", re.I)
+# Source labels that sit beside the real title in each card. Seen in the first live run:
+# "This job was posted directly by the employer on Job Bank." and "Jobs.gc.ca".
+LABEL_LINE = re.compile(
+    r"posted directly|posted by|this job was|jobs\.gc\.ca|^\w+\.gc\.ca$|"
+    r"^(?:apply|view|details|more info|share|print)\b|^job bank\b|^#?\d{6,}$", re.I)
 
 
 class _CardParser(HTMLParser):
@@ -104,7 +109,8 @@ def parse_results(page: str, group: dict, employer_query: str, source: tuple):
     jobs = []
     for job_id, card in best.items():
         lines = [clean(line) for line in card["lines"] if clean(line)]
-        lines = [line for line in lines if not NOISE.match(line) and not SOURCE_LINE.match(line)]
+        lines = [line for line in lines
+                 if not NOISE.match(line) and not SOURCE_LINE.match(line) and not LABEL_LINE.search(line)]
         date = next((m.group(0) for m in (DATE_RE.search(line) for line in lines) if m), "")
         place = next((line for line in lines if PLACE_RE.search(line)), "")
         place = re.sub(r"^Location\s*:?\s*", "", place)
