@@ -138,7 +138,7 @@
 
   const SVG_NS = "http://www.w3.org/2000/svg";
   const FLAG_W = 33, FLAG_H = 22; // 25% smaller than the first tile version
-  const CROP_TOP = 40;            // trims the far-north tip of the Arctic islands
+  const CROP_TOP = 110;           // trims the far-north tip of the Arctic islands
   function svg(tag, attrs, ...kids) {
     const node = document.createElementNS(SVG_NS, tag);
     for (const [key, value] of Object.entries(attrs || {})) node.setAttribute(key, value);
