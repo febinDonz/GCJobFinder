@@ -4,90 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Canada public sector jobs</title>
-<meta name="description" content="Federal, provincial and territorial government job postings in one searchable list, refreshed twice a day from official portals.">
-<link rel="icon" href="data:,">
+<meta name="description" content="Federal, provincial and territorial government job postings in one searchable place, refreshed twice a day from official portals.">
+<link rel="icon" href="assets/flags/canada.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#results">Skip to results</a>
 
-<header class="top">
+<header class="hero">
   <div class="wrap">
-    <h1>Canada public sector jobs</h1>
-    <p class="lede" id="lede">Loading postings&hellip;</p>
-    <p class="fresh" id="freshness"></p>
+    <div class="brand"><img src="assets/flags/canada.svg" alt="" width="34" height="23"><span>Canada public sector jobs</span></div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Every government job in Canada, in one place.</h1>
+        <p class="lede" id="lede">Loading postings&hellip;</p>
+        <div class="search">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+          <label class="sr" for="q">Search by job title, employer or place</label>
+          <input id="q" type="search" placeholder="Search a job title, department or city" autocomplete="off">
+        </div>
+        <p class="fresh" id="freshness"></p>
+      </div>
+      <div class="tiles-wrap">
+        <div class="tiles" id="regions" role="group" aria-label="Filter by province or territory"></div>
+      </div>
+    </div>
   </div>
 </header>
 
-<section class="wrap portals-card" aria-labelledby="portalsTitle">
-  <div class="portals-head">
-    <h2 id="portalsTitle">Official career portals</h2>
-    <p>Federal, provincial &amp; territorial</p>
-  </div>
-  <nav class="portal-grid" aria-label="Official government career portals">
-      <a class="portal-link" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true" target="_blank" rel="noopener noreferrer" title="Federal government jobs">
-        <img src="assets/flags/canada.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Federal government</span><span class="portal-short">Federal</span></span>
-      </a>
-      <a class="portal-link" href="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings" target="_blank" rel="noopener noreferrer" title="British Columbia">
-        <img src="assets/flags/british-columbia.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">British Columbia</span><span class="portal-short">BC</span></span>
-      </a>
-      <a class="portal-link" href="https://jobpostings.alberta.ca/" target="_blank" rel="noopener noreferrer" title="Alberta">
-        <img src="assets/flags/alberta.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Alberta</span><span class="portal-short">AB</span></span>
-      </a>
-      <a class="portal-link" href="https://careers.saskatchewan.ca/" target="_blank" rel="noopener noreferrer" title="Saskatchewan">
-        <img src="assets/flags/saskatchewan.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Saskatchewan</span><span class="portal-short">SK</span></span>
-      </a>
-      <a class="portal-link" href="https://jobsearch.gov.mb.ca/" target="_blank" rel="noopener noreferrer" title="Manitoba">
-        <img src="assets/flags/manitoba.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Manitoba</span><span class="portal-short">MB</span></span>
-      </a>
-      <a class="portal-link" href="https://www.gojobs.gov.on.ca/Search.aspx" target="_blank" rel="noopener noreferrer" title="Ontario Public Service">
-        <img src="assets/flags/ontario.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Ontario</span><span class="portal-short">ON</span></span>
-      </a>
-      <a class="portal-link" href="https://recrutement.carrieres.gouv.qc.ca/" target="_blank" rel="noopener noreferrer" title="Québec">
-        <img src="assets/flags/quebec.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Québec</span><span class="portal-short">QC</span></span>
-      </a>
-      <a class="portal-link" href="https://www.ere.gnb.ca/competition.aspx?culture=en-CA" target="_blank" rel="noopener noreferrer" title="New Brunswick">
-        <img src="assets/flags/new-brunswick.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">New Brunswick</span><span class="portal-short">NB</span></span>
-      </a>
-      <a class="portal-link" href="https://jobs.novascotia.ca/" target="_blank" rel="noopener noreferrer" title="Nova Scotia">
-        <img src="assets/flags/nova-scotia.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Nova Scotia</span><span class="portal-short">NS</span></span>
-      </a>
-      <a class="portal-link" href="https://www.princeedwardisland.ca/en/topic/employment-opportunities" target="_blank" rel="noopener noreferrer" title="Prince Edward Island">
-        <img src="assets/flags/prince-edward-island.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Prince Edward Island</span><span class="portal-short">PEI</span></span>
-      </a>
-      <a class="portal-link" href="https://www.hiring.gov.nl.ca/Competitions/Public" target="_blank" rel="noopener noreferrer" title="Newfoundland and Labrador">
-        <img src="assets/flags/newfoundland-and-labrador.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Newfoundland & Labrador</span><span class="portal-short">NL</span></span>
-      </a>
-      <a class="portal-link" href="https://yukon.ca/en/employment" target="_blank" rel="noopener noreferrer" title="Yukon">
-        <img src="assets/flags/yukon.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Yukon</span><span class="portal-short">YT</span></span>
-      </a>
-      <a class="portal-link" href="https://www.gov.nt.ca/careers/en/search/job" target="_blank" rel="noopener noreferrer" title="Northwest Territories">
-        <img src="assets/flags/northwest-territories.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Northwest Territories</span><span class="portal-short">NT</span></span>
-      </a>
-      <a class="portal-link" href="https://gov.nu.ca/en/careers" target="_blank" rel="noopener noreferrer" title="Nunavut">
-        <img src="assets/flags/nunavut.svg" alt="" width="30" height="20" loading="lazy">
-        <span><span class="portal-full">Nunavut</span><span class="portal-short">NU</span></span>
-      </a>
-  </nav>
-  <p class="portals-foot">Official career sites, organized by jurisdiction. Links open the government's own site in a new tab.</p>
-</section>
-
-<nav class="strip" aria-label="Province or territory">
-  <div class="wrap">
-    <div class="regions" id="regions"></div>
+<nav class="wrap portals" aria-label="Official government career portals">
+  <span class="portals-label">Official portals</span>
+  <div class="chips">
+      <a class="chip" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true" target="_blank" rel="noopener noreferrer"><img src="assets/flags/canada.svg" alt="" width="24" height="16" loading="lazy"><span>Federal</span></a>
+      <a class="chip" href="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings" target="_blank" rel="noopener noreferrer"><img src="assets/flags/british-columbia.svg" alt="" width="24" height="16" loading="lazy"><span>British Columbia</span></a>
+      <a class="chip" href="https://jobpostings.alberta.ca/" target="_blank" rel="noopener noreferrer"><img src="assets/flags/alberta.svg" alt="" width="24" height="16" loading="lazy"><span>Alberta</span></a>
+      <a class="chip" href="https://careers.saskatchewan.ca/" target="_blank" rel="noopener noreferrer"><img src="assets/flags/saskatchewan.svg" alt="" width="24" height="16" loading="lazy"><span>Saskatchewan</span></a>
+      <a class="chip" href="https://jobsearch.gov.mb.ca/" target="_blank" rel="noopener noreferrer"><img src="assets/flags/manitoba.svg" alt="" width="24" height="16" loading="lazy"><span>Manitoba</span></a>
+      <a class="chip" href="https://www.gojobs.gov.on.ca/Search.aspx" target="_blank" rel="noopener noreferrer"><img src="assets/flags/ontario.svg" alt="" width="24" height="16" loading="lazy"><span>Ontario</span></a>
+      <a class="chip" href="https://recrutement.carrieres.gouv.qc.ca/" target="_blank" rel="noopener noreferrer"><img src="assets/flags/quebec.svg" alt="" width="24" height="16" loading="lazy"><span>Québec</span></a>
+      <a class="chip" href="https://www.ere.gnb.ca/competition.aspx?culture=en-CA" target="_blank" rel="noopener noreferrer"><img src="assets/flags/new-brunswick.svg" alt="" width="24" height="16" loading="lazy"><span>New Brunswick</span></a>
+      <a class="chip" href="https://jobs.novascotia.ca/" target="_blank" rel="noopener noreferrer"><img src="assets/flags/nova-scotia.svg" alt="" width="24" height="16" loading="lazy"><span>Nova Scotia</span></a>
+      <a class="chip" href="https://www.princeedwardisland.ca/en/topic/employment-opportunities" target="_blank" rel="noopener noreferrer"><img src="assets/flags/prince-edward-island.svg" alt="" width="24" height="16" loading="lazy"><span>Prince Edward Island</span></a>
+      <a class="chip" href="https://www.hiring.gov.nl.ca/Competitions/Public" target="_blank" rel="noopener noreferrer"><img src="assets/flags/newfoundland-and-labrador.svg" alt="" width="24" height="16" loading="lazy"><span>Newfoundland & Labrador</span></a>
+      <a class="chip" href="https://yukon.ca/en/employment" target="_blank" rel="noopener noreferrer"><img src="assets/flags/yukon.svg" alt="" width="24" height="16" loading="lazy"><span>Yukon</span></a>
+      <a class="chip" href="https://www.gov.nt.ca/careers/en/search/job" target="_blank" rel="noopener noreferrer"><img src="assets/flags/northwest-territories.svg" alt="" width="24" height="16" loading="lazy"><span>Northwest Territories</span></a>
+      <a class="chip" href="https://gov.nu.ca/en/careers" target="_blank" rel="noopener noreferrer"><img src="assets/flags/nunavut.svg" alt="" width="24" height="16" loading="lazy"><span>Nunavut</span></a>
   </div>
 </nav>
 
@@ -95,11 +59,6 @@
   <details class="filters" id="filters" open>
     <summary>Filters</summary>
     <form id="filterForm" autocomplete="off" onsubmit="return false">
-      <div class="field">
-        <label for="q">Search title, employer or place</label>
-        <input id="q" type="search" placeholder="Analyst, Toronto, nurse">
-      </div>
-
       <fieldset class="field">
         <legend>Level of government</legend>
         <label class="choice"><input type="radio" name="level" value="" checked> Any</label>
@@ -155,12 +114,14 @@
   <h3>Ontario</h3>
   <p class="note">Ontario postings come from GOjobs, the official Ontario Public Service portal, read by pressing its Search button with every filter selected. Job Bank adds the Ontario postings it carries. If GOjobs shows a CAPTCHA to the refresh, this site stops and reports it above; it does not try to get around it.</p>
 
-  <h3>Official portals</h3>
-  <ul class="portals" id="portals"></ul>
+  <h3>More sources</h3>
+  <ul class="portals-list" id="portals"></ul>
 </section>
 
-<footer class="wrap foot">
-  <p>Unofficial. Not affiliated with any government. Every posting links to the official site, which has the final word on dates, pay and eligibility.</p>
+<footer class="foot">
+  <div class="wrap">
+    <p>Unofficial. Not affiliated with any government. Every posting links to the official site, which has the final word on dates, pay and eligibility.</p>
+  </div>
 </footer>
 
 <script src="app.js"></script>

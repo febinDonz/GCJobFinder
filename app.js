@@ -9,6 +9,14 @@
     ["NT", "Northwest Territories"], ["NU", "Nunavut"], ["CA", "Canada"],
   ];
   const NAME_BY_CODE = Object.fromEntries(REGIONS);
+  const FLAG = { BC: "british-columbia", AB: "alberta", SK: "saskatchewan", MB: "manitoba", ON: "ontario",
+    QC: "quebec", NB: "new-brunswick", NS: "nova-scotia", PE: "prince-edward-island",
+    NL: "newfoundland-and-labrador", YT: "yukon", NT: "northwest-territories", NU: "nunavut", CA: "canada" };
+  /* Tile map: [code, column, row]. Roughly follows the map of Canada. */
+  const TILES = [["YT", 1, 1], ["NT", 2, 1], ["NU", 3, 1], ["NL", 8, 1],
+    ["BC", 1, 2], ["AB", 2, 2], ["SK", 3, 2], ["MB", 4, 2], ["ON", 5, 2], ["QC", 6, 2], ["NB", 7, 2], ["PE", 8, 2],
+    ["NS", 7, 3]];
+  const flagSrc = (name) => `assets/flags/${name}.svg`;
   const LEVELS = ["Federal", "Provincial", "Territorial"];
   const SORTS = ["new", "closing", "title", "employer"];
   const DEFAULTS = { q: "", level: "", region: "", employer: "", sort: "new",
@@ -153,16 +161,26 @@
     const max = Math.max(1, ...Object.values(counts));
     const box = $("#regions");
     box.replaceChildren();
-    const make = (code, name, n, extra) => el("button", {
-      type: "button", class: `rg${extra ? " all" : ""}${n === 0 ? " zero" : ""}`,
-      "aria-pressed": String(state.region === code), "aria-label": `${name}, ${plural(n, "posting")}`, title: name,
-      onclick: () => { state.region = state.region === code ? "" : code; shown = PAGE; render(); },
+    const toggle = (code) => { state.region = state.region === code ? "" : code; shown = PAGE; render(); };
+    const place = (col, row) => `--c:${col};--r:${row}`;
+    const make = (code, label, flag, n, col, row, wide) => el("button", {
+      type: "button", class: `tile${wide ? " wide" : ""}${n === 0 ? " zero" : ""}`, style: place(col, row),
+      "aria-pressed": String(code === "" ? state.region === "" : state.region === code),
+      "aria-label": `${label}, ${plural(n, "posting")}`, title: label,
+      onclick: () => (code === "" ? (state.region = "", shown = PAGE, render()) : toggle(code)),
     },
-      el("span", { class: "rg-code", text: code === "" ? "All" : code === "CA" ? "CA" : code }),
-      el("span", { class: "rg-n", text: n.toLocaleString() }),
-      code === "" ? null : el("span", { class: "rg-bar", style: `width:${Math.round((n / max) * 100)}%` }));
-    box.append(make("", "All of Canada", total, true));
-    for (const [code, name] of REGIONS) box.append(make(code, code === "CA" ? "Canada-wide" : name, counts[code] || 0));
+      wide
+        ? [el("img", { src: flagSrc(flag), alt: "", width: "30", height: "20" }),
+           el("span", { class: "tile-text" }, el("span", { class: "tile-code", text: label }), el("span", { class: "tile-n", text: `${n.toLocaleString()} jobs` }))]
+        : [el("span", { class: "tile-top" }, el("span", { class: "tile-code", text: code }), el("img", { src: flagSrc(flag), alt: "", width: "26", height: "17" })),
+           el("span", { class: "tile-n", text: n.toLocaleString() })],
+      code === "" || wide ? null : el("span", { class: "tile-bar", style: `width:${Math.round((n / max) * 100)}%` }));
+    box.append(make("", "All Canada", "canada", total, 1, 3, true));
+    box.lastChild.style.gridColumn = "1 / 3";
+    box.append(make("CA", "Canada-wide", "canada", counts.CA || 0, 3, 3, true));
+    box.lastChild.style.gridColumn = "3 / 5";
+    for (const [code, col, row] of TILES) box.append(make(code, NAME_BY_CODE[code], FLAG[code], counts[code] || 0, col, row, false));
+    box.append(el("p", { class: "tiles-hint", text: "Pick a province or territory to see only its postings." }));
   }
 
   function renderEmployers() {
@@ -198,10 +216,12 @@
       "aria-label": `${isSaved ? "Remove from saved" : "Save"}: ${job.title}`, text: isSaved ? "Saved" : "Save",
       onclick: (event) => toggleSave(job, event.currentTarget),
     });
+    const flag = job.government === "Federal" ? "canada" : (FLAG[job._code] || "canada");
     return el("li", { class: `job lvl-${job.government.toLowerCase()}` },
+      el("img", { class: "flag", src: flagSrc(flag), alt: "", width: "46", height: "31", loading: "lazy" }),
       el("div", {},
         el("h3", {}, el("a", { href: safeUrl(job.url), target: "_blank", rel: "noopener noreferrer", text: job.title })),
-        el("p", { class: "employer", text: job.employer }),
+        el("p", { class: "employer" }, job.employer, el("span", { class: "lvl-pill", text: job.government })),
         el("ul", { class: "facts" }, facts)),
       el("div", { class: "side" }, el("div", { class: "tags" }, tags), save));
   }
@@ -251,7 +271,9 @@
       const [text, cls] = STATUS_TEXT[s.status] || [s.status, ""];
       const extra = s.carried ? ` Showing ${plural(s.carried, "earlier posting")}.` : "";
       return el("tr", {},
-        el("td", {}, s.portalUrl ? el("a", { href: safeUrl(s.portalUrl), target: "_blank", rel: "noopener noreferrer", text: s.label }) : s.label),
+        el("td", {}, el("span", { class: "src-name" },
+          el("img", { src: flagSrc(s.government === "Federal" ? "canada" : (FLAG[regionCode(s.region)] || "canada")), alt: "", width: "26", height: "17", loading: "lazy" }),
+          s.portalUrl ? el("a", { href: safeUrl(s.portalUrl), target: "_blank", rel: "noopener noreferrer", text: s.label }) : s.label)),
         el("td", { text: s.region === "Canada" ? "Canada-wide" : s.region }),
         el("td", { class: cls, text: text + extra }),
         el("td", { class: "num", text: s.count ? s.count.toLocaleString() : "0" }),
