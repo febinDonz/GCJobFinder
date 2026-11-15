@@ -10,6 +10,7 @@ on:
       - "scripts/**"
       - "index.html"
       - "app.js"
+      - "canada-map.js"
       - "styles.css"
       - "assets/**"
       - ".github/workflows/**"
@@ -75,7 +76,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir _site
-          cp index.html styles.css app.js _site/
+          cp index.html styles.css app.js canada-map.js _site/
           cp -r data assets _site/
           # Version the CSS/JS links so browsers never mix new HTML with old cached files.
           sed -i "s/__V__/${GITHUB_SHA}/g" _site/index.html
