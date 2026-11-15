@@ -50,6 +50,25 @@ h1 { margin: 0; font-size: clamp(1.9rem, 4.2vw, 2.9rem); line-height: 1.05; lett
 .fresh { margin: .25rem 0 0; color: var(--muted); font-size: .92rem; }
 .fresh.warn { color: var(--soon); font-weight: 600; }
 
+/* Official career portals card */
+.portals-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 1.25rem 1.5rem 1rem; margin-bottom: 1.25rem; }
+.portals-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .25rem 1rem; margin-bottom: .9rem; }
+.portals-head h2 { margin: 0; font-size: 1.3rem; }
+.portals-head p { margin: 0; color: var(--muted); font-size: .92rem; }
+.portal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr)); gap: .6rem; }
+.portal-link { display: flex; align-items: center; gap: .6rem; min-width: 0; padding: .65rem .75rem; text-decoration: none; background: color-mix(in srgb, var(--paper) 55%, var(--surface)); border: 1px solid var(--line); border-radius: 10px; font-weight: 600; font-size: .95rem; }
+.portal-link:hover { border-color: var(--ink); background: color-mix(in srgb, var(--provincial) 9%, var(--surface)); }
+.portal-link img { flex: none; width: 30px; height: 20px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px var(--line); }
+.portal-link > span { min-width: 0; line-height: 1.25; overflow-wrap: anywhere; }
+.portal-short { display: none; }
+.portals-foot { margin: .85rem 0 0; color: var(--muted); font-size: .9rem; }
+@media (max-width: 640px) {
+  .portals-card { padding: 1rem; }
+  .portal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .portal-full { display: none; }
+  .portal-short { display: inline; }
+}
+
 /* Jurisdiction strip: the main way to move around */
 .strip { padding-bottom: 1.25rem; }
 .regions { display: flex; overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); scrollbar-width: thin; }

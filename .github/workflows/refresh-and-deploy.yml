@@ -11,6 +11,7 @@ on:
       - "index.html"
       - "app.js"
       - "styles.css"
+      - "assets/**"
       - ".github/workflows/**"
 
 permissions:
@@ -75,7 +76,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html styles.css app.js _site/
-          cp -r data _site/data
+          cp -r data assets _site/
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
