@@ -1,145 +1,665 @@
 {
- "generatedAt": "2026-11-27T19:58:39+00:00",
+ "generatedAt": "2026-11-28T04:46:24+00:00",
  "jobs": [
   {
-   "id": "gc-jobs-b89f3c4e3327",
-   "title": "Open positions — Canadian Security Intelligence Service",
-   "employer": "Canadian Security Intelligence Service",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
+   "id": "alberta-26bc4863c7a9",
+   "title": "Wildfire Crew Leader/Sub Leader Talent Pool",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Various, AB",
+   "salary": "",
+   "posted": "2026-11-28",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Various-Wildfire-Crew-LeaderSub-Leader-Talent-Pool/606647117/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Wildfire Crew Leader/Sub Leader Talent Pool in Various, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-175988668281",
+   "title": "Home Coordinator",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Red Deer, AB",
+   "salary": "",
+   "posted": "2026-11-28",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Red-Deer-Home-Coordinator/604704117/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Home Coordinator in Red Deer, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-b54c25ebf727",
+   "title": "Wildfire Crew Member",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Various, AB",
+   "salary": "",
+   "posted": "2026-11-28",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Various-Wildfire-Crew-Member/606646017/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Wildfire Crew Member in Various, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-b8f548144411",
+   "title": "Maintenance Mechanic",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
    "salary": "",
    "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/100908",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
    "arrangement": "On-site",
    "student": false,
-   "description": "Current openings may be available with Canadian Security Intelligence Service in Canada-wide.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "description": "Maintenance Mechanic This job provides maintenance support for government‑owned and government‑managed buildings, performing a range of building and grounds maintenance duties. Responsibilities include assisting with heating, ventilation, and air conditioning systems, plumbing and electrical work, and completing both indoor and outdoor tasks such as snow removal and lawn care. The position involves operating manual and powered grounds equipment, responding to client service requests, supporting colleagues with repairs, carrying out security procedures, and troubleshooting minor issues. The role requires adherence to safety protocols and legislation, delivery of cleaning services, and maintaining positive, professional interactions with clients and the public. Work is physically demanding and includes sustained physical labour, heavy lifting, and climbing ladders.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
   },
   {
-   "id": "gc-jobs-80a281ff98b6",
-   "title": "Open positions — Defence Construction Canada",
-   "employer": "Defence Construction Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
+   "id": "saskatchewan-094985f0b596",
+   "title": "Equipment Operator",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
    "salary": "",
    "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101617",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
    "arrangement": "On-site",
    "student": false,
-   "description": "Current openings may be available with Defence Construction Canada in Canada-wide.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "description": "Equipment Operator This job may guide a crew of equipment operators and oversee daily activities related to program delivery within a designated highway area. The role involves operating and maintaining heavy-duty equipment used in road maintenance, including trucks, brooms, packers, oil distributors, loaders, graders, stripers, and cranes. It may provide on-site supervision by assigning tasks, monitoring performance, and ensuring work is completed safely and efficiently. The position may also require operating road equipment, directing traffic in challenging roadway conditions and severe weather, and travelling extensively throughout the province. A valid Class 1A driver’s license is required, and the role involves physically and mentally demanding work, including heavy lifting, climbing, and sustained physical labour.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
   },
   {
-   "id": "gc-jobs-df30cec884c2",
-   "title": "Open positions — National Research Council Canada",
-   "employer": "National Research Council Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
+   "id": "saskatchewan-2e0dd36c00cf",
+   "title": "Manager, Liability Regulation The Ministry of Energy and Resources, Liability Management Branch (Energy Regulation Division), administers a number of programs aimed at managing oil and gas industry liability. The Liability Assurance group ensures that the oil and gas industry meets their responsibility to remediate impacted sites and retire assets that are no longer economic. As the Manager, Liability Regulations you will be a key member in the Liability Assurance group regulating the oil and gas industry.",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
    "salary": "",
    "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101794",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
    "arrangement": "On-site",
    "student": false,
-   "description": "Current openings may be available with National Research Council Canada in Canada-wide.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "description": "Manager, Liability Regulation The Ministry of Energy and Resources, Liability Management Branch (Energy Regulation Division), administers a number of programs aimed at managing oil and gas industry liability. The Liability Assurance group ensures that the oil and gas industry meets their responsibility to remediate impacted sites and retire assets that are no longer economic. As the Manager, Liability Regulations you will be a key member in the Liability Assurance group regulating the oil and gas industry.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
   },
   {
-   "id": "gc-jobs-2cae806ae433",
-   "title": "Agriculture and Agri-Food Canada — Science and Technology Branch",
-   "employer": "Agriculture and Agri-Food Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
-   "salary": "$25.17 to $31.69 per hour (Varies as per the level of education and experience.)",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Agriculture and Agri-Food Canada - Science and Technology Branch. Canada-wide",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "gc-jobs-ea5c9e974f05",
-   "title": "National Defence — Assistant Deputy Minister (Infrastructure & Environment)",
-   "employer": "National Defence",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
-   "salary": "$35.60 to $38.67 per hour",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "National Defence - Assistant Deputy Minister (Infrastructure & Environment). Canada-wide",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "gc-jobs-2d56fd134b5d",
-   "title": "Open positions — Office of the Registrar of the Supreme Court of Canada.",
-   "employer": "Office of the Registrar of the Supreme Court of Canada.",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
+   "id": "saskatchewan-6e6cea1fe670",
+   "title": "Project Manager",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
    "salary": "",
    "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101886",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
    "arrangement": "On-site",
    "student": false,
-   "description": "Current openings may be available with Office of the Registrar of the Supreme Court of Canada. in Canada-wide.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "description": "Project Manager This job supports the delivery of capital and major preservation programs by overseeing resourcing, training, scheduling, design, and tendering activities. They assess project scope, determine resource and timeline requirements, and ensure safe and efficient implementation through project management. As a manager, the role provides expert technical advice on road materials and surfacing, prepares detailed reports, tracks research and construction progress, and delivers technical presentations and training to support the project’s success. This job is a middle manager role. Middle managers have a critical role in employee engagement and the culture of our organization. The role requires leadership in translating and cascading strategic direction into operational actions, contributing to the achievement of organizational goals. The role is also responsible for delivering on personal work objectives, as well as the work of others for whom they have supervisory responsibilities.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
   },
   {
-   "id": "gc-jobs-52ebbf9cf34a",
-   "title": "Natural Resources Canada — Energy Technology Sector - CanmetENERGY-Ottawa",
-   "employer": "Natural Resources Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
-   "salary": "$78,909 to $99,200",
+   "id": "saskatchewan-2aeed133afff",
+   "title": "Senior Pharmaceutical Policy and Program Consultant Are you a pharmacy leader ready to shape policy and programs that make a real difference for Saskatchewan? Reporting to the Director, Professional Practice, you will bring your leadership and technical expertise to the development, implementation, management and evaluation of the Ministry’s pharmacy programs, policies and initiatives. As a key member of the Branch’s team, you will help build strong partnerships in the pharmacy sector and expand scope of practice across the profession.",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
    "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101896",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
    "arrangement": "On-site",
    "student": false,
-   "description": "Natural Resources Canada - Energy Technology Sector - CanmetENERGY-Ottawa. Canada-wide",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "description": "Senior Pharmaceutical Policy and Program Consultant Are you a pharmacy leader ready to shape policy and programs that make a real difference for Saskatchewan? Reporting to the Director, Professional Practice, you will bring your leadership and technical expertise to the development, implementation, management and evaluation of the Ministry’s pharmacy programs, policies and initiatives. As a key member of the Branch’s team, you will help build strong partnerships in the pharmacy sector and expand scope of practice across the profession.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-97da99606023",
+   "title": "Senior Program Consultant This position in the Mental Health and Addictions Branch at the Ministry of Health provides high-level research, evaluation, analysis, and advisory support to senior and executive management across a wide range of complex, sector-related initiatives. This role is responsible for developing, implementing, and monitoring policies, programs, projects, and evaluations that address both social and economic policy issues. The role will apply collaborative and consensus-building approaches, engaging public and stakeholder input to shape strategies, frameworks, models, and plans. Performance of this work draws on deep knowledge of relevant legislation, government operations, and policy principles, while leveraging technical expertise in analysis, research, evaluation, and financial or contract management to solve problems creatively and effectively.",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101901",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Senior Program Consultant This position in the Mental Health and Addictions Branch at the Ministry of Health provides high-level research, evaluation, analysis, and advisory support to senior and executive management across a wide range of complex, sector-related initiatives. This role is responsible for developing, implementing, and monitoring policies, programs, projects, and evaluations that address both social and economic policy issues. The role will apply collaborative and consensus-building approaches, engaging public and stakeholder input to shape strategies, frameworks, models, and plans. Performance of this work draws on deep knowledge of relevant legislation, government operations, and policy principles, while leveraging technical expertise in analysis, research, evaluation, and financial or contract management to solve problems creatively and effectively.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-cfd865cebe65",
+   "title": "Highway Traffic Officer",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101977",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Highway Traffic Officer This job plays a critical role in safeguarding highway infrastructure and ensuring the safety of all road users. The primary responsibility is to monitor driver and vehicle compliance across the provincial highway system, enforcing transportation legislation, policies, and agreements for both commercial and private vehicles. Key duties include operating Commercial Vehicle Inspection Stations, deploying portable weigh scales, and conducting mobile patrols within a designated geographical area. This role may be expected to respond to emergency calls for service and take enforcement action during crimes in progress. Successful completion of the Police Officers Physical Assessment Training is a requirement.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-5507a23e3562",
+   "title": "Income Assistance Worker",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101992",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Income Assistance Worker This job supports diverse and multicultural individuals and families in both community and office‑based settings. Clients may present with complex challenges such as addictions, mental illness, disability, or unemployment. The role involves working directly with clients to assess needs, identify barriers, and establish meaningful, achievable goals. It leads and monitors progress through individualized plans, coordinating services and collaborating with other service providers as required. The position also involves travel within and between communities to support effective service delivery.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-a794e56c797c",
+   "title": "Crown Prosecutor",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/102002",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Crown Prosecutor This job prosecutes those charged under the Criminal Code, Youth Criminal Justice Act, other federal statutes and some provincial statutes. The role promotes safe communities with just conclusion of criminal charges, achieved through various means, including prosecution of trial matters and collaboration with justice partners, individuals and organizations to implement alternative resolutions.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "saskatchewan-a137e3dc050e",
+   "title": "Legal Assistant",
+   "employer": "Government of Saskatchewan",
+   "government": "Provincial",
+   "region": "Saskatchewan",
+   "location": "Saskatchewan",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/102004",
+   "direct": true,
+   "source": "saskatchewan",
+   "sourceLabel": "Government of Saskatchewan",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Legal Assistant This job within Public Prosecutions maintains and establishes accurate and up-to-date prosecutions files received from Police Services and RCMP detachments. The role is responsible for generating Warrants, Information, Summons, Stay of Proceedings, Court Orders, a variety of other legal documents and correspondence, as well as vetting and sorting through disclosure. Processing incoming and outgoing mail, file and track missing information and coordinate travel and accommodation arrangements for witnesses to appear in court. Daily office administrative tasks including computer applications, filing systems, telephone use, and correspondence.",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-e85cebf683d3",
+   "title": "Community Dietitian, North $106k - $126k Inuvik Open until filled Posted 12 hours ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28353",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Community Dietitian, North $106k - $126k Inuvik Open until filled Posted 12 hours ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-dca49ee7b85a",
+   "title": "Government Services Officer Ulukhaktok Closes: Dec 11, 2026 Posted 12 hours ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28638",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Government Services Officer Ulukhaktok Closes: Dec 11, 2026 Posted 12 hours ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-912b51e73784",
+   "title": "Information Access and Security Coordinator $96k - $115k Yellowknife Closes: Dec 9, 2026 Posted 1 day ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28640",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Information Access and Security Coordinator $96k - $115k Yellowknife Closes: Dec 9, 2026 Posted 1 day ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-07a4a3f906aa",
+   "title": "Medical Laboratory Technologist 1, Microbiology $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 2 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28100",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Medical Laboratory Technologist 1, Microbiology $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 2 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-f6f340bd6711",
+   "title": "Medical Laboratory Technologist 1, Core Laboratory $96k - $115k Yellowknife Open until filled Posted 2 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/27738",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Medical Laboratory Technologist 1, Core Laboratory $96k - $115k Yellowknife Open until filled Posted 2 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-18b43eddee85",
+   "title": "Manager Policy & Legislation - 1 year Term $127k - $152k Yellowknife Closes: Dec 3, 2026 Posted 2 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28627",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Manager Policy & Legislation - 1 year Term $127k - $152k Yellowknife Closes: Dec 3, 2026 Posted 2 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-2956f27c2155",
+   "title": "Public Health Community Dietitian $106k - $126k Yellowknife Open until filled Posted 3 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28468",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Public Health Community Dietitian $106k - $126k Yellowknife Open until filled Posted 3 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-0a247a002e17",
+   "title": "Senior Electoral Operations Advisor $96k - $115k Yellowknife Closes: Dec 7, 2026 Posted 3 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28551",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Senior Electoral Operations Advisor $96k - $115k Yellowknife Closes: Dec 7, 2026 Posted 3 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-a54ae2cc0060",
+   "title": "Community Mental Health Nurse $116k - $138k Fort Smith Open until filled Posted 3 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28026",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Community Mental Health Nurse $116k - $138k Fort Smith Open until filled Posted 3 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-c5da0e73ee06",
+   "title": "Business Intelligence & Analytics Specialist $116k - $138k Yellowknife Closes: Dec 15, 2026 Posted 4 days ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28610",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Business Intelligence & Analytics Specialist $116k - $138k Yellowknife Closes: Dec 15, 2026 Posted 4 days ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-36b285c0a9aa",
+   "title": "Financial Reporting and Accounting Analyst $96k - $115k Yellowknife Closes: Dec 4, 2026 Posted 1 week ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28636",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Financial Reporting and Accounting Analyst $96k - $115k Yellowknife Closes: Dec 4, 2026 Posted 1 week ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "nwt-c912f9024a59",
+   "title": "Recreation Therapist - Long Term Care $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 1 week ago",
+   "employer": "Government of the Northwest Territories",
+   "government": "Territorial",
+   "region": "Northwest Territories",
+   "location": "Northwest Territories",
+   "salary": "",
+   "posted": "",
+   "closing": "",
+   "url": "https://www.gov.nt.ca/careers/en/job/28625",
+   "direct": true,
+   "source": "nwt",
+   "sourceLabel": "Government of the Northwest Territories",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Recreation Therapist - Long Term Care $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 1 week ago",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "bc-283b8c209a4b",
+   "title": "SPO 21 - Indigenous MH Outreach Worker",
+   "employer": "Children & Family Development",
+   "government": "Provincial",
+   "region": "British Columbia",
+   "location": "Agassiz, BC, CA V0M 1A0 Hope, BC, CA V0X 1L0 Multiple Locations, BC, CA (Primary)",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "2026-12-13",
+   "url": "https://bcpublicservice.hua.hrsmart.com/hr/ats/Posting/view/127038",
+   "direct": true,
+   "source": "bc",
+   "sourceLabel": "BC Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Children & Family Development opportunity in Agassiz, BC, CA V0M 1A0 Hope, BC, CA V0X 1L0 Multiple Locations, BC, CA (Primary)",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "bc-a4d1ee2ec1de",
+   "title": "CRT CK 12R (MA) - Court Clerk/Registry Clerk",
+   "employer": "Attorney General",
+   "government": "Provincial",
+   "region": "British Columbia",
+   "location": "Kamloops, BC, CA V2H 1B7",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "2026-12-13",
+   "url": "https://bcpublicservice.hua.hrsmart.com/hr/ats/Posting/view/126973",
+   "direct": true,
+   "source": "bc",
+   "sourceLabel": "BC Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Attorney General opportunity in Kamloops, BC, CA V2H 1B7",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-344537537824",
+   "title": "Field Support Technologist",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Olds, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Olds-Field-Support-Technologist/608484417/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Field Support Technologist in Olds, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-09b169fbde92",
+   "title": "Senior PM Initiatives and Standards Specialist",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Senior-PM-Initiatives-and-Standards-Specialist/608488317/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Senior PM Initiatives and Standards Specialist in Edmonton, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-51aca2d18d7d",
+   "title": "Policy Analyst",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Policy-Analyst/608489517/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Policy Analyst in Edmonton, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-0089f5cf22d2",
+   "title": "Student Records Business Analyst",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Student-Records-Business-Analyst/608490717/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": true,
+   "description": "Student Records Business Analyst in Edmonton, AB",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "jb-ontario-3a4dace89a8c",
+   "title": "pharmacy technician",
+   "employer": "Ontario Public Service",
+   "government": "Provincial",
+   "region": "Ontario",
+   "location": "Toronto (ON)",
+   "salary": "$1,076.73 to $1,270.46 weekly (to be negotiated)",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50816339",
+   "direct": true,
+   "source": "jb-ontario",
+   "sourceLabel": "Ontario Public Service (via Job Bank)",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Ontario Public Service, Toronto (ON)",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "jb-nova-scotia-8f6e91e9fbe4",
+   "title": "administrative assistant",
+   "employer": "Nova Scotia Public Service Commission",
+   "government": "Provincial",
+   "region": "Nova Scotia",
+   "location": "Halifax (NS)",
+   "salary": "$1,848.39 to $2,068.11 biweekly",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50815826",
+   "direct": true,
+   "source": "jb-nova-scotia",
+   "sourceLabel": "Nova Scotia (via Job Bank)",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Nova Scotia Public Service Commission, Halifax (NS)",
+   "firstSeen": "2026-11-28",
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "gc-jobs-09ecaf208815",
@@ -159,7 +679,7 @@
    "student": false,
    "description": "Current openings may be available with Canada Science and Technology Museum in Canada-wide.",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "gc-jobs-5c2a29a311bc",
@@ -179,7 +699,7 @@
    "student": false,
    "description": "Current openings may be available with House of Commons (Employees) in Canada-wide.",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "gc-jobs-27814c08c729",
@@ -199,7 +719,7 @@
    "student": false,
    "description": "National Defence - Canadian Coast Guard - Response (* Note: Effective 1 September 2025, the Canadian Coast Guard has transferred to DND by Order-in-Council.). Canada-wide",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "gc-jobs-d9c9dc36c086",
@@ -219,7 +739,7 @@
    "student": false,
    "description": "Current openings may be available with Bank of Canada in Canada-wide.",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "gc-jobs-719a284cddc0",
@@ -239,7 +759,7 @@
    "student": false,
    "description": "Current openings may be available with Canadian Forces Non-Public Funds in Canada-wide.",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-2911933b9719",
@@ -259,7 +779,7 @@
    "student": false,
    "description": "Children & Family Development opportunity in Vancouver, BC, CA V6B 0N8",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-02117ef28385",
@@ -279,7 +799,7 @@
    "student": false,
    "description": "Employee Expense Administrator in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-62670a4292ee",
@@ -299,7 +819,7 @@
    "student": false,
    "description": "Judicial Clerk/Senior Judicial Clerk (Open Talent Pool) in AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-2b82686412a9",
@@ -319,107 +839,7 @@
    "student": false,
    "description": "Executive Director, Policy, Indigenous Partnerships and Strategic Services in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-0309f4a4fd81",
-   "title": "Project Coordinator",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-27",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Project-Coordinator/608445617/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Project Coordinator in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-a228e7715260",
-   "title": "Executive Director, Export and Investment",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-27",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Executive-Director%2C-Export-and-Investment/608452817/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Executive Director, Export and Investment in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-fa52eff5827a",
-   "title": "Executive Director, Natural Resource Management",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-27",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Executive-Director%2C-Natural-Resource-Management/608452617/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Executive Director, Natural Resource Management in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-6e9b2df25a6d",
-   "title": "Manager, Municipal Grant Operations",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-27",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Manager%2C-Municipal-Grant-Operations/608473917/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Manager, Municipal Grant Operations in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-b638d076b9e5",
-   "title": "Manager, Analytics Operations and Advancements",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-27",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Manager%2C-Analytics-Operations-and-Advancements/608473117/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Manager, Analytics Operations and Advancements in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-ad53ac7c540a",
@@ -439,7 +859,107 @@
    "student": false,
    "description": "Director, Strategic Evidence and Action in Calgary, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-fa52eff5827a",
+   "title": "Executive Director, Natural Resource Management",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Executive-Director%2C-Natural-Resource-Management/608452617/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Executive Director, Natural Resource Management in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-b638d076b9e5",
+   "title": "Manager, Analytics Operations and Advancements",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Manager%2C-Analytics-Operations-and-Advancements/608473117/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Manager, Analytics Operations and Advancements in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-a228e7715260",
+   "title": "Executive Director, Export and Investment",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Executive-Director%2C-Export-and-Investment/608452817/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Executive Director, Export and Investment in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-0309f4a4fd81",
+   "title": "Project Coordinator",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Project-Coordinator/608445617/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Project Coordinator in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-6e9b2df25a6d",
+   "title": "Manager, Municipal Grant Operations",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-27",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Manager%2C-Municipal-Grant-Operations/608473917/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Manager, Municipal Grant Operations in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-5bffd2ea4f66",
@@ -459,7 +979,7 @@
    "student": false,
    "description": "Learner Benefit Specialists - Temporary Wage (Multiple Positions) in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-1d8c00b2a7c4",
@@ -479,7 +999,7 @@
    "student": false,
    "description": "Ad No : 45517 Job Classification(s) : SP4 Social Service Worker 4 Job Type(s) : Regular/full-time Department : Department of Families Location(s) : Winnipeg MB Salary(s) : SP4 $66,139.00 - $94,055.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-12-07 Posted Date : 2026-11-27 Posting Type : Open",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-1c7d81ee5229",
@@ -499,7 +1019,7 @@
    "student": false,
    "description": "Ad No : 45858 Job Classification(s) : EA4 Engineering Aid 4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : The Pas MB, Thompson MB Salary(s) : EA4 $60,814.00 - $74,400.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-20 Posted Date : 2026-11-27 Posting Type : Open",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-c478752b158a",
@@ -519,7 +1039,7 @@
    "student": false,
    "description": "Competition 18046 • SNB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-5ab5aff44257",
@@ -539,7 +1059,7 @@
    "student": false,
    "description": "Competition 17995 • SNB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-4744f935d07e",
@@ -559,7 +1079,7 @@
    "student": false,
    "description": "Competition R78-2022-23-0481 • JPS",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-ac404b80bb51",
@@ -579,7 +1099,7 @@
    "student": false,
    "description": "Competition 26-6200-012 • PETL",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-a73fffafbdf2",
@@ -599,7 +1119,7 @@
    "student": false,
    "description": "Competition 26-6235-002 • PETL",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-88a707ee5bb7",
@@ -619,7 +1139,7 @@
    "student": false,
    "description": "Competition 18021 • DTI",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-90cd2f7dc8a4",
@@ -639,67 +1159,7 @@
    "student": false,
    "description": "Competition 17506 • SNB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-c9c19d2231e1",
-   "title": "Community Dietitian, North $106k - $126k Inuvik Open until filled Posted 3 hours ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28353",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Community Dietitian, North $106k - $126k Inuvik Open until filled Posted 3 hours ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-2eff76dcdaa8",
-   "title": "Government Services Officer Ulukhaktok Closes: Dec 11, 2026 Posted 4 hours ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28638",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Government Services Officer Ulukhaktok Closes: Dec 11, 2026 Posted 4 hours ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-cdce96d77af5",
-   "title": "Information Access and Security Coordinator $96k - $115k Yellowknife Closes: Dec 9, 2026 Posted 23 hours ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28640",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Information Access and Security Coordinator $96k - $115k Yellowknife Closes: Dec 9, 2026 Posted 23 hours ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-1f59bc4db2ff",
@@ -719,7 +1179,7 @@
    "student": false,
    "description": "Regional Physiotherapist - 6 Month Term $106k - $126k Inuvik Open until filled Posted 1 day ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-faad5b9b9f3b",
@@ -739,7 +1199,7 @@
    "student": false,
    "description": "Coordinator, Labour Market Programs - 1 Year Term $111k - $132k Yellowknife Closes: Dec 2, 2026 Posted 1 day ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-3e0d4ab50f9f",
@@ -759,107 +1219,7 @@
    "student": false,
    "description": "Relief School Secretary Inuvik Closes: Dec 10, 2026 Posted 1 day ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-c5dd3f18718e",
-   "title": "Medical Laboratory Technologist 1, Microbiology $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 1 day ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28100",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Medical Laboratory Technologist 1, Microbiology $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 1 day ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-0b21d0f63891",
-   "title": "Medical Laboratory Technologist 1, Core Laboratory $96k - $115k Yellowknife Open until filled Posted 1 day ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/27738",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Medical Laboratory Technologist 1, Core Laboratory $96k - $115k Yellowknife Open until filled Posted 1 day ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-2bd7e92da1f9",
-   "title": "Public Health Community Dietitian $106k - $126k Yellowknife Open until filled Posted 2 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28468",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Public Health Community Dietitian $106k - $126k Yellowknife Open until filled Posted 2 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-7ebe839578bf",
-   "title": "Senior Electoral Operations Advisor $96k - $115k Yellowknife Closes: Dec 7, 2026 Posted 2 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28551",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Senior Electoral Operations Advisor $96k - $115k Yellowknife Closes: Dec 7, 2026 Posted 2 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-187253b1ffaa",
-   "title": "Community Mental Health Nurse $116k - $138k Fort Smith Open until filled Posted 2 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28026",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Community Mental Health Nurse $116k - $138k Fort Smith Open until filled Posted 2 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-783d64f66287",
@@ -879,7 +1239,7 @@
    "student": false,
    "description": "Financial Planning & Budget Coordinator $106k - $126k Yellowknife Closes: Dec 8, 2026 Posted 3 days ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-d1eddabdbd66",
@@ -899,7 +1259,7 @@
    "student": false,
    "description": "Wildlife Climate Change Adaptation Ecologist $127k - $152k Yellowknife Closes: Dec 14, 2026 Posted 3 days ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-994b4b6a571f",
@@ -919,27 +1279,7 @@
    "student": false,
    "description": "Instructor, Social Work $116k - $138k Yellowknife Closes: Dec 8, 2026 Posted 3 days ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-1ade6600964f",
-   "title": "Business Intelligence & Analytics Specialist $116k - $138k Yellowknife Closes: Dec 15, 2026 Posted 3 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28610",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Business Intelligence & Analytics Specialist $116k - $138k Yellowknife Closes: Dec 15, 2026 Posted 3 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-431041b9f0ba",
@@ -959,47 +1299,7 @@
    "student": false,
    "description": "Director Regional Operations $153k - $219k Inuvik Closes: Dec 4, 2026 Posted 4 days ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-55526b4f89d0",
-   "title": "Financial Reporting and Accounting Analyst $96k - $115k Yellowknife Closes: Dec 4, 2026 Posted 6 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28636",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Financial Reporting and Accounting Analyst $96k - $115k Yellowknife Closes: Dec 4, 2026 Posted 6 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-9772fc850765",
-   "title": "Recreation Therapist - Long Term Care $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 6 days ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28625",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Recreation Therapist - Long Term Care $96k - $115k Yellowknife Closes: Dec 6, 2026 Posted 6 days ago",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-adbb4ee2ed8d",
@@ -1019,7 +1319,7 @@
    "student": false,
    "description": "Community Health Nurse, Primary Care $111k - $132k Fort Smith Open until filled Posted 1 week ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-c134ffe61343",
@@ -1039,7 +1339,7 @@
    "student": false,
    "description": "Assistant Vice President, Research $133k - $190k Inuvik Closes: Jan 4, 2027 Posted 1 week ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-2248c774ba2b",
@@ -1059,7 +1359,7 @@
    "student": false,
    "description": "Nurse In Charge, Long Term Care $116k - $138k Tłı̨chǫ Region Open until filled Posted 1 week ago",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-f1dddf2fdc0d",
@@ -1079,7 +1379,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-19f327723251",
@@ -1099,7 +1399,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-73a2a0e8eadc",
@@ -1119,7 +1419,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Nictaux (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-0316289827ea",
@@ -1139,7 +1439,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Truro Heights (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-f970ab44f17b",
@@ -1159,7 +1459,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-6ac9718d4c84",
@@ -1179,7 +1479,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, information technology (IT) analyst",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-d97e534f848d",
@@ -1199,7 +1499,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Dartmouth (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-2a383a65e292",
@@ -1219,7 +1519,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Halifax (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-2e4db0a7545c",
@@ -1239,7 +1539,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Nova Scotia",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-e58ae70a4c47",
@@ -1259,7 +1559,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Yarmouth (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-a56dcd6ab226",
@@ -1279,7 +1579,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Sydney (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-b237f665cdf4",
@@ -1299,7 +1599,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Winnipeg (MB)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-c093c9591bce",
@@ -1319,47 +1619,7 @@
    "student": false,
    "description": "Correctional Service Canada, Kingston (ON)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-fd1bbc9bb07c",
-   "title": "Emergency Duty Worker",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101681",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Emergency Duty Worker This job delivers critical after-hours services to children and families in crisis, ensuring the safety, stability, and well-being of children in out-of-home care. The role supports families in safely caring for their children by providing responsive, innovative, and accountable services. Responsibilities include investigating child abuse and neglect referrals, assessing safety risks, and developing intervention and safety plans tailored to each family's needs. The role requires travel and includes transporting children and families as part of service delivery.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-4030fba897e2",
-   "title": "Consultant, Capital Priorities The Infrastructure Planning and Priorities Branch of the Ministry of SaskBuilds and Procurement is responsible for ensuring that infrastructure investments are future-focused and aligned with provincial priorities.",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101818",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Consultant, Capital Priorities The Infrastructure Planning and Priorities Branch of the Ministry of SaskBuilds and Procurement is responsible for ensuring that infrastructure investments are future-focused and aligned with provincial priorities.",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-178a05d0ed44",
@@ -1379,7 +1639,7 @@
    "student": false,
    "description": "Attorney General opportunity in Fort St John, BC, CA V1J6M7",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-71153416df6f",
@@ -1399,7 +1659,7 @@
    "student": false,
    "description": "Children & Family Development opportunity in Burnaby, BC, CA V3J 1N3 Maple Ridge, BC, CA V4R 2S1 Multiple Locations, BC, CA (Primary) Port Moody, BC, CA V3H 5C9",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-d82ed4610339",
@@ -1419,7 +1679,7 @@
    "student": false,
    "description": "Attorney General opportunity in Williams Lake, BC, CA V2G 5M1",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-c1ed3243a3d1",
@@ -1439,7 +1699,7 @@
    "student": false,
    "description": "Public Safety & Sol General opportunity in Kamloops, BC, CA V2H 1B7",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-0a7f8d6f0c83",
@@ -1459,7 +1719,7 @@
    "student": false,
    "description": "Children & Family Development opportunity in Bella Coola, BC, CA V0T 1C0 Multiple Locations, BC, CA (Primary) Waglisla, BC, CA V0T 1Z0",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-84417a55bcc4",
@@ -1479,47 +1739,7 @@
    "student": false,
    "description": "Children & Family Development opportunity in 100 Mile House, BC, CA V0K 2E0 Multiple Locations, BC, CA (Primary) Williams Lake, BC, CA V2G 5M1",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-e4de46b59c2c",
-   "title": "Director, Capital Planning",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-26",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Director%2C-Capital-Planning/608436217/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Director, Capital Planning in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-041770e1c13d",
-   "title": "Wildfire Remote Sensing Specialist",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-26",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Wildfire-Remote-Sensing-Specialist/608440117/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Wildfire Remote Sensing Specialist in Edmonton, AB",
-   "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-36f093e96e8b",
@@ -1539,11 +1759,11 @@
    "student": false,
    "description": "Assistant Deputy Minister, Financial Services and Senior Financial Officer in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
-   "id": "alberta-7150431fb7c1",
-   "title": "Implementation Advisor",
+   "id": "alberta-e4de46b59c2c",
+   "title": "Director, Capital Planning",
    "employer": "Alberta Public Service",
    "government": "Provincial",
    "region": "Alberta",
@@ -1551,15 +1771,35 @@
    "salary": "",
    "posted": "2026-11-26",
    "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Implementation-Advisor/608442117/",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Director%2C-Capital-Planning/608436217/",
    "direct": true,
    "source": "alberta",
    "sourceLabel": "Alberta Public Service",
    "arrangement": "On-site",
    "student": false,
-   "description": "Implementation Advisor in Edmonton, AB",
+   "description": "Director, Capital Planning in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-041770e1c13d",
+   "title": "Wildfire Remote Sensing Specialist",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-26",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Wildfire-Remote-Sensing-Specialist/608440117/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Wildfire Remote Sensing Specialist in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-166971318f41",
@@ -1579,7 +1819,27 @@
    "student": false,
    "description": "Director, Intergovernmental Relations & Mission Planning in Edmonton, AB",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
+  },
+  {
+   "id": "alberta-7150431fb7c1",
+   "title": "Implementation Advisor",
+   "employer": "Alberta Public Service",
+   "government": "Provincial",
+   "region": "Alberta",
+   "location": "Edmonton, AB",
+   "salary": "",
+   "posted": "2026-11-26",
+   "closing": "",
+   "url": "https://jobpostings.alberta.ca/job/Edmonton-Implementation-Advisor/608442117/",
+   "direct": true,
+   "source": "alberta",
+   "sourceLabel": "Alberta Public Service",
+   "arrangement": "On-site",
+   "student": false,
+   "description": "Implementation Advisor in Edmonton, AB",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-901c976c6cf1",
@@ -1599,7 +1859,7 @@
    "student": false,
    "description": "Ad No : 45868 Job Classification(s) : P10 Professional Officer 10 Job Type(s) : Term/full-time Department : Department of Finance Location(s) : Winnipeg MB Salary(s) : P10 $98,310.00 - $124,694.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-26 Posting Type : Open",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-e19327b4b160",
@@ -1619,7 +1879,7 @@
    "student": false,
    "description": "Ontario Public Service, Oshawa (ON)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-fbddfc8b386f",
@@ -1639,7 +1899,7 @@
    "student": false,
    "description": "Ontario Public Service, Thunder Bay (ON)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4bbd338d08f7",
@@ -1659,47 +1919,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Sudbury (ON)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "gc-jobs-6a5ac093d48d",
-   "title": "Office of the Auditor General of Canada — Audit Operations",
-   "employer": "Office of the Auditor General of Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
-   "salary": "$55,647 to $80,212 (Stream 1: $55,647 to $69,708 (2024 rates) ; Stream 2 & 3 : $63,941 to $80,212 (2024 rates))",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Office of the Auditor General of Canada - Audit Operations. Canada-wide",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "gc-jobs-718618927fea",
-   "title": "Department of Justice Canada — National Litigation Sector– Atlantic Regional Office",
-   "employer": "Department of Justice Canada",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Canada-wide",
-   "salary": "$47,707 (salary under review)",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Department of Justice Canada - National Litigation Sector– Atlantic Regional Office. Canada-wide",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-76221aa08ad3",
@@ -1719,7 +1939,7 @@
    "student": false,
    "description": "Liquor Distribution Branch opportunity in Burnaby, BC, CA V3J 1N3",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-153372dfe075",
@@ -1739,27 +1959,7 @@
    "student": false,
    "description": "Children & Family Development opportunity in Hazelton, BC, CA V0J 1Y1 Multiple Locations, BC, CA (Primary) Smithers, BC, CA V0J 2N0",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-9089327d026d",
-   "title": "Policy Analyst",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-26",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Policy-Analyst/608423017/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Policy Analyst in Edmonton, AB",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-98ba5d4af749",
@@ -1779,7 +1979,7 @@
    "student": false,
    "description": "Senior Front End Designer in Edmonton, AB",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "alberta-c1b885fe54c6",
@@ -1799,7 +1999,7 @@
    "student": false,
    "description": "Senior Policy Analyst in Edmonton, AB",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-838a59aa0a92",
@@ -1819,7 +2019,7 @@
    "student": false,
    "description": "Ad No : 45857 Job Classification(s) : EA4 Engineering Aid 4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Arborg MB, Ashern MB, Dauphin MB Salary(s) : EA4 $60,814.00 - $74,400.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-20 Posted Date : 2026-11-26 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-93f280f1fcfb",
@@ -1839,7 +2039,7 @@
    "student": false,
    "description": "Ad No : 45859 Job Classification(s) : EA4 Engineering Aid 4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Birtle MB, Boissevain MB, Portage la Prairie MB, Brandon MB Salary(s) : EA4 $60,814.00 - $74,400.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-20 Posted Date : 2026-11-26 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-73de74a15c40",
@@ -1859,7 +2059,7 @@
    "student": false,
    "description": "Ad No : 45849 Job Classification(s) : P6 Professional Officer 6 Job Type(s) : Regular/full-time Department : Manitoba Public Service Commission Location(s) : Winnipeg MB Salary(s) : P6 $81,043.00 - $100,769.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-12-06 Posted Date : 2026-11-26 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-11fc59b63584",
@@ -1879,47 +2079,7 @@
    "student": false,
    "description": "Ad No : 45870 Job Classification(s) : FC1 Consumer Services Officer 1 Job Type(s) : Term/full-time Department : Public Service Delivery Location(s) : Brandon MB, Winnipeg MB Salary(s) : FC1 $63,624.00 - $78,470.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-26 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "new-brunswick-869d2c5aa58b",
-   "title": "Business and Project Analyst",
-   "employer": "Government of New Brunswick — ONB",
-   "government": "Provincial",
-   "region": "New Brunswick",
-   "location": "Fredericton",
-   "salary": "",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://www.ere.gnb.ca/competition.aspx?culture=en-CA",
-   "direct": false,
-   "source": "new-brunswick",
-   "sourceLabel": "Government of New Brunswick",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Competition ONB-26-21 • ONB",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "nwt-0ddb335233fc",
-   "title": "Manager Policy & Legislation - 1 year Term $127k - $152k Yellowknife Closes: Dec 3, 2026 Posted 1 day ago",
-   "employer": "Government of the Northwest Territories",
-   "government": "Territorial",
-   "region": "Northwest Territories",
-   "location": "Northwest Territories",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://www.gov.nt.ca/careers/en/job/28627",
-   "direct": true,
-   "source": "nwt",
-   "sourceLabel": "Government of the Northwest Territories",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Manager Policy & Legislation - 1 year Term $127k - $152k Yellowknife Closes: Dec 3, 2026 Posted 1 day ago",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-01a797fe030e",
@@ -1939,7 +2099,7 @@
    "student": false,
    "description": "Carpenter $87k - $104k Norman Wells Open until filled Posted 1 week ago",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-98967cf6bf38",
@@ -1959,7 +2119,7 @@
    "student": false,
    "description": "Comptroller - Beaufort Delta Region $116k - $138k Yellowknife Closes: Dec 16, 2026 Posted 1 week ago",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "nwt-777f8f0718b0",
@@ -1979,7 +2139,7 @@
    "student": false,
    "description": "Education Operations Coordinator $116k - $138k Yellowknife Closes: Nov 30, 2026 Posted 1 week ago",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-ecb40a6627c2",
@@ -1999,7 +2159,7 @@
    "student": false,
    "description": "Ontario Public Service, Penetanguishene (ON)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-b1e09634a7b1",
@@ -2019,7 +2179,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-6c4c06f89b29",
@@ -2039,7 +2199,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-e6a64c1e8e9a",
@@ -2059,7 +2219,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-61ebbb6f073f",
@@ -2079,7 +2239,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-e3cee1198c6f",
@@ -2099,7 +2259,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-b5352ef03bf2",
@@ -2119,7 +2279,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-1b21c1c8fb5f",
@@ -2139,7 +2299,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-dbfbae2b5d88",
@@ -2159,7 +2319,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Yarmouth (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-2c5e00a73165",
@@ -2179,7 +2339,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Middleton (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-08a8fb54e54e",
@@ -2199,7 +2359,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Amherst (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-5a45d7810b87",
@@ -2219,7 +2379,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, McLellans Brook (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-c5810fb08f60",
@@ -2239,7 +2399,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Bible Hill (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-de3fee0519cb",
@@ -2259,7 +2419,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, enterprise architect - information technology (IT)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-31753fae43f6",
@@ -2279,7 +2439,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Fall River (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-409e273528e8",
@@ -2299,7 +2459,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Canada",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4ae373852d32",
@@ -2319,7 +2479,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Wainwright (AB)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-f0c0ce7690e7",
@@ -2339,7 +2499,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Whitehorse (YT)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-e2062e29038f",
@@ -2359,167 +2519,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Whitehorse (YT)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-ebd0a0efe58f",
-   "title": "Assistant Supervisor",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/100092",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Assistant Supervisor This job provides a range of protective, preventative, and supportive services to children and families using the Family Centered Case Management Model of practice. They focus on assessing child safety, strengthening family functioning, implementing intervention strategies, and coordinating culturally informed supports. This role requires the ability to build collaborative relationships with families, caregivers, First Nations and Métis partners, and community agencies to promote child well being and family stability.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-2bce56e28951",
-   "title": "Program Analyst",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/100931",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Program Analyst This job is responsible for managing appeals for the Saskatchewan Income Support (SIS) program, including conducting reconsiderations, preparing appeal documentation, representing the ministry at hearings, and conducting research and analysis to support program improvement.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-7d7d48b0aebc",
-   "title": "Child Protection Worker This role is entrusted to deliver a case management model of protective, preventive, and supportive family-centered services to children and families. The focus will include assessing child safety, family strengthening, intervention implementation, and coordination of culturally responsive supports that honor the Truth and Reconciliation Commission’s Calls to Action. This role requires the ability to build and maintain collaborative relationships with families, caregivers, First Nations and Métis community organizations and agencies to promote child well being and family stability.",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101492",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Child Protection Worker This role is entrusted to deliver a case management model of protective, preventive, and supportive family-centered services to children and families. The focus will include assessing child safety, family strengthening, intervention implementation, and coordination of culturally responsive supports that honor the Truth and Reconciliation Commission’s Calls to Action. This role requires the ability to build and maintain collaborative relationships with families, caregivers, First Nations and Métis community organizations and agencies to promote child well being and family stability.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-c2835cd41ada",
-   "title": "Children Services Worker",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101545",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Children Services Worker This job provides intake, assessment, and case management services to individuals, with a focus on reducing risk and connecting clients to appropriate supports, resources, and programming. The role maintains accurate records and client files while supporting the overall well‑being of children, youth, and families. The position may require travel, flexible evening and weekend hours, and the provision of transportation when necessary to support effective service delivery.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-7cac0ab81640",
-   "title": "Equipment Operator",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101755",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Equipment Operator This job may guide a crew of equipment operators and oversees daily activities related to program delivery within a designated highway area. The role involves operating and maintaining heavy-duty equipment used in road maintenance, including trucks, brooms, packers, oil distributors, loaders, graders, stripers, and cranes. It provides on-site supervision by assigning tasks, monitoring performance, and ensuring work is completed safely and efficiently. The position may also require operating road equipment, directing traffic in challenging roadway conditions and severe weather, and travelling extensively throughout the province. A valid Class 1A driver’s license is required, and the role involves physically and mentally demanding work, including heavy lifting, climbing, and sustained physical labour.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-266f667a967b",
-   "title": "Drug Treatment Court Manager The Ministry of Justice and Attorney General requires an innovative, self-motivated, team focused, and organized individual for the position of Manager, Drug Treatment Court. The Drug Treatment Court is a therapeutic court that addresses drug addiction as an underlying cause of criminal activity. A participant in the Drug Treatment Court enters into intensive treatment at the Drug Treatment Center, which includes a multidisciplinary team of professionals.",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101835",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Drug Treatment Court Manager The Ministry of Justice and Attorney General requires an innovative, self-motivated, team focused, and organized individual for the position of Manager, Drug Treatment Court. The Drug Treatment Court is a therapeutic court that addresses drug addiction as an underlying cause of criminal activity. A participant in the Drug Treatment Court enters into intensive treatment at the Drug Treatment Center, which includes a multidisciplinary team of professionals.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "saskatchewan-3afea3d649b5",
-   "title": "Income Assistance Worker",
-   "employer": "Government of Saskatchewan",
-   "government": "Provincial",
-   "region": "Saskatchewan",
-   "location": "Saskatchewan",
-   "salary": "",
-   "posted": "",
-   "closing": "",
-   "url": "https://careers.saskatchewan.ca/en/sites/CX_1/job/101926",
-   "direct": true,
-   "source": "saskatchewan",
-   "sourceLabel": "Government of Saskatchewan",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Income Assistance Worker This job supports diverse and multicultural individuals and families in both community and office‑based settings. Clients may present with complex challenges such as addictions, mental illness, disability, or unemployment. The role involves working directly with clients to assess needs, identify barriers, and establish meaningful, achievable goals. It leads and monitors progress through individualized plans, coordinating services and collaborating with other service providers as required. The position also involves travel within and between communities to support effective service delivery.",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-dae90489cd07",
-   "title": "Software Asset Management Analyst",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Software-Asset-Management-Analyst/608400317/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Software Asset Management Analyst in AB",
-   "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-4750402bbbd6",
@@ -2539,7 +2539,7 @@
    "student": false,
    "description": "Ad No : 45461 Job Classification(s) : AY3 Administrative Secretary 3 Job Type(s) : Regular/full-time Department : Department of Families Location(s) : Morden MB Salary(s) : AY3 $48,569.00 - $56,968.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-12-17 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-5424ff8d0c9f",
@@ -2559,7 +2559,7 @@
    "student": false,
    "description": "Numéro de l´annonce : 45461 Classification(s) : AY3 secrétaire administrative ou administratif 3 Type d´emploi(s) : Régulier et à temps plein Ministère : Ministère des Familles Lieu(s) : Morden (Manitoba) Salaire(s) : AY3 48 569,00 $ - 56 968,00 $ par année Type d´annonce tenant compte de l´équité en matière d´emploi : Préférence pour les groupes d'équité en matière d'emploi Date de clôture : 2026-12-17 Date d´affichage : 2026-11-25 Type de publication : Ouverte",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-cf54f5e982da",
@@ -2579,7 +2579,7 @@
    "student": false,
    "description": "Ad No : 45726 Job Classification(s) : CL5 Repair Audit Coordinator Job Type(s) : Regular/full-time; Term/full-time Department : Public Service Delivery Location(s) : Winnipeg MB Salary(s) : CL5 $57,666.00 - $68,522.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-16 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-00bfb5121045",
@@ -2599,7 +2599,7 @@
    "student": false,
    "description": "Ontario Public Service, North York (ON)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-0c2d98f323a9",
@@ -2619,27 +2619,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "bc-acf798ac2d2f",
-   "title": "CRT CK 12R (MA) - Accounting/Court/Registry Clerk",
-   "employer": "Attorney General",
-   "government": "Provincial",
-   "region": "British Columbia",
-   "location": "Prince George, BC, CA V2N4P7",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "2026-12-09",
-   "url": "https://bcpublicservice.hua.hrsmart.com/hr/ats/Posting/view/126943",
-   "direct": true,
-   "source": "bc",
-   "sourceLabel": "BC Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Attorney General opportunity in Prince George, BC, CA V2N4P7",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-b8beb3a9f802",
@@ -2659,7 +2639,7 @@
    "student": false,
    "description": "Attorney General opportunity in Vancouver, BC, CA V6B 0N8",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-36f0f0d8e043",
@@ -2679,127 +2659,7 @@
    "student": false,
    "description": "Social Dev & Poverty Reduction opportunity in Smithers, BC, CA V0J 2N0",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-3040249d785b",
-   "title": "Judicial Paralegal Team Lead",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Judicial-Paralegal-Team-Lead/600206817/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Judicial Paralegal Team Lead in Edmonton, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-2f2c39fc4561",
-   "title": "Justice of the Peace",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Various Locations, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Various-Locations-Justice-of-the-Peace/572561217/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Justice of the Peace in Various Locations, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-8441b408a983",
-   "title": "Senior Data and Systems Specialist",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Senior-Data-and-Systems-Specialist/605856917/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Senior Data and Systems Specialist in Edmonton, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-9f8a365c16f1",
-   "title": "Construction Technologist",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Peace River, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Peace-River-Construction-Technologist/607419017/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Construction Technologist in Peace River, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-0a9a10c15e10",
-   "title": "Executive Director, Financial Services",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Executive-Director%2C-Financial-Services/608381717/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Executive Director, Financial Services in Edmonton, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "alberta-f5c49d97fe2f",
-   "title": "Estate Investigator",
-   "employer": "Alberta Public Service",
-   "government": "Provincial",
-   "region": "Alberta",
-   "location": "Edmonton, AB",
-   "salary": "",
-   "posted": "2026-11-25",
-   "closing": "",
-   "url": "https://jobpostings.alberta.ca/job/Edmonton-Estate-Investigator/608395617/",
-   "direct": true,
-   "source": "alberta",
-   "sourceLabel": "Alberta Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Estate Investigator in Edmonton, AB",
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-6b5b363b1f6d",
@@ -2819,7 +2679,7 @@
    "student": false,
    "description": "Ad No : 45778 Job Classification(s) : BA 1 Business Analyst 1 Job Type(s) : Regular/full-time Department : Manitoba Justice Location(s) : Winnipeg MB Salary(s) : BA 1 $70,149.00 - $90,480.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-12-06 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-bd4d8da407e7",
@@ -2839,7 +2699,7 @@
    "student": false,
    "description": "Ad No : 45838 Job Classification(s) : LF1-3 Legal Counsel Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Winnipeg MB Salary(s) : LF1-3 $97,800.00 - $196,242.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-20 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-3c829de7d493",
@@ -2859,7 +2719,7 @@
    "student": false,
    "description": "Ad No : 45810 Job Classification(s) : AK2 Accounting Clerk 2 Job Type(s) : Regular/full-time Department : Innovation and New Technology Location(s) : Winnipeg MB Salary(s) : AK2 $57,515.00 - $67,690.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-7b8826281e2e",
@@ -2879,7 +2739,7 @@
    "student": false,
    "description": "Ad No : 45619 Job Classification(s) : IS5 Information Technologist 5 Job Type(s) : Regular/full-time Department : Innovation and New Technology Location(s) : Winnipeg MB Salary(s) : IS5 $92,107.00 - $124,978.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-16 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-374ad5345262",
@@ -2899,7 +2759,7 @@
    "student": false,
    "description": "Ad No : 45757 Job Classification(s) : RS3 Resource Technician 3 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : The Pas MB, Thompson MB Salary(s) : RS3 $56,724.00 - $69,078.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-7a52bfa8ad43",
@@ -2919,7 +2779,7 @@
    "student": false,
    "description": "Ad No : 45852 Job Classification(s) : RS3 Resource Technician 3 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : Lac du Bonnet MB Salary(s) : RS3 $56,724.00 - $69,078.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-09 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-e46056a8ac6f",
@@ -2939,7 +2799,7 @@
    "student": false,
    "description": "Ad No : 54321 Job Classification(s) : . . Job Type(s) : Regular/full-time Department : Manitoba Crown-Indigenous Corporation (MCIC) Location(s) : Winnipeg MB Equity Adv. Type : Equity preference Closing Date : 2027-01-03 Posted Date : 2026-11-25 Posting Type : Open",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-abf8cca4c276",
@@ -2959,7 +2819,7 @@
    "student": false,
    "description": "Competition 26-6200-013 • PETL",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-4951e4800e3b",
@@ -2979,7 +2839,7 @@
    "student": false,
    "description": "Competition 17993 • FTB",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-223c6f5ca59b",
@@ -2999,7 +2859,7 @@
    "student": false,
    "description": "Competition 80-26-005 • ELG",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-ce684c98ca8f",
@@ -3019,7 +2879,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-6255b1a158f5",
@@ -3039,7 +2899,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Yarmouth (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-d3cd1ba4479b",
@@ -3059,7 +2919,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Truro (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-fbca7ddbad7e",
@@ -3079,7 +2939,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Amherst (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-5ddd460e1c00",
@@ -3099,7 +2959,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Nova Scotia",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-dbdf2ec1a80b",
@@ -3119,7 +2979,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Nictaux (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-234fba717ab1",
@@ -3139,7 +2999,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, New Glasgow (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-467232e07821",
@@ -3159,7 +3019,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Truro (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-aa514b4fbc51",
@@ -3179,7 +3039,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Digby (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-1c354e5d5a31",
@@ -3199,7 +3059,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Canada",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-0e18f5424637",
@@ -3219,7 +3079,7 @@
    "student": false,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4d237b298a7d",
@@ -3239,7 +3099,7 @@
    "student": false,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-264e87cc7385",
@@ -3259,7 +3119,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Matane (QC)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-2376d7831b85",
@@ -3279,7 +3139,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Surrey (BC)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-af2426642837",
@@ -3299,7 +3159,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Behchoko (NT)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-e1891456e971",
@@ -3319,7 +3179,7 @@
    "student": false,
    "description": "Ad No : 45693 Job Classification(s) : PM4 Policy and Program Analyst 4 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : PM4 $86,168.00 - $112,476.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-24 Posting Type : Open",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-35b2b40395d1",
@@ -3339,7 +3199,7 @@
    "student": true,
    "description": "BC Public Service Agency opportunity in Victoria, BC, CA V9B 6X2",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-28429e896744",
@@ -3359,7 +3219,7 @@
    "student": false,
    "description": "Ministry of Finance opportunity in Surrey, BC, CA V4P 1M5",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-26f41fdc8e76",
@@ -3379,7 +3239,7 @@
    "student": false,
    "description": "Other Public Sector opportunity in Victoria, BC, CA V9B 6X2",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-f1cee58a06ff",
@@ -3399,7 +3259,7 @@
    "student": false,
    "description": "Citizens' Services opportunity in Campbell River, BC, CA V9W 6Y7 Courtenay, BC, CA V9N 8H5 Multiple Locations, BC, CA (Primary) Port Alberni, BC, CA V9Y 8Y9 Powell River, BC, CA V8A 5G7",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-f9a340241e49",
@@ -3419,7 +3279,7 @@
    "student": false,
    "description": "Other Public Sector opportunity in Victoria, BC, CA V9B 6X2",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-96c4bcf61a5c",
@@ -3439,7 +3299,7 @@
    "student": false,
    "description": "Ad No : 45862 Job Classification(s) : P10 Professional Officer 10 Job Type(s) : Regular/full-time Department : Department of Finance Location(s) : Winnipeg MB Salary(s) : P10 $98,310.00 - $124,694.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-01 Posted Date : 2026-11-24 Posting Type : Closed",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-4654923f2165",
@@ -3459,27 +3319,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Sydney (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "gc-jobs-44698ff232af",
-   "title": "Open positions — Canada Mortgage and Housing Corporation",
-   "employer": "Canada Mortgage and Housing Corporation",
-   "government": "Federal",
-   "region": "Canada",
-   "location": "Various Locations",
-   "salary": "",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
-   "direct": false,
-   "source": "gc-jobs",
-   "sourceLabel": "GC Jobs (federal public service)",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Current openings may be available with Canada Mortgage and Housing Corporation in Various Locations.",
-   "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-28a54991cddd",
@@ -3499,7 +3339,7 @@
    "student": true,
    "description": "Other Public Sector opportunity in Victoria, BC, CA V9B 6X2",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-feecb22af2a5",
@@ -3519,7 +3359,7 @@
    "student": false,
    "description": "Ad No : 45769 Job Classification(s) : P8 P8 Professional Officer 8 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : P8 $87,416.00 - $109,620.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-24 Posting Type : Open",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-8d7bc239acf4",
@@ -3539,7 +3379,7 @@
    "student": false,
    "description": "Ad No : 45841 Job Classification(s) : FI3 Financial Analyst 3 Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Winnipeg MB Salary(s) : FI3 $72,702.00 - $89,459.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-24 Posting Type : Open",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-2580a8f66704",
@@ -3559,7 +3399,7 @@
    "student": false,
    "description": "Ontario Public Service, Sudbury (ON)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-7d871984c318",
@@ -3579,7 +3419,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Yarmouth (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-4d163ba54382",
@@ -3599,7 +3439,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Conway (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-632119922df8",
@@ -3619,7 +3459,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Truro (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-7705850841d8",
@@ -3639,7 +3479,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-15ea570be616",
@@ -3659,7 +3499,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Sydney (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-c53506deda66",
@@ -3679,7 +3519,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Bible Hill (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-d0660718069f",
@@ -3699,7 +3539,7 @@
    "student": false,
    "description": "Canada Border Services Agency, Ottawa (ON)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-d20d1ff25f77",
@@ -3719,7 +3559,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Crowsnest Pass (AB)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-1e0b3941f39a",
@@ -3739,7 +3579,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Cardston (AB)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4c56cf1ab1a4",
@@ -3759,7 +3599,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Regina (SK)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "bc-e07b117c5933",
@@ -3779,27 +3619,7 @@
    "student": false,
    "description": "Ministry of Forests opportunity in Campbell River, BC, CA V9W 6Y7 Chilliwack, BC, CA V4Z 1A7 Multiple Locations, BC, CA (Primary) Nanaimo, BC, CA V9T 6L8 Port Alberni, BC, CA V9Y 8Y9 Squamish, BC, CA V8B 0H3",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "bc-97a692f87103",
-   "title": "CLK 09R - Regional Support Clerk",
-   "employer": "Agriculture and Food",
-   "government": "Provincial",
-   "region": "British Columbia",
-   "location": "Dawson Creek, BC, CA V1G 4X3",
-   "salary": "",
-   "posted": "2026-11-23",
-   "closing": "2026-12-07",
-   "url": "https://bcpublicservice.hua.hrsmart.com/hr/ats/Posting/view/126792",
-   "direct": true,
-   "source": "bc",
-   "sourceLabel": "BC Public Service",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Agriculture and Food opportunity in Dawson Creek, BC, CA V1G 4X3",
-   "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-8ebaf2df163c",
@@ -3819,7 +3639,7 @@
    "student": false,
    "description": "Ad No : 45826 Job Classification(s) : PM2 Planning and Program Analyst 2 Job Type(s) : Regular/full-time; Term/full-time Department : Various Departments Location(s) : Winnipeg MB Salary(s) : PM2 $70,149.00 - $90,480.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-23 Posting Type : Open",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-e57ee496f694",
@@ -3839,7 +3659,7 @@
    "student": false,
    "description": "Ad No : 45828 Job Classification(s) : PM3 Planning Program Analyst 3 Job Type(s) : Regular/full-time; Term/full-time Department : Various Departments Location(s) : Winnipeg MB Salary(s) : PM3 $77,090.00 - $99,331.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-23 Posting Type : Open",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-fb3eedfedda3",
@@ -3859,7 +3679,7 @@
    "student": false,
    "description": "Ad No : 44116 Job Classification(s) : CL4 Clerk 4 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : CL4 $57,137.00 - $66,725.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-14 Posted Date : 2026-11-23 Posting Type : Open",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-b0a84bd29954",
@@ -3879,7 +3699,7 @@
    "student": false,
    "description": "Ad No : 45793 Job Classification(s) : XO3 Administration Officer 3 Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Portage la Prairie MB Salary(s) : XO3 $67,671.00 - $86,622.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-08 Posted Date : 2026-11-23 Posting Type : Open",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-aaf9d8945e82",
@@ -3899,7 +3719,7 @@
    "student": false,
    "description": "Ad No : 45702 Job Classification(s) : PM3 Planning and Program Analyst 3 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : Winnipeg MB Salary(s) : PM3 $77,090.00 - $99,331.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-23 Posting Type : Open",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-d4eca7181c94",
@@ -3919,7 +3739,7 @@
    "student": false,
    "description": "Ontario Public Service, Sioux Lookout (ON)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-5631873d51e3",
@@ -3939,7 +3759,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Sydney (NS)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-8924a9d46b42",
@@ -3959,7 +3779,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-9d468bd7464a",
@@ -3979,7 +3799,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-2c59d89543cd",
@@ -3999,7 +3819,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Québec (QC)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-d02682d3f5e4",
@@ -4019,7 +3839,7 @@
    "student": false,
    "description": "Ad No : 45780 Job Classification(s) : ST3 Storekeeper 3 Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Brandon MB Salary(s) : ST3 $50,422.00 - $61,222.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-04 Posted Date : 2026-11-20 Posting Type : Open",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-8d9a6ce7fd8f",
@@ -4039,7 +3859,7 @@
    "student": false,
    "description": "Ad No : 45843 Job Classification(s) : IS4 Information Technologist 4 Job Type(s) : Regular/full-time Department : Innovation and New Technology Location(s) : Winnipeg MB Salary(s) : IS4 $84,825.00 - $113,857.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-09 Posted Date : 2026-11-20 Posting Type : Open",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-ea0b8384d6c5",
@@ -4059,7 +3879,7 @@
    "student": false,
    "description": "Ontario Public Service, Thunder Bay (ON)",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ca189fa09a36",
@@ -4079,7 +3899,7 @@
    "student": false,
    "description": "Ad No : 45855 Job Classification(s) : XM2 SENIOR MANAGER 2 Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Winnipeg MB Salary(s) : XM2 $113,460.00 - $139,106.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-10 Posted Date : 2026-11-20 Posting Type : Open",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-e844d766b615",
@@ -4099,7 +3919,7 @@
    "student": false,
    "description": "Competition 17877 • DTI",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-7fc0212e2172",
@@ -4119,7 +3939,7 @@
    "student": false,
    "description": "Ontario Public Service, Thunder Bay (ON)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-e61e71bb8b16",
@@ -4139,7 +3959,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-f5bf32eb3559",
@@ -4159,7 +3979,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ff5ba7136d2c",
@@ -4179,7 +3999,7 @@
    "student": false,
    "description": "Ad No : 45846 Job Classification(s) : EO3 Environmental Officer 3 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : EO3 $70,394.00 - $98,008.00 per year Plus Qualification Pay, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-19 Posting Type : Open",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ef2fceb77b4b",
@@ -4199,7 +4019,7 @@
    "student": false,
    "description": "Ad No : 45718 Job Classification(s) : ST4 Storekeeper 4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Winnipeg MB Salary(s) : ST4 $53,959.00 - $65,742.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-19 Posting Type : Closed",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-090fae9506d8",
@@ -4219,7 +4039,7 @@
    "student": false,
    "description": "Ontario Public Service, Penetanguishene (ON)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-614915f8c28b",
@@ -4239,7 +4059,7 @@
    "student": false,
    "description": "Ontario Public Service, Toronto (ON)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-991fa4100fb4",
@@ -4259,7 +4079,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-eb38863fbd25",
@@ -4279,7 +4099,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4e196afadcf2",
@@ -4299,7 +4119,7 @@
    "student": false,
    "description": "Parks Canada, Banff (AB)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-fdd9528654c2",
@@ -4319,7 +4139,7 @@
    "student": false,
    "description": "Ad No : 45834 Job Classification(s) : CL3 Clerk 3 Job Type(s) : Regular/full-time; Term/full-time Department : Various Departments Location(s) : Winnipeg MB Salary(s) : CL3 $48,682.00 - $57,231.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-19 Posting Type : Open",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-32a20a02a957",
@@ -4339,7 +4159,7 @@
    "student": false,
    "description": "Numéro de l´annonce : 45834 Classification(s) : CL3 Commis 3 Type d´emploi(s) : Régulier et à temps plein; À durée déterminée et à temps plein Ministère : Divers ministères Lieu(s) : Winnipeg (Manitoba) Salaire(s) : CL3 48 682,00 $ - 57 231,00 $ par année Type d´annonce tenant compte de l´équité en matière d´emploi : Ordinaire Date de clôture : 2026-12-03 Date d´affichage : 2026-11-19 Type de publication : Ouverte",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-03d78f8dabce",
@@ -4359,7 +4179,7 @@
    "student": false,
    "description": "Competition 26-2000-C40 • EECD",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-d895661c0321",
@@ -4379,7 +4199,7 @@
    "student": false,
    "description": "Competition R76-2026-27-32 • SD",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-35e39250efba",
@@ -4399,7 +4219,7 @@
    "student": false,
    "description": "Ontario Public Service, Napanee (ON)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-aba818b50486",
@@ -4419,7 +4239,7 @@
    "student": false,
    "description": "Ontario Public Service, Napanee (ON)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-20bbd7dd30a9",
@@ -4439,7 +4259,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Marriotts Cove (NS)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-f7fb414e45d9",
@@ -4459,7 +4279,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Milford (NS)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4e4be66b5f5a",
@@ -4479,7 +4299,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Sudbury (ON)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-0a1171dc1497",
@@ -4499,7 +4319,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Whitehorse (YT)",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-9d0cda5adeab",
@@ -4519,7 +4339,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Shubenacadie (NS)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-5e145d147f7b",
@@ -4539,7 +4359,7 @@
    "student": false,
    "description": "Ad No : 45799 Job Classification(s) : CC4 Clerk of Court 4 Job Type(s) : Regular/full-time Department : Manitoba Justice Location(s) : The Pas MB Salary(s) : CC4 $59,595.00 - $72,910.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-18 Posting Type : Open",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ee05847c5530",
@@ -4559,7 +4379,7 @@
    "student": false,
    "description": "Ad No : 45566 Job Classification(s) : CIS Chief Inspection Service Job Type(s) : Regular/full-time Department : Department of Labour and Immigration Location(s) : Winnipeg MB Salary(s) : CIS $82,915.00 - $107,842.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-02 Posted Date : 2026-11-18 Posting Type : Closed",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-f6815a757d78",
@@ -4579,7 +4399,7 @@
    "student": false,
    "description": "Ad No : 45847 Job Classification(s) : OF5 Investigator Job Type(s) : Regular/full-time Department : Office of the Ombudsman Location(s) : Thompson MB, Winnipeg MB Salary(s) : OF5 $79,189.00 - $98,386.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-06 Posted Date : 2026-11-18 Posting Type : Open",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-6d44a7e9b509",
@@ -4599,7 +4419,7 @@
    "student": false,
    "description": "Ad No : 45452 Job Classification(s) : PM3 Planning and Program Analyst 3 Job Type(s) : Regular/full-time Department : Department of Families Location(s) : Winnipeg MB Salary(s) : PM3 $77,090.00 - $99,331.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-09 Posted Date : 2026-11-18 Posting Type : Open",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-29b226827521",
@@ -4619,7 +4439,7 @@
    "student": false,
    "description": "Ad No : 45768 Job Classification(s) : CL5 Clerk 5 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : CL5 $57,666.00 - $68,522.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-01 Posted Date : 2026-11-18 Posting Type : Closed",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-237aa59790c3",
@@ -4639,7 +4459,7 @@
    "student": false,
    "description": "Ad No : 45030 Job Classification(s) : BG Security Officer 1 Job Type(s) : Term/part-time Department : Manitoba Justice Location(s) : Thompson MB Salary(s) : BG $22.20 - $26.48 per hour Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-18 Posting Type : Open",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-e7f8670412ef",
@@ -4659,7 +4479,7 @@
    "student": false,
    "description": "Ad No : 45298 Job Classification(s) : BG Security Officer 1 Job Type(s) : Term/part-time Department : Manitoba Justice Location(s) : Dauphin MB Salary(s) : BG $22.20 - $26.48 per hour Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-18 Posting Type : Open",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-056a76c6f813",
@@ -4679,7 +4499,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Windsor (NS)",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-b5612d2604dd",
@@ -4699,7 +4519,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Chester Basin (NS)",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-9547f910f6e1",
@@ -4719,7 +4539,7 @@
    "student": false,
    "description": "Canada Revenue Agency, CS-03 Information Technology Team Leader, Information Technology Branch (ITB), Security Branch (SB)",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-2ac1ca8b31c0",
@@ -4739,7 +4559,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-a420c1c9739c",
@@ -4759,7 +4579,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-2505bc856400",
@@ -4779,7 +4599,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-f65a8d407d01",
@@ -4799,7 +4619,7 @@
    "student": false,
    "description": "Ad No : 45142 Job Classification(s) : PM4 Planning and Program Analyst 4 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : Winnipeg MB Salary(s) : PM4 $86,168.00 - $112,476.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-12-16 Posted Date : 2026-11-17 Posting Type : Open",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-d387b755f3cf",
@@ -4819,7 +4639,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Antigonish (NS)",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-68522d67174d",
@@ -4839,7 +4659,7 @@
    "student": false,
    "description": "Parks Canada, Lake Louise (AB)",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-aa319365552c",
@@ -4859,7 +4679,7 @@
    "student": false,
    "description": "Ad No : 45840 Job Classification(s) : RS1 Resource Technician 1 Job Type(s) : Departmental; Seasonal Department : Natural Resources and Indigenous Futures Location(s) : Winnipeg MB Salary(s) : RS1 $1,810.40 - $2,180.80 bi-weekly Equity Adv. Type : Regular Closing Date : 2026-12-04 Posted Date : 2026-11-17 Posting Type : Open",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-58dcf765c2ba",
@@ -4879,7 +4699,7 @@
    "student": false,
    "description": "Ontario Public Service, Brampton (ON)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-2617748d3298",
@@ -4899,7 +4719,7 @@
    "student": false,
    "description": "Ontario Public Service, Thunder Bay (ON)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-cecf19cf655b",
@@ -4919,7 +4739,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Shubenacadie (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-0edc14e70bbc",
@@ -4939,7 +4759,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, New Glasgow (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-d7457419237f",
@@ -4959,7 +4779,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Waterville (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-374979de0c48",
@@ -4979,7 +4799,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-80de8fac83fd",
@@ -4999,7 +4819,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, McLellans Brook (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-b42ff9607472",
@@ -5019,7 +4839,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-dff88baffffa",
@@ -5039,7 +4859,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Waterville (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-3c44d6dd5068",
@@ -5059,7 +4879,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-2e1a9401c8d7",
@@ -5079,7 +4899,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-904e5c3033d3",
@@ -5099,7 +4919,7 @@
    "student": false,
    "description": "Ontario Public Service, London (ON)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-5b8033af6df2",
@@ -5119,7 +4939,7 @@
    "student": false,
    "description": "Ontario Public Service, Sault Ste. Marie (ON)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-ontario-89ff116f5638",
@@ -5139,7 +4959,7 @@
    "student": false,
    "description": "Ontario Public Service, Sault Ste. Marie (ON)",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-30543c3ffe7e",
@@ -5159,7 +4979,7 @@
    "student": false,
    "description": "Ad No : 45720 Job Classification(s) : PM3 Planning and Program Analyst 3 Job Type(s) : Regular/full-time Department : Manitoba Justice Location(s) : Winnipeg MB Salary(s) : PM3 $77,090.00 - $99,331.00 per year Equity Adv. Type : Equity designated Closing Date : 2026-12-07 Posted Date : 2026-11-16 Posting Type : Open",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-3b54e60e50eb",
@@ -5179,7 +4999,7 @@
    "student": false,
    "description": "Ad No : 45508 Job Classification(s) : SP1 Service Assistant Job Type(s) : Regular/full-time Department : Department of Families Location(s) : Winnipeg MB Salary(s) : SP1 $52,295.00 - $62,508.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-11-29 Posted Date : 2026-11-16 Posting Type : Open",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-a440753d03bd",
@@ -5199,7 +5019,7 @@
    "student": false,
    "description": "Ad No : 45564 Job Classification(s) : ATC Apprenticeship Training Coordinator Job Type(s) : Regular/full-time Department : Business, Mining, Trade and Job Creation Location(s) : The Pas MB, Various locations throughout rural MB and various locations throughout northern MB Salary(s) : ATC $62,300.00 - $81,213.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-13 Posted Date : 2026-11-16 Posting Type : Open",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-dbf43feb05fe",
@@ -5219,7 +5039,7 @@
    "student": false,
    "description": "Competition DAAF-26-09 • AAF",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-738bd71ca68d",
@@ -5239,27 +5059,7 @@
    "student": false,
    "description": "Competition 17880 • SNB",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "new-brunswick-f8c28366459c",
-   "title": "CIS Configuration Management Specialist",
-   "employer": "Government of New Brunswick — SNB",
-   "government": "Provincial",
-   "region": "New Brunswick",
-   "location": "Telework / Flexible",
-   "salary": "",
-   "posted": "",
-   "closing": "2026-11-27",
-   "url": "https://www.ere.gnb.ca/competition.aspx?culture=en-CA",
-   "direct": false,
-   "source": "new-brunswick",
-   "sourceLabel": "Government of New Brunswick",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Competition 17919 • SNB",
-   "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-adda5452c6b7",
@@ -5279,7 +5079,7 @@
    "student": false,
    "description": "Competition GMO-2026-02 • LA",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-5136fd24a453",
@@ -5299,7 +5099,7 @@
    "student": false,
    "description": "Competition DNR-26-14 • NR",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-b95f747e22a0",
@@ -5319,7 +5119,7 @@
    "student": false,
    "description": "Competition 15466 • SNB",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-8aa05ab9b9d3",
@@ -5339,7 +5139,7 @@
    "student": false,
    "description": "Competition 15403 • SNB",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-f2ed40f0db27",
@@ -5359,7 +5159,7 @@
    "student": false,
    "description": "Competition 15408 • SNB",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-085f6a35b996",
@@ -5379,7 +5179,7 @@
    "student": false,
    "description": "Competition R76-2026-27-18 • SD",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "new-brunswick-f6e0627f81e4",
@@ -5399,7 +5199,7 @@
    "student": false,
    "description": "Competition R76-2026-27-30 • SD",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-b56e65624b11",
@@ -5419,7 +5219,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-6c816ef3a037",
@@ -5439,7 +5239,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Riverton (NS)",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-22930094c5db",
@@ -5459,7 +5259,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-efbf8f16d015",
@@ -5479,7 +5279,7 @@
    "student": true,
    "description": "Parks Canada, Banff (AB)",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-bb5ad9589db2",
@@ -5499,7 +5299,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Canada",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-4c6a100b84cf",
@@ -5519,7 +5319,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Canada",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-f2e930ad4e45",
@@ -5539,27 +5339,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Fall River (NS)",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27"
-  },
-  {
-   "id": "manitoba-1dce1626ad3f",
-   "title": "CFS Program and Leading Practice Specialist",
-   "employer": "Department of Families",
-   "government": "Provincial",
-   "region": "Manitoba",
-   "location": "Winnipeg MB",
-   "salary": "SP6 $92,315.00 - $115,124.00 per year",
-   "posted": "2026-11-13",
-   "closing": "2026-11-27",
-   "url": "http://jobsearch.gov.mb.ca/jow/advancedResult.action?postingType=0&category=0&jobType=0&lang=0&department=0&region=0&sort=postedDate&curPageNum=1&ID=130467#position",
-   "direct": true,
-   "source": "manitoba",
-   "sourceLabel": "Manitoba Government",
-   "arrangement": "On-site",
-   "student": false,
-   "description": "Ad No : 45797 Job Classification(s) : SP6 Social Services Worker 6 Job Type(s) : Regular/full-time Department : Department of Families Location(s) : Winnipeg MB Salary(s) : SP6 $92,315.00 - $115,124.00 per year Equity Adv. Type : Equity preference Closing Date : 2026-11-27 Posted Date : 2026-11-13 Posting Type : Open",
-   "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-16d4cba5d4dd",
@@ -5579,7 +5359,7 @@
    "student": false,
    "description": "Ad No : 45833 Job Classification(s) : BL3 Biologist 3 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : The Pas MB, Thompson MB Salary(s) : BL3 $85,211.00 - $110,379.00 per year Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-11 Posted Date : 2026-11-13 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-5708d3b92304",
@@ -5599,7 +5379,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-f6b8600fe8b9",
@@ -5619,7 +5399,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-92923b242546",
@@ -5639,7 +5419,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Halifax (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-fbd0bfa502fc",
@@ -5659,7 +5439,7 @@
    "student": false,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-cf265e26b174",
@@ -5679,7 +5459,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-64b60595e3b0",
@@ -5699,7 +5479,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, New Minas (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-a1925407ff6c",
@@ -5719,7 +5499,7 @@
    "student": false,
    "description": "Ad No : 45746 Job Classification(s) : P10 Professional Officer 10 Job Type(s) : Regular/full-time Department : Health, Seniors and Long Term Care Location(s) : Winnipeg MB Salary(s) : P10 $98,310.00 - $124,694.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-03 Posted Date : 2026-11-12 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-2376f15ee97e",
@@ -5739,7 +5519,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Antigonish (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-acf0157e4b9c",
@@ -5759,7 +5539,7 @@
    "student": false,
    "description": "Parks Canada, Revelstoke (BC)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-097e4a53951b",
@@ -5779,7 +5559,7 @@
    "student": false,
    "description": "Correctional Service Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-373e2ae38eba",
@@ -5799,7 +5579,7 @@
    "student": false,
    "description": "Correctional Service Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-c9f671f2468d",
@@ -5819,7 +5599,7 @@
    "student": false,
    "description": "Ad No : 45821 Job Classification(s) : EA2 Engineering Aid 2 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : The Pas MB, Thompson MB Salary(s) : EA2 $50,943.00 - $61,524.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-10 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-5a699c370217",
@@ -5839,7 +5619,7 @@
    "student": false,
    "description": "Ad No : 45822 Job Classification(s) : EA2 Engineering Aid 2 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Arborg MB, Ashern MB, Dauphin MB Salary(s) : EA2 $50,943.00 - $61,524.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-10 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-c3059e11649c",
@@ -5859,7 +5639,7 @@
    "student": false,
    "description": "Ad No : 45824 Job Classification(s) : EA2 Engineering Aid 2 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Birtle MB, Boissevain MB, Portage la Prairie MB, Brandon MB Salary(s) : EA2 $50,943.00 - $61,524.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-10 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-8760f2057d2a",
@@ -5879,7 +5659,7 @@
    "student": false,
    "description": "Ad No : 45823 Job Classification(s) : EA2 Engineering Aid 2 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Steinbach MB, Winnipeg MB, Carman MB Salary(s) : EA2 $50,943.00 - $61,524.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-10 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-7dc7beccabb1",
@@ -5899,7 +5679,7 @@
    "student": false,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-15bd5d88a104",
@@ -5919,7 +5699,7 @@
    "student": false,
    "description": "Ad No : 45815 Job Classification(s) : LF2-3 Legal Counsel 2-3 Job Type(s) : Regular/full-time Department : Manitoba Justice Location(s) : Winnipeg MB Salary(s) : LF2-3 $133,715.00 - $196,242.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-09 Posted Date : 2026-11-09 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-0e042ec61b42",
@@ -5939,7 +5719,7 @@
    "student": false,
    "description": "Ad No : 45750 Job Classification(s) : A2E Assistant Power Engineer Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Portage la Prairie MB Salary(s) : A2E $62,150.00 - $75,569.00 per year Equity Adv. Type : Regular Closing Date : 2026-12-04 Posted Date : 2026-11-09 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ec4f50800236",
@@ -5959,7 +5739,7 @@
    "student": false,
    "description": "Ad No : 45806 Job Classification(s) : GR2 Gardener 2 Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Headingley MB Salary(s) : GR2 $46,644.00 - $56,223.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-09 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-f1d5261e6128",
@@ -5979,7 +5759,7 @@
    "student": false,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-bafd5e69eeab",
@@ -5999,7 +5779,7 @@
    "student": false,
    "description": "Royal Canadian Mounted Police, Information Technology (IT) and Communications Technology",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-87e5e5cafee6",
@@ -6019,7 +5799,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Conway (NS)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-362ff0b49497",
@@ -6039,7 +5819,7 @@
    "student": false,
    "description": "Ad No : 45766 Job Classification(s) : FR2 Fire Ranger 2 Job Type(s) : Departmental; Seasonal Department : Natural Resources and Indigenous Futures Location(s) : Bissett MB, Cranberry Portage MB, Grand Rapids MB, Norway House MB, The Pas MB, Lac du Bonnet MB, Swan River MB, Interlake Region MB, Paint Lake Provincial Park MB, Marchand MB, Wekusko Falls Provincial Park MB Salary(s) : FR2 $1,794.40 - $1,965.60 bi-weekly Plus Remoteness Allowance and Qualification Pay, if applicable. Equity Adv. Type : Regular Closing Date : 2027-01-10 Posted Date : 2026-11-06 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-5088fd5aa579",
@@ -6059,7 +5839,7 @@
    "student": false,
    "description": "Public Service Commission, Government of Nova Scotia, Kentville (NS)",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-86bc0cc93432",
@@ -6079,7 +5859,7 @@
    "student": false,
    "description": "Correctional Service Canada, Agassiz (BC)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-dbad3d39cd94",
@@ -6099,7 +5879,7 @@
    "student": false,
    "description": "Ad No : 45782 Job Classification(s) : RO2 Resource Officer 2 Job Type(s) : Departmental Department : Natural Resources and Indigenous Futures Location(s) : Various locations throughout rural MB and various locations throughout northern MB Salary(s) : RO2 $1,930.40 - $2,241.60 bi-weekly Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-04 Posted Date : 2026-11-05 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-96e11b96964e",
@@ -6119,7 +5899,7 @@
    "student": false,
    "description": "Ad No : 45781 Job Classification(s) : RO1 Resource Officer 1 Job Type(s) : Departmental Department : Natural Resources and Indigenous Futures Location(s) : Various locations throughout rural MB and various locations throughout northern MB Salary(s) : RO1 $1,876.00 - $2,035.20 bi-weekly Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2026-12-04 Posted Date : 2026-11-05 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-e9cfd4f1dd26",
@@ -6139,7 +5919,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Toronto (ON)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-94e0a8e4eef0",
@@ -6159,7 +5939,7 @@
    "student": false,
    "description": "Correctional Service Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-da45db1a03cd",
@@ -6179,7 +5959,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ae8be31affe6",
@@ -6199,7 +5979,7 @@
    "student": false,
    "description": "Ad No : 45763 Job Classification(s) : TRH Trades Helper Job Type(s) : Regular/full-time Department : Public Service Delivery Location(s) : Brandon MB Salary(s) : TRH $44,223.00 - $53,134.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-11-03 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-8d86193cd98c",
@@ -6219,7 +5999,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Dartmouth (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-nova-scotia-a5fb7aae556b",
@@ -6239,7 +6019,7 @@
    "student": false,
    "description": "Nova Scotia Public Service Commission, Conway (NS)",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-b90fa1e98a83",
@@ -6259,7 +6039,7 @@
    "student": false,
    "description": "Ad No : 42778 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Gillam MB, Grand Rapids MB, Norway House MB, Lynn Lake MB, Snow Lake MB, The Pas MB, Thompson MB, Wabowden MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-b64a7a63ff82",
@@ -6279,7 +6059,7 @@
    "student": false,
    "description": "Ad No : 42779 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Alonsa MB, Ashern MB, Cowan MB, Dauphin MB, Eriksdale MB, McCreary MB, Gypsumville MB, Swan River MB, Warren MB, Winnipegosis MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-c73cb83f3148",
@@ -6299,7 +6079,7 @@
    "student": false,
    "description": "Ad No : 42783 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Altona MB, Dominion City MB, Morris MB, Morden MB, Sanford MB, Carman MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-de20c5a488d7",
@@ -6319,7 +6099,7 @@
    "student": false,
    "description": "Ad No : 42780 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Birtle MB, Minnedosa MB, Russell MB, Shoal Lake MB, Virden MB, Brandon MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-eba467876193",
@@ -6339,7 +6119,7 @@
    "student": false,
    "description": "Ad No : 42782 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : East St. Paul MB, Headingley MB, Selkirk MB, St. Norbert MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-1c3cbd6a6bea",
@@ -6359,7 +6139,7 @@
    "student": false,
    "description": "Ad No : 42781 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Gladstone MB, Manitou MB, MacGregor MB, Killarney MB, Souris MB, Treherne MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-89e9dc411017",
@@ -6379,7 +6159,7 @@
    "student": false,
    "description": "Ad No : 44576 Job Classification(s) : LAB Labourer; OR1-4 Operator 1-4 Job Type(s) : Regular/full-time Department : Department of Transportation and Infrastructure Location(s) : Lac du Bonnet MB Salary(s) : LAB $42,365.00 - $46,518.00 per year ; OR1-4 $48,647.00 - $59,562.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-30 Posted Date : 2026-11-02 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-38e658551952",
@@ -6399,7 +6179,7 @@
    "student": true,
    "description": "Parks Canada, Saint John (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-39c55c023e32",
@@ -6419,7 +6199,7 @@
    "student": true,
    "description": "Parks Canada, Alma (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-22bdd7a4e3aa",
@@ -6439,7 +6219,7 @@
    "student": true,
    "description": "Parks Canada, Wolfville (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-e91a7b43cad7",
@@ -6459,7 +6239,7 @@
    "student": true,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-3bbc76c5852d",
@@ -6479,7 +6259,7 @@
    "student": true,
    "description": "Parks Canada, Alma (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-a851e1027ae0",
@@ -6499,7 +6279,7 @@
    "student": true,
    "description": "Parks Canada, Alma (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-cbcc3fd958c0",
@@ -6519,7 +6299,7 @@
    "student": true,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-5df7654e7773",
@@ -6539,7 +6319,7 @@
    "student": true,
    "description": "Parks Canada, Alma (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-7970ce1396d3",
@@ -6559,7 +6339,7 @@
    "student": true,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-7e5b1d86f73d",
@@ -6579,7 +6359,7 @@
    "student": true,
    "description": "Parks Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-44bfae1c5dc1",
@@ -6599,7 +6379,7 @@
    "student": true,
    "description": "Parks Canada, Sackville (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-0dbe66193d57",
@@ -6619,7 +6399,7 @@
    "student": true,
    "description": "Parks Canada, Wolfville (NS)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-5cd8a97c4922",
@@ -6639,7 +6419,7 @@
    "student": true,
    "description": "Parks Canada, Alma (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-529729d0cf08",
@@ -6659,7 +6439,7 @@
    "student": false,
    "description": "Correctional Service Canada, Renous (NB)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-1c0de5b51f2c",
@@ -6679,7 +6459,7 @@
    "student": false,
    "description": "Ad No : 45774 Job Classification(s) : RS4 Resource Technician 4 Job Type(s) : Regular/full-time Department : Natural Resources and Indigenous Futures Location(s) : Winnipeg MB Salary(s) : RS4 $56,724.00 - $69,078.00 per year Equity Adv. Type : Regular Closing Date : 2026-11-29 Posted Date : 2026-10-30 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-1e40494609e8",
@@ -6699,7 +6479,7 @@
    "student": false,
    "description": "Public Services and Procurement Canada, Canada",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-5d91bd23ed3b",
@@ -6719,7 +6499,7 @@
    "student": false,
    "description": "Parks Canada, Banff (AB)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-457d591747bb",
@@ -6739,7 +6519,7 @@
    "student": false,
    "description": "Parks Canada, Lake Louise (AB)",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-e5be43578df9",
@@ -6759,7 +6539,7 @@
    "student": false,
    "description": "Ad No : 45765 Job Classification(s) : FR3 Fire Ranger 3 Job Type(s) : Departmental Department : Natural Resources and Indigenous Futures Location(s) : Various rural locations MB Salary(s) : FR3 $1,888.80 - $2,056.00 bi-weekly Plus Remoteness Allowance, if applicable. Equity Adv. Type : Regular Closing Date : 2027-01-15 Posted Date : 2026-10-23 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-444e0d0be822",
@@ -6779,7 +6559,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Jonquière (QC)",
    "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-ba7656ddcfe6",
@@ -6799,7 +6579,7 @@
    "student": false,
    "description": "Canada Revenue Agency, Montréal (QC)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-52d77ea64f26",
@@ -6819,7 +6599,7 @@
    "student": false,
    "description": "Correctional Service Canada, Saskatoon (SK)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-53a676128721",
@@ -6839,7 +6619,7 @@
    "student": false,
    "description": "Correctional Service Canada, Kingston (ON)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "jb-federal-295866e02b99",
@@ -6859,7 +6639,7 @@
    "student": false,
    "description": "Correctional Service Canada, Drummondville (QC)",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-ff6255658397",
@@ -6879,7 +6659,7 @@
    "student": false,
    "description": "Ad No : 45571 Job Classification(s) : NN1 Nurse 1 Job Type(s) : Casual Department : Manitoba Justice Location(s) : Various locations throughout rural MB and various locations throughout northern MB Equity Adv. Type : Regular Closing Date : 2026-12-10 Posted Date : 2026-08-07 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "id": "manitoba-76f03a3d868d",
@@ -6899,7 +6679,7 @@
    "student": false,
    "description": "Ad No : 45272 Job Classification(s) : CHN Spiritual Care Provider Job Type(s) : Regular/full-time Department : Manitoba Justice Location(s) : Various locations throughout rural MB and various locations throughout northern MB Salary(s) : CHN $70,149.00 - $90,480.00 per year Equity Adv. Type : Equity designated Closing Date : 2026-12-03 Posted Date : 2026-08-05 Posting Type : Open",
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   }
  ],
  "sources": [
@@ -6911,7 +6691,7 @@
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Canada&sort=D&page=1",
    "status": "ok",
    "count": 67,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "gc-jobs",
@@ -6920,8 +6700,8 @@
    "region": "Canada",
    "portalUrl": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true",
    "status": "ok",
-   "count": 20,
-   "lastOk": "2026-11-27"
+   "count": 5,
+   "lastOk": "2026-11-28"
   },
   {
    "key": "alberta",
@@ -6931,7 +6711,7 @@
    "portalUrl": "https://jobpostings.alberta.ca/search/?q=",
    "status": "ok",
    "count": 25,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "bc",
@@ -6941,7 +6721,7 @@
    "portalUrl": "https://bcpublicservice.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
    "status": "ok",
    "count": 40,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "new-brunswick",
@@ -6951,7 +6731,7 @@
    "portalUrl": "https://www.ere.gnb.ca/competition.aspx?culture=en-CA",
    "status": "ok",
    "count": 24,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "newfoundland",
@@ -6989,10 +6769,9 @@
    "government": "Provincial",
    "region": "Saskatchewan",
    "portalUrl": "https://careers.saskatchewan.ca/",
-   "status": "no_listings_parsed",
-   "count": 0,
-   "lastOk": "2026-11-27",
-   "carried": 9
+   "status": "ok",
+   "count": 10,
+   "lastOk": "2026-11-28"
   },
   {
    "key": "manitoba",
@@ -7002,7 +6781,7 @@
    "portalUrl": "https://jobsearch.gov.mb.ca/rss/newJobPostingsFeed.rss",
    "status": "ok",
    "count": 71,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "jb-new-brunswick",
@@ -7031,8 +6810,8 @@
    "region": "Nova Scotia",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Government+of+Nova+Scotia&sort=D&page=1",
    "status": "ok",
-   "count": 119,
-   "lastOk": "2026-11-27"
+   "count": 120,
+   "lastOk": "2026-11-28"
   },
   {
    "key": "ontario-gojobs",
@@ -7051,8 +6830,8 @@
    "region": "Ontario",
    "portalUrl": "https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Ontario+Public+Service&sort=D&page=1",
    "status": "ok",
-   "count": 17,
-   "lastOk": "2026-11-27"
+   "count": 18,
+   "lastOk": "2026-11-28"
   },
   {
    "key": "jb-pei",
@@ -7102,7 +6881,7 @@
    "portalUrl": "https://www.gov.nt.ca/careers/en/search/job",
    "status": "ok",
    "count": 25,
-   "lastOk": "2026-11-27"
+   "lastOk": "2026-11-28"
   },
   {
    "key": "jb-nunavut",
